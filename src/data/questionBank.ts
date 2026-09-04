@@ -1,3 +1,7 @@
+import { expandedQuestions } from './expandedBank';
+import { supplementQuestions } from './supplementBank';
+import { theoryQuestions } from './theoryBank';
+
 export type SubjectId = 
   | 'spanish' 
   | 'math' 
@@ -33,13 +37,15 @@ export const SUBJECT_NAMES: Record<SubjectId, string> = {
   math_reasoning: 'Habilidad Matemática',
 };
 
-// Clave para guardar en el navegador las preguntas ya mostradas
 const STORAGE_KEY_SEEN = 'ecoems_seen_question_ids';
 
-// Banco base de preguntas (agrega o amplía tus preguntas dentro de este arreglo)
-export const ALL_QUESTIONS: Question[] = [];
+// Combinación de tus bancos de preguntas
+export const ALL_QUESTIONS: Question[] = [
+  ...(Array.isArray(expandedQuestions) ? expandedQuestions : []),
+  ...(Array.isArray(supplementQuestions) ? supplementQuestions : []),
+  ...(Array.isArray(theoryQuestions) ? theoryQuestions : []),
+] as Question[];
 
-// Métodos para leer y guardar preguntas vistas en el navegador
 export function getSeenQuestionIds(): string[] {
   try {
     const data = localStorage.getItem(STORAGE_KEY_SEEN);
@@ -67,33 +73,27 @@ export function resetSeenQuestions() {
   }
 }
 
-// Función principal para obtener preguntas aleatorias sin repetición
 export function getRandomQuestions(count: number, subject?: SubjectId): Question[] {
-  if (ALL_QUESTIONS.length === 0) return [];
+  if (!ALL_QUESTIONS || ALL_QUESTIONS.length === 0) return [];
 
-  // 1. Filtrar por materia si se especifica (para miniexámenes)
   let pool = subject 
     ? ALL_QUESTIONS.filter((q) => q.subject === subject)
     : ALL_QUESTIONS;
 
-  // 2. Descartar reactivos ya mostrados anteriormente
   const seenIds = new Set(getSeenQuestionIds());
   let available = pool.filter((q) => !seenIds.has(q.id));
 
-  // 3. Si se agotan los reactivos disponibles, reiniciar el registro para esa categoría
   if (available.length < count) {
     resetSeenQuestions();
     available = [...pool];
   }
 
-  // 4. Algoritmo de mezcla aleatoria (Fisher-Yates)
   const arr = [...available];
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
 
-  // 5. Cortar la cantidad solicitada y registrar como vistas
   const selected = arr.slice(0, count);
   markQuestionsAsSeen(selected.map((q) => q.id));
 
