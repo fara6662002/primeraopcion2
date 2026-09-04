@@ -1,353 +1,407 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { useAuth } from '@/context/AuthContext';
-import { generateSimulacroQuestions } from '@/data/questionGenerator';
-import type { Question } from '@/data/questionBank';
-import { SUBJECT_NAMES, type SubjectId } from '@/data/questionBank';
-import MathText from '@/components/MathText';
-import { reportQuestion } from '@/lib/store';
-import { Timer, AlertTriangle, ChevronLeft, ChevronRight, Flag, Play, Clock, AlertCircle, Check, X, FileText, Printer } from 'lucide-react';
-import { generateOMRSheet } from '@/lib/pdfUtils';
+import { useState, useEffect, useCallback } from 'react';
+import { useAuth } from '../context/AuthContext';
+import { 
+  getRandomQuestions, 
+  SUBJECT_NAMES, 
+  type Question, 
+  type SubjectId 
+} from '../data/questionBank';
+import { saveExamResult } from '../lib/store';
+import { 
+  Timer, 
+  AlertCircle, 
+  Trophy, 
+  BarChart3, 
+  ArrowLeft, 
+  FileText,
+  ChevronLeft,
+  ChevronRight,
+  RotateCcw
+} from 'lucide-react';
+import type { Page } from './Navbar';
 
 type Props = {
-  onFinish: (result: {
-    correctAnswers: number;
-    totalQuestions: number;
-    durationSeconds: number;
-    answers: (number | null)[];
-    questions: Question[];
-  }) => void;
+  onNavigate: (page: Page) => void;
 };
 
-const EXAM_DURATION = 3 * 60 * 60;
-const TARGET_QUESTIONS = 128;
-const STORAGE_KEY = 'simulacro_progress';
-const STRESS_MODE_THRESHOLD = 120;
+const TOTAL_TIME_SECONDS = 3 * 60 * 60;
+const TOTAL_QUESTIONS_COUNT = 128;
 
-type SavedState = {
-  answers: (number | null)[];
-  timeLeft: number;
-  startedAt: number;
-  questions: Question[];
-  markedForReview: number[];
-};
-
-export default function SimulacroModule({ onFinish }: Props) {
+export default function SimulacroModule({ onNavigate }: Props) {
   const { user } = useAuth();
-  const [examQuestions, setExamQuestions] = useState<Question[]>(() => generateSimulacroQuestions());
-  const [phase, setPhase] = useState<'intro' | 'exam' | 'confirm'>('intro');
+
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [answers, setAnswers] = useState<(number | null)[]>(() => new Array(TARGET_QUESTIONS).fill(null));
-  const [timeLeft, setTimeLeft] = useState(EXAM_DURATION);
-  const [markedForReview, setMarkedForReview] = useState<number[]>([]);
-  const [showStressAlert, setShowStressAlert] = useState(false);
-  const [reportedQs, setReportedQs] = useState<Set<string>>(new Set());
-  const questionStartTime = useRef<number>(Date.now());
+  const [userAnswers, setUserAnswers] = useState<Record<string, number>>({});
+  const [timeLeft, setTimeLeft] = useState(TOTAL_TIME_SECONDS);
+  const [isExamActive, setIsExamActive] = useState(false);
+  const [isFinished, setIsFinished] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
 
-  const onFinishRef = useRef(onFinish);
-  onFinishRef.current = onFinish;
-  const answersRef = useRef(answers);
-  answersRef.current = answers;
-  const timeLeftRef = useRef(timeLeft);
-  timeLeftRef.current = timeLeft;
-  const questionsRef = useRef(examQuestions);
-  questionsRef.current = examQuestions;
+  const startExam = () => {
+    const loadedQuestions = getRandomQuestions(TOTAL_QUESTIONS_COUNT);
+    setQuestions(loadedQuestions);
+    setUserAnswers({});
+    setCurrentIdx(0);
+    setTimeLeft(TOTAL_TIME_SECONDS);
+    setIsFinished(false);
+    setIsExamActive(true);
+  };
 
-  // Load saved state on mount — restore the actual questions so answers map correctly
-  useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      try {
-        const state: SavedState = JSON.parse(saved);
-        if (state.questions?.length === TARGET_QUESTIONS && state.timeLeft > 0 && state.answers.length === TARGET_QUESTIONS) {
-          setExamQuestions(state.questions);
-          setAnswers(state.answers);
-          setTimeLeft(state.timeLeft);
-          setMarkedForReview(state.markedForReview || []);
-          setPhase('exam');
-        }
-      } catch { /* ignore corrupt data */ }
+  const handleFinishExam = useCallback(async () => {
+    setIsExamActive(false);
+    setIsFinished(true);
+
+    if (!user || questions.length === 0) return;
+
+    setIsSaving(true);
+    let correctCount = 0;
+
+    const subjectMap: Record<string, { correct: number; total: number }> = {};
+
+    questions.forEach((q) => {
+      if (!subjectMap[q.subject]) {
+        subjectMap[q.subject] = { correct: 0, total: 0 };
+      }
+      subjectMap[q.subject].total += 1;
+
+      const selectedOption = userAnswers[q.id];
+      if (selectedOption === q.correctAnswer) {
+        correctCount += 1;
+        subjectMap[q.subject].correct += 1;
+      }
+    });
+
+    const breakdown = Object.entries(subjectMap).map(([subj, data]) => ({
+      subject: subj as SubjectId,
+      correct: data.correct,
+      total: data.total,
+    }));
+
+    const percentage = (correctCount / questions.length) * 100;
+    const timeSpent = TOTAL_TIME_SECONDS - timeLeft;
+
+    try {
+      await saveExamResult({
+        user_id: user.id,
+        score: correctCount,
+        correct_answers: correctCount,
+        total_questions: questions.length,
+        percentage: Number(percentage.toFixed(2)),
+        time_spent_seconds: timeSpent,
+        breakdown_by_subject: breakdown,
+      });
+    } catch (e) {
+      console.error('Error al guardar resultado del simulacro:', e);
+    } finally {
+      setIsSaving(false);
     }
-  }, []);
+  }, [user, questions, userAnswers, timeLeft]);
 
-  // Save to localStorage on changes — persist the full questions so a reload maps answers correctly
   useEffect(() => {
-    if (phase === 'exam') {
-      const state: SavedState = {
-        answers,
-        timeLeft,
-        startedAt: Date.now(),
-        questions: examQuestions,
-        markedForReview,
-      };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    }
-  }, [answers, timeLeft, markedForReview, phase, examQuestions]);
+    if (!isExamActive || isFinished) return;
 
-  // Timer
-  useEffect(() => {
-    if (phase !== 'exam') return;
-    const interval = setInterval(() => {
+    const timer = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
-          clearInterval(interval);
-          const correct = examQuestions.reduce((acc, q, i) => acc + (answersRef.current[i] === q.correctIndex ? 1 : 0), 0);
-          localStorage.removeItem(STORAGE_KEY);
-          onFinishRef.current({
-            correctAnswers: correct,
-            totalQuestions: TARGET_QUESTIONS,
-            durationSeconds: EXAM_DURATION,
-            answers: answersRef.current,
-            questions: examQuestions,
-          });
+          clearInterval(timer);
+          handleFinishExam();
           return 0;
         }
         return prev - 1;
       });
     }, 1000);
-    return () => clearInterval(interval);
-  }, [phase, examQuestions]);
 
-  // Stress mode: alert if too long on one question
-  useEffect(() => {
-    if (phase !== 'exam') return;
-    questionStartTime.current = Date.now();
-    setShowStressAlert(false);
-    const timer = setTimeout(() => {
-      setShowStressAlert(true);
-    }, STRESS_MODE_THRESHOLD * 1000);
-    return () => clearTimeout(timer);
-  }, [currentIdx, phase]);
+    return () => clearInterval(timer);
+  }, [isExamActive, isFinished, handleFinishExam]);
 
-  const clearSaved = () => {
-    localStorage.removeItem(STORAGE_KEY);
-    setExamQuestions(generateSimulacroQuestions());
-    setAnswers(new Array(TARGET_QUESTIONS).fill(null));
-    setTimeLeft(EXAM_DURATION);
-    setMarkedForReview([]);
-    setCurrentIdx(0);
+  const formatTime = (seconds: number) => {
+    const hrs = Math.floor(seconds / 3600);
+    const mins = Math.floor((seconds % 3600) / 60);
+    const secs = seconds % 60;
+    return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  const finishExam = () => {
-    const correct = examQuestions.reduce((acc, q, i) => acc + (answers[i] === q.correctIndex ? 1 : 0), 0);
-    localStorage.removeItem(STORAGE_KEY);
-    onFinish({
-      correctAnswers: correct,
-      totalQuestions: TARGET_QUESTIONS,
-      durationSeconds: EXAM_DURATION - timeLeft,
-      answers: [...answers],
-      questions: examQuestions,
-    });
+  const handleSelectAnswer = (optionIdx: number) => {
+    if (!questions[currentIdx]) return;
+    const qId = questions[currentIdx].id;
+    setUserAnswers((prev) => ({ ...prev, [qId]: optionIdx }));
   };
 
-  const formatTime = (s: number) => {
-    const h = Math.floor(s / 3600);
-    const m = Math.floor((s % 3600) / 60);
-    const sec = s % 60;
-    return `${h}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
-  };
+  const answeredCount = Object.keys(userAnswers).length;
+  const currentQuestion = questions[currentIdx];
 
-  const answeredCount = answers.filter((a) => a !== null).length;
-  const progressPct = (answeredCount / TARGET_QUESTIONS) * 100;
-  const q = examQuestions[currentIdx];
-  const hasSaved = localStorage.getItem(STORAGE_KEY) && phase === 'exam';
-
-  const handleReport = async () => {
-    if (!q || reportedQs.has(q.id)) return;
-    setReportedQs((prev) => new Set(prev).add(q.id));
-    try { await reportQuestion(q.id); } catch { /* may fail if not in DB */ }
-  };
-
-  if (phase === 'intro') {
+  if (!isExamActive && !isFinished) {
     return (
-      <div className="max-w-2xl mx-auto animate-[fadeIn_0.2s_ease-out]">
-        <div className="bg-gradient-to-br from-academic-600 to-slate-800 rounded-2xl p-8 text-white shadow-xl text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/20 mb-4">
+      <div className="max-w-3xl mx-auto space-y-6 py-6">
+        <button 
+          onClick={() => onNavigate('dashboard')} 
+          className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-800 transition-colors"
+        >
+          <ArrowLeft className="w-4 h-4" /> Volver al inicio
+        </button>
+
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center space-y-6">
+          <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mx-auto">
             <Timer className="w-8 h-8" />
           </div>
-          <h1 className="text-2xl font-bold mb-2">Simulacro de Examen</h1>
-          <p className="text-white/80 text-sm">Examen oficial ECOEMS · 128 preguntas · 3 horas</p>
+
+          <div>
+            <h1 className="text-2xl font-bold text-slate-800">Simulacro Tipo COMIPEMS / ECOEMS</h1>
+            <p className="text-sm text-slate-500 mt-2 max-w-md mx-auto">
+              Prueba completa bajo condiciones reales de tiempo y reactivos seleccionados sin repetición acumulativa.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-3 gap-4 max-w-lg mx-auto text-left">
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+              <p className="text-xs text-slate-400 font-medium">Reactivos</p>
+              <p className="text-lg font-bold text-slate-700 mt-0.5">128 preguntas</p>
+            </div>
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+              <p className="text-xs text-slate-400 font-medium">Tiempo Límite</p>
+              <p className="text-lg font-bold text-slate-700 mt-0.5">3 Horas</p>
+            </div>
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+              <p className="text-xs text-slate-400 font-medium">Preguntas</p>
+              <p className="text-lg font-bold text-emerald-600 mt-0.5">Sin Repetición</p>
+            </div>
+          </div>
+
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-xs text-amber-800 text-left flex gap-3">
+            <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+            <div>
+              <p className="font-semibold">Recomendaciones antes de iniciar:</p>
+              <ul className="list-disc list-inside mt-1 space-y-0.5 text-amber-700">
+                <li>Asegúrate de contar con tiempo continuo sin interrupciones.</li>
+                <li>Ten a la mano hoja y lápiz para tus operaciones.</li>
+                <li>El temporizador no se detendrá una vez iniciado.</li>
+              </ul>
+            </div>
+          </div>
+
+          <button
+            onClick={startExam}
+            className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-all shadow-md shadow-blue-600/20"
+          >
+            Comenzar Simulacro
+          </button>
         </div>
-        <div className="grid grid-cols-3 gap-3 mt-6">
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-4 text-center">
-            <p className="text-2xl font-bold text-academic-600">128</p>
-            <p className="text-xs text-slate-500 dark:text-slate-400">preguntas</p>
-          </div>
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-4 text-center">
-            <p className="text-2xl font-bold text-academic-600">3h</p>
-            <p className="text-xs text-slate-500 dark:text-slate-400">duración</p>
-          </div>
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-4 text-center">
-            <p className="text-2xl font-bold text-academic-600">10</p>
-            <p className="text-xs text-slate-500 dark:text-slate-400">materias</p>
-          </div>
-        </div>
-        <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-6 mt-6 space-y-3">
-          <div className="flex items-start gap-3">
-            <Check className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" />
-            <p className="text-sm text-slate-600 dark:text-slate-300">El examen se guarda automáticamente. Si cierras o recargas, continuarás donde te quedaste.</p>
-          </div>
-          <div className="flex items-start gap-3">
-            <Check className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" />
-            <p className="text-sm text-slate-600 dark:text-slate-300">Puedes marcar preguntas para revisarlas al final.</p>
-          </div>
-          <div className="flex items-start gap-3">
-            <Check className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" />
-            <p className="text-sm text-slate-600 dark:text-slate-300">Si pasas más de 2 minutos en una pregunta, te sugeriremos avanzar.</p>
-          </div>
-          <div className="flex items-start gap-3">
-            <AlertTriangle className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
-            <p className="text-sm text-slate-600 dark:text-slate-300">No se puede pausar el cronómetro una vez iniciado.</p>
-          </div>
-        </div>
-        <button onClick={() => setPhase('exam')} className="w-full mt-6 py-3.5 rounded-xl bg-academic-600 hover:bg-academic-700 text-white font-bold transition-colors flex items-center justify-center gap-2 text-lg">
-          <Play className="w-5 h-5" /> Iniciar simulacro
-        </button>
-        <button onClick={() => generateOMRSheet({ fullName: user?.full_name ?? 'Alumno', examDate: new Date().toLocaleDateString('es-MX') })}
-          className="w-full mt-3 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-medium text-sm hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors flex items-center justify-center gap-2">
-          <Printer className="w-4 h-4" /> Descargar hoja de respuestas OMR (PDF)
-        </button>
       </div>
     );
   }
 
-  if (phase === 'confirm') {
+  if (isFinished) {
+    const totalCount = questions.length;
+    let correctCount = 0;
+    const subjectStats: Record<string, { correct: number; total: number }> = {};
+
+    questions.forEach((q) => {
+      if (!subjectStats[q.subject]) {
+        subjectStats[q.subject] = { correct: 0, total: 0 };
+      }
+      subjectStats[q.subject].total += 1;
+
+      if (userAnswers[q.id] === q.correctAnswer) {
+        correctCount += 1;
+        subjectStats[q.subject].correct += 1;
+      }
+    });
+
+    const scorePct = totalCount > 0 ? (correctCount / totalCount) * 100 : 0;
+
     return (
-      <div className="max-w-md mx-auto animate-[fadeIn_0.2s_ease-out]">
-        <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-8 text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-amber-50 dark:bg-amber-900/20 mb-4">
-            <AlertTriangle className="w-8 h-8 text-amber-500" />
+      <div className="max-w-4xl mx-auto space-y-6 py-6">
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center space-y-6">
+          <div className="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto">
+            <Trophy className="w-8 h-8" />
           </div>
-          <h2 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-2">¿Finalizar examen?</h2>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">Has respondido <strong>{answeredCount}</strong> de <strong>{TARGET_QUESTIONS}</strong> preguntas.</p>
-          {answeredCount < TARGET_QUESTIONS && (
-            <p className="text-xs text-amber-600 dark:text-amber-400 mb-4">Tienes {TARGET_QUESTIONS - answeredCount} preguntas sin responder.</p>
-          )}
-          <div className="flex gap-3 mt-6">
-            <button onClick={() => setPhase('exam')} className="flex-1 py-2.5 rounded-xl border border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-medium text-sm hover:bg-slate-50 dark:hover:bg-slate-700">Seguir examinándome</button>
-            <button onClick={finishExam} className="flex-1 py-2.5 rounded-xl bg-academic-600 hover:bg-academic-700 text-white font-semibold text-sm">Sí, finalizar</button>
+
+          <div>
+            <h1 className="text-2xl font-bold text-slate-800">Resultados del Simulacro</h1>
+            <p className="text-sm text-slate-500 mt-1">
+              {isSaving ? 'Guardando avance en tu perfil...' : 'Tu desempeño ha sido registrado.'}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+              <p className="text-xs text-slate-400">Aciertos Total</p>
+              <p className="text-2xl font-bold text-slate-800 mt-1">{correctCount} / {totalCount}</p>
+            </div>
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+              <p className="text-xs text-slate-400">Porcentaje</p>
+              <p className={`text-2xl font-bold mt-1 ${scorePct >= 70 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                {scorePct.toFixed(1)}%
+              </p>
+            </div>
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+              <p className="text-xs text-slate-400">Respondidas</p>
+              <p className="text-2xl font-bold text-slate-800 mt-1">{answeredCount} / {totalCount}</p>
+            </div>
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+              <p className="text-xs text-slate-400">Tiempo Invertido</p>
+              <p className="text-2xl font-bold text-slate-800 mt-1">{formatTime(TOTAL_TIME_SECONDS - timeLeft)}</p>
+            </div>
+          </div>
+
+          <div className="text-left space-y-3 pt-4 border-t border-slate-100">
+            <h3 className="font-semibold text-slate-800 flex items-center gap-2">
+              <BarChart3 className="w-5 h-5 text-blue-600" /> Desglose por Materia
+            </h3>
+
+            <div className="grid sm:grid-cols-2 gap-3">
+              {Object.entries(subjectStats).map(([subjKey, data]) => {
+                const pct = data.total > 0 ? (data.correct / data.total) * 100 : 0;
+                return (
+                  <div key={subjKey} className="p-3 bg-slate-50 rounded-xl border border-slate-100 space-y-1.5">
+                    <div className="flex justify-between text-xs font-medium">
+                      <span className="text-slate-700">{SUBJECT_NAMES[subjKey as SubjectId] ?? subjKey}</span>
+                      <span className="text-slate-500">{data.correct}/{data.total} ({pct.toFixed(0)}%)</span>
+                    </div>
+                    <div className="w-full bg-slate-200 rounded-full h-2 overflow-hidden">
+                      <div 
+                        className={`h-full rounded-full ${pct >= 70 ? 'bg-emerald-500' : pct >= 50 ? 'bg-amber-500' : 'bg-red-500'}`} 
+                        style={{ width: `${pct}%` }} 
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-3 pt-4">
+            <button
+              onClick={startExam}
+              className="flex-1 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-colors flex items-center justify-center gap-2"
+            >
+              <RotateCcw className="w-4 h-4" /> Intentar otro simulacro
+            </button>
+            <button
+              onClick={() => onNavigate('dashboard')}
+              className="flex-1 py-3 rounded-xl border border-slate-200 text-slate-700 font-semibold text-sm hover:bg-slate-50 transition-colors"
+            >
+              Volver al Dashboard
+            </button>
           </div>
         </div>
       </div>
     );
   }
-
-  if (!q) return null;
 
   return (
-    <div className="max-w-4xl mx-auto space-y-4 animate-[fadeIn_0.2s_ease-out]">
-      {/* Sticky top bar */}
-      <div className="sticky top-16 z-30 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm p-3 flex items-center justify-between gap-3 flex-wrap">
+    <div className="max-w-5xl mx-auto space-y-6 py-4">
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-wrap items-center justify-between gap-4 sticky top-4 z-10">
         <div className="flex items-center gap-3">
-          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">Pregunta {currentIdx + 1}/{TARGET_QUESTIONS}</span>
-          <div className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-sm font-mono font-bold ${timeLeft < 300 ? 'text-red-600 bg-red-50 dark:bg-red-900/20 animate-pulse' : 'text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-700'}`}>
-            <Clock className="w-4 h-4" />
-            {formatTime(timeLeft)}
+          <div className="p-2 bg-blue-50 text-blue-600 rounded-xl">
+            <FileText className="w-5 h-5" />
+          </div>
+          <div>
+            <p className="text-xs text-slate-400">Reactivo {currentIdx + 1} de {questions.length}</p>
+            <p className="text-sm font-bold text-slate-800">
+              {SUBJECT_NAMES[currentQuestion?.subject] ?? currentQuestion?.subject}
+            </p>
           </div>
         </div>
-        <div className="text-xs text-slate-400 dark:text-slate-500">{answeredCount} respondidas · {TARGET_QUESTIONS - answeredCount} restantes</div>
-      </div>
 
-      {/* Progress bar */}
-      <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-1.5 overflow-hidden">
-        <div className="bg-academic-500 h-full rounded-full transition-all duration-300" style={{ width: `${progressPct}%` }} />
-      </div>
-
-      {/* Stress alert */}
-      {showStressAlert && (
-        <div className="bg-amber-50 border border-amber-200 rounded-xl p-3 flex items-center gap-3 animate-[fadeIn_0.3s_ease-out]">
-          <AlertCircle className="w-5 h-5 text-amber-500 flex-shrink-0" />
-          <p className="text-sm text-amber-700 flex-1">Llevas más de 2 minutos en esta pregunta. Considera marcarla para revisión y avanzar.</p>
-          <button onClick={() => { setMarkedForReview((prev) => prev.includes(currentIdx) ? prev : [...prev, currentIdx]); setCurrentIdx((i) => Math.min(i + 1, TARGET_QUESTIONS - 1)); setShowStressAlert(false); }}
-            className="text-xs font-medium text-amber-700 bg-amber-100 hover:bg-amber-200 px-3 py-1.5 rounded-lg transition-colors whitespace-nowrap">
-            Marcar y avanzar
-          </button>
+        <div className={`flex items-center gap-2 px-4 py-2 rounded-xl border font-mono font-bold text-sm ${
+          timeLeft < 900 ? 'bg-red-50 border-red-200 text-red-600 animate-pulse' : 'bg-slate-50 border-slate-200 text-slate-700'
+        }`}>
+          <Timer className="w-4 h-4" />
+          {formatTime(timeLeft)}
         </div>
-      )}
 
-      {/* Question card */}
-      <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-6">
-        <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
-          <span className="text-xs text-academic-600 dark:text-academic-400 bg-academic-50 dark:bg-academic-900/30 px-2 py-0.5 rounded font-medium">
-            {SUBJECT_NAMES[q.subject as SubjectId] ?? q.subject}
-          </span>
-          <div className="flex items-center gap-2">
-            <button onClick={() => setMarkedForReview((prev) => prev.includes(currentIdx) ? prev.filter((i) => i !== currentIdx) : [...prev, currentIdx])}
-              className={`flex items-center gap-1 text-xs px-2.5 py-1.5 rounded-lg transition-colors ${markedForReview.includes(currentIdx) ? 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-400' : 'text-slate-400 dark:text-slate-500 hover:bg-slate-50 dark:hover:bg-slate-700'}`}>
-              <Flag className="w-3.5 h-3.5" /> {markedForReview.includes(currentIdx) ? 'Marcada' : 'Marcar'}
-            </button>
-            <button onClick={handleReport} disabled={reportedQs.has(q.id)}
-              className={`flex items-center gap-1 text-xs px-2.5 py-1.5 rounded-lg transition-colors ${reportedQs.has(q.id) ? 'text-slate-300 cursor-default' : 'text-red-400 hover:bg-red-50'}`}>
-              <AlertCircle className="w-3.5 h-3.5" /> {reportedQs.has(q.id) ? 'Reportada' : 'Reportar'}
-            </button>
+        <button
+          onClick={handleFinishExam}
+          className="px-4 py-2 rounded-xl bg-red-50 border border-red-200 text-red-600 hover:bg-red-100 font-semibold text-xs transition-colors"
+        >
+          Finalizar examen
+        </button>
+      </div>
+
+      <div className="grid lg:grid-cols-4 gap-6">
+        <div className="lg:col-span-3 bg-white rounded-2xl shadow-sm border border-slate-200 p-6 space-y-6">
+          <div className="space-y-2">
+            <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-600">
+              Tema: {currentQuestion?.topic}
+            </span>
+            <h2 className="text-base sm:text-lg font-medium text-slate-800 leading-relaxed">
+              {currentQuestion?.text}
+            </h2>
           </div>
-        </div>
-        <MathText text={q.question} className="text-base text-slate-800 dark:text-slate-100 font-medium block mb-4 whitespace-pre-line" />
-        <div className="space-y-2">
-          {q.options.map((opt, i) => {
-            const isSelected = answers[currentIdx] === i;
-            return (
-              <button key={i}
-                onClick={() => { setAnswers((prev) => { const a = [...prev]; a[currentIdx] = i; return a; }); }}
-                className={`w-full text-left p-3.5 rounded-xl border-2 transition-all ${isSelected ? 'border-academic-400 bg-academic-50 dark:bg-academic-900/20' : 'border-slate-200 dark:border-slate-600 hover:border-academic-300 hover:bg-academic-50/30 dark:hover:bg-slate-700/50'}`}>
-                <div className="flex items-center gap-3">
-                  <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-sm font-bold flex-shrink-0 ${isSelected ? 'bg-academic-500 text-white' : 'bg-slate-100 dark:bg-slate-600 text-slate-400 dark:text-slate-500'}`}>
-                    {String.fromCharCode(65 + i)}
+
+          <div className="space-y-3">
+            {currentQuestion?.options.map((option, idx) => {
+              const isSelected = userAnswers[currentQuestion.id] === idx;
+              return (
+                <button
+                  key={idx}
+                  onClick={() => handleSelectAnswer(idx)}
+                  className={`w-full text-left p-4 rounded-xl border transition-all flex items-start gap-3 ${
+                    isSelected
+                      ? 'border-blue-500 bg-blue-50/60 text-blue-900 font-medium'
+                      : 'border-slate-200 hover:border-slate-300 text-slate-700 hover:bg-slate-50/50'
+                  }`}
+                >
+                  <span className={`w-6 h-6 rounded-full border flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5 ${
+                    isSelected ? 'border-blue-600 bg-blue-600 text-white' : 'border-slate-300 text-slate-400'
+                  }`}>
+                    {String.fromCharCode(65 + idx)}
                   </span>
-                  <MathText text={opt} className="text-sm text-slate-700" />
-                </div>
-              </button>
-            );
-          })}
-        </div>
-      </div>
+                  <span className="text-sm leading-snug">{option}</span>
+                </button>
+              );
+            })}
+          </div>
 
-      {/* Navigation */}
-      <div className="flex items-center justify-between">
-        <button onClick={() => setCurrentIdx((i) => Math.max(0, i - 1))} disabled={currentIdx === 0}
-          className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-medium text-sm hover:bg-slate-50 dark:hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">
-          <ChevronLeft className="w-4 h-4" /> Anterior
-        </button>
-        {currentIdx === TARGET_QUESTIONS - 1 ? (
-          <button onClick={() => setPhase('confirm')} className="flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-academic-600 hover:bg-academic-700 text-white font-semibold text-sm transition-colors">
-            <Flag className="w-4 h-4" /> Finalizar
-          </button>
-        ) : (
-          <button onClick={() => setCurrentIdx((i) => Math.min(TARGET_QUESTIONS - 1, i + 1))}
-            className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-academic-600 hover:bg-academic-700 text-white font-semibold text-sm transition-colors">
-            Siguiente <ChevronRight className="w-4 h-4" />
-          </button>
-        )}
-      </div>
+          <div className="flex justify-between items-center pt-4 border-t border-slate-100">
+            <button
+              onClick={() => setCurrentIdx((prev) => Math.max(0, prev - 1))}
+              disabled={currentIdx === 0}
+              className="px-4 py-2 rounded-xl border border-slate-200 text-slate-600 font-medium text-sm hover:bg-slate-50 disabled:opacity-40 flex items-center gap-1"
+            >
+              <ChevronLeft className="w-4 h-4" /> Anterior
+            </button>
 
-      {/* Answer map */}
-      <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-4">
-        <div className="flex items-center gap-3 mb-3 text-xs text-slate-400 dark:text-slate-500 flex-wrap">
-          <span className="flex items-center gap-1"><div className="w-3 h-3 rounded bg-academic-500" /> Respondida</span>
-          <span className="flex items-center gap-1"><div className="w-3 h-3 rounded bg-amber-400" /> Marcada</span>
-          <span className="flex items-center gap-1"><div className="w-3 h-3 rounded bg-slate-200 dark:bg-slate-600" /> Pendiente</span>
-          <span className="flex items-center gap-1"><div className="w-3 h-3 rounded border-2 border-academic-500" /> Actual</span>
+            <span className="text-xs text-slate-400">
+              {answeredCount} de {questions.length} respondidas
+            </span>
+
+            <button
+              onClick={() => setCurrentIdx((prev) => Math.min(questions.length - 1, prev + 1))}
+              disabled={currentIdx === questions.length - 1}
+              className="px-4 py-2 rounded-xl bg-blue-600 text-white font-medium text-sm hover:bg-blue-700 disabled:opacity-40 flex items-center gap-1"
+            >
+              Siguiente <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
         </div>
-        <div className="grid grid-cols-12 sm:grid-cols-16 gap-1.5">
-          {Array.from({ length: TARGET_QUESTIONS }, (_, i) => {
-            const answered = answers[i] !== null;
-            const marked = markedForReview.includes(i);
-            const isCurrent = i === currentIdx;
-            let cls = 'bg-slate-100 dark:bg-slate-600 text-slate-500 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-500';
-            if (answered) cls = 'bg-academic-500 text-white';
-            if (marked && !answered) cls = 'bg-amber-400 text-white';
-            if (marked && answered) cls = 'bg-academic-500 text-white ring-2 ring-amber-400';
-            if (isCurrent) cls += ' ring-2 ring-offset-1 ring-academic-600';
-            return (
-              <button key={i} onClick={() => setCurrentIdx(i)}
-                className={`w-full aspect-square rounded-lg text-xs font-medium transition-all ${cls}`}>
-                {i + 1}
-              </button>
-            );
-          })}
+
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 space-y-4 h-fit">
+          <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Mapa de preguntas</h3>
+          <div className="grid grid-cols-5 gap-2 max-h-[360px] overflow-y-auto p-1">
+            {questions.map((q, idx) => {
+              const isAnswered = userAnswers[q.id] !== undefined;
+              const isCurrent = idx === currentIdx;
+              return (
+                <button
+                  key={q.id}
+                  onClick={() => setCurrentIdx(idx)}
+                  className={`h-9 rounded-lg text-xs font-semibold transition-all ${
+                    isCurrent
+                      ? 'ring-2 ring-blue-600 ring-offset-1 bg-blue-600 text-white'
+                      : isAnswered
+                      ? 'bg-emerald-100 text-emerald-800'
+                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                  }`}
+                >
+                  {idx + 1}
+                </button>
+              );
+            })}
+          </div>
         </div>
-        <button onClick={() => setPhase('confirm')} className="w-full mt-4 py-2.5 rounded-xl bg-academic-600 hover:bg-academic-700 text-white font-semibold text-sm transition-colors flex items-center justify-center gap-2">
-          <Flag className="w-4 h-4" /> Finalizar examen
-        </button>
       </div>
     </div>
   );
