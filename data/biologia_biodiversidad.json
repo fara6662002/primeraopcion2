@@ -1,0 +1,2731 @@
+[
+  {
+    "q": "¿Cuál de los siguientes países es considerado megadiverso debido a su alta concentración de especies endémicas?",
+    "o": ["Islandia", "México", "Noruega", "Egipto"],
+    "c": 1,
+    "e": "México forma parte del grupo de países megadiversos que albergan cerca del 70% de la diversidad biológica terrestre del planeta."
+  },
+  {
+    "q": "¿Qué término define a las especies que habitan exclusivamente en una región geográfica determinada?",
+    "o": ["Exóticas", "Endémicas", "Introducidas", "Invasoras"],
+    "c": 1,
+    "e": "Las especies endémicas son aquellas cuya distribución se limita a una zona geográfica particular y no se encuentran de forma natural en otra parte."
+  },
+  {
+    "q": "La biodiversidad abarca tres niveles principales de organización biológica, ¿cuáles son?",
+    "o": [
+      "Genética, de especies y de ecosistemas",
+      "Celular, tisular y orgánica",
+      "Marina, terrestre y atmosférica",
+      "Individual, poblacional y comunitaria"
+    ],
+    "c": 0,
+    "e": "La biodiversidad se comprende en tres niveles básicos: la diversidad genética dentro de las poblaciones, la diversidad de especies y la diversidad de ecosistemas."
+  },
+  {
+    "q": "¿Cuál es la principal causa antropogénica de la pérdida de biodiversidad en el mundo?",
+    "o": [
+      "La actividad volcánica",
+      "La pérdida y fragmentación del hábitat",
+      "La radiación solar",
+      "Las glaciaciones continentales"
+    ],
+    "c": 1,
+    "e": "La destrucción y alteración de hábitats debido a la agricultura, urbanización y deforestación es la causa número uno de la pérdida de biodiversidad provocada por el ser humano."
+  },
+  {
+    "q": "¿Qué beneficio ecosistémico directo proporcionan los arrecifes de coral y los manglares a las zonas costeras?",
+    "o": [
+      "Protección contra la erosión y tormentas",
+      "Aumento de la radiación ultravioleta",
+      "Reducción de la salinidad del mar",
+      "Generación de corrientes frías"
+    ],
+    "c": 0,
+    "e": "Tanto arrecifes como manglares actúan como barreras naturales que reducen el impacto del oleaje, previenen la erosión y protegen la costa de tormentas."
+  },
+  {
+    "q": "¿Cómo se le llama al proceso mediante el cual los seres vivos interactúan con su entorno para regular el clima y purificar el aire?",
+    "o": [
+      "Servicios ecosistémicos",
+      "Ciclos artificiales",
+      "Sucesión primaria",
+      "Evolución convergente"
+    ],
+    "c": 0,
+    "e": "Los servicios ecosistémicos son los beneficios que los seres humanos y la Tierra obtienen de los ecosistemas, como la regulación del clima y la purificación del agua y aire."
+  },
+  {
+    "q": "¿Qué impacto negativo produce la introducción de especies exóticas invasoras en un ecosistema?",
+    "o": [
+      "Desplaza a las especies nativas y altera el equilibrio",
+      "Aumenta la diversidad genética nativa",
+      "Mejora la disponibilidad de recursos de inmediato",
+      "Elimina completamente la contaminación del suelo"
+    ],
+    "c": 0,
+    "e": "Las especies invasoras compiten por recursos con las nativas, transmiten enfermedades o se convierten en depredadores sin control, desplazando la fauna y flora local."
+  },
+  {
+    "q": "Un ejemplo de uso sostenible de la biodiversidad es:",
+    "o": [
+      "La tala inmoderada de selvas tropicales",
+      "La pesca intensiva con redes de arrastre",
+      "La ecotecnia y agricultura orgánica planificada",
+      "La quema de pastizales para ganadería masiva"
+    ],
+    "c": 2,
+    "e": "El uso sostenible implica aprovechar los recursos de manera que se satisfagan las necesidades actuales sin comprometer la capacidad de las futuras generaciones."
+  },
+  {
+    "q": "¿Por qué la variabilidad genética dentro de una especie es crucial para su supervivencia?",
+    "o": [
+      "Permite la adaptación a cambios ambientales y resistencia a enfermedades",
+      "Garantiza que todos los individuos sean físicamente idénticos",
+      "Acelera el proceso de extinción natural",
+      "Evita que las especies se reproduzcan entre sí"
+    ],
+    "c": 0,
+    "e": "A mayor diversidad genética, mayor es la probabilidad de que algunos individuos posean rasgos que les permitan sobrevivir a cambios en el entorno o a epidemias."
+  },
+  {
+    "q": "¿Qué área protegida tiene como objetivo principal preservar ecosistemas no alterados significativamente por el ser humano?",
+    "o": [
+      "Reserva de la Biosfera",
+      "Zona industrial sustentable",
+      "Parque recreativo urbano",
+      "Campo de cultivo intensivo"
+    ],
+    "c": 0,
+    "e": "Las Reservas de la Biosfera son áreas representativas de uno o más ecosistemas no alterados por la acción humana, destinadas a la conservación y la investigación."
+  },
+  {
+    "q": "¿Qué nombre recibe el convenio internacional diseñado para promover la conservación y el uso sostenible de la diversidad biológica?",
+    "o": [
+      "Tratado de Libre Comercio",
+      "Convenio sobre la Diversidad Biológica (CDB)",
+      "Protocolo de Kioto",
+      "Acuerdo de París sobre la Capa de Ozono"
+    ],
+    "c": 1,
+    "e": "El Convenio sobre la Diversidad Biológica (CDB) es el instrumento internacional enfocado en la conservación, uso sostenible y distribución justa de los recursos genéticos."
+  },
+  {
+    "q": "¿Cuál es la función principal de los descomponedores (como hongos y bacterias) en el flujo de materia dentro de un ecosistema?",
+    "o": [
+      "Producir glucosa a partir de luz solar",
+      "Reintegrar los nutrimentos inorgánicos al suelo",
+      "Consumir únicamente herbívoros vivos",
+      "Capturar el dióxido de carbono mediante fotosíntesis"
+    ],
+    "c": 1,
+    "e": "Los descomponedores degradan la materia orgánica muerta y la transforman en sustancias inorgánicas simples que vuelven al suelo para ser absorbidas por los productores."
+  },
+  {
+    "q": "¿Qué factor climático influye principalmente en que las zonas ecuatoriales tengan la mayor riqueza de biodiversidad del planeta?",
+    "o": [
+      "Bajas temperaturas y escasa precipitación",
+      "Temperaturas cálidas constantes y alta precipitación",
+      "Estaciones del año muy marcadas con inviernos helados",
+      "Vientos constantes de gran velocidad y suelo seco"
+    ],
+    "c": 1,
+    "e": "La combinación de alta radiación solar, humedad constante y precipitaciones abundantes en la franja ecuatorial crea condiciones óptimas para el desarrollo masivo de vida."
+  },
+  {
+    "q": "¿Qué consecuencia directa tiene la sobreexplotación de un recurso biológico como la pesca marina sin regulación?",
+    "o": [
+      "El aumento exponencial de las poblaciones de peces",
+      "El agotamiento del recurso y el colapso de la red trófica",
+      "La rápida mutación adaptativa de los peces",
+      "La purificación de las aguas oceánicas"
+    ],
+    "c": 1,
+    "e": "Extraer especímenes a una velocidad mayor a su capacidad natural de reproducción provoca el declive poblacional y altera las relaciones tróficas del ecosistema."
+  },
+  {
+    "q": "¿Qué es la biocapacidad de una región geográfica?",
+    "o": [
+      "La cantidad total de especies extintas en un periodo de tiempo",
+      "La capacidad de un ecosistema para generar recursos útiles y absorber desechos",
+      "El número de habitantes que pueden vivir en una ciudad",
+      "La cantidad de agua dulce disponible exclusivamente para consumo humano"
+    ],
+    "c": 1,
+    "e": "La biocapacidad mide la producción biológica de una zona para proveer recursos renovables y la aptitud de sus ecosistemas para asimilar los residuos generados."
+  },
+  {
+    "q": "El ajolote mexicano (Ambystoma mexicanum) es un ejemplo icónico de especie:",
+    "o": ["Exótica introducida", "Endémica y en peligro de extinción", "Invasora cosmopolita", "Extinta en estado silvestre y en cautiverio"],
+    "c": 1,
+    "e": "El ajolote es nativo exclusivamente del sistema lacustre del Valle de México (especialmente Xochimilco) y enfrenta un grave riesgo de extinción en su hábitat natural."
+  },
+  {
+    "q": "¿Cómo contribuye la fotosíntesis realizada por las plantas terrestres y el fitoplancton al equilibrio biológico global?",
+    "o": [
+      "Libera nitrógeno y consume nitratos del aire",
+      "Genera oxígeno libre y fija el dióxido de carbono atmosférico",
+      "Aumenta la temperatura de la atmósfera mediante vapor de agua",
+      "Degrada los minerales pesados de la corteza terrestre"
+    ],
+    "c": 1,
+    "e": "A través de la fotosíntesis, los autótrofos capturan CO2 atmosférico y producen O2, regulando el clima y permitiendo la respiración aerobia de otros organismos."
+  },
+  {
+    "q": "¿Qué se entiende por 'hotspot' o punto caliente de biodiversidad?",
+    "o": [
+      "Una zona volcánica donde no existe vida animal",
+      "Una región con alta riqueza de especies endémicas bajo grave amenaza de destrucción",
+      "Un área destinada al turismo ecológico masivo",
+      "Un ecosistema árido con temperaturas superiores a los 40 °C"
+    ],
+    "c": 1,
+    "e": "Un hotspot es una región geográfica que alberga una concentración excepcional de especies endémicas, pero que ha perdido al menos el 70% de su hábitat original."
+  },
+  {
+    "q": "¿Cuál es la diferencia principal entre la conservación 'in situ' y 'ex situ'?",
+    "o": [
+      "La conservación in situ se realiza en el hábitat natural y la ex situ fuera de él",
+      "La conservación in situ utiliza biotecnología y la ex situ no",
+      "La conservación in situ solo protege plantas y la ex situ solo animales",
+      "La conservación in situ es illegal y la ex situ es gubernamental"
+    ],
+    "c": 0,
+    "e": "La conservación 'in situ' protege las especies dentro de sus ecosistemas naturales (ej. parques nacionales), mientras que la 'ex situ' se realiza fuera de ellos (ej. zoológicos, bancos de semillas)."
+  },
+  {
+    "q": "¿De qué manera el cambio climático global afectará la distribución geográfica de las especies?",
+    "o": [
+      "Hará que todas las especies migren hacia el ecuador",
+      "Forzará el desplazamiento de especies hacia latitudes o altitudes más elevadas buscando climas adecuados",
+      "Mantendrá las zonas de distribución sin ningún tipo de alteración",
+      "Provocará que todos los ecosistemas terrestres se conviertan en selvas húmedas"
+    ],
+    "c": 1,
+    "e": "Al aumentar las temperaturas, muchas especies ajustan su rango geográfico moviéndose hacia los polos o a zonas de mayor altitud para encontrar sus rangos térmicos tolerables."
+  },
+  {
+    "q": "¿Qué papel fundamental cumplen las abejas y otros insectos polinizadores en el mantenimiento de la biodiversidad agrícola y natural?",
+    "o": [
+      "Facilitan la reproducción sexual de las plantas con flor y la formación de frutos",
+      "Controlan de forma definitiva la erosión de los suelos áridos",
+      "Absorben el exceso de dióxido de carbono directamente del suelo",
+      "Sustituyen los nutrientes inorgánicos que necesitan las raíces"
+    ],
+    "c": 0,
+    "e": "La polinización entomófila permite la fertilización de las flores, garantizando la viabilidad genética de miles de especies vegetales y la producción de semillas y frutos."
+  },
+  {
+    "q": "¿A qué se refiere el término 'extinción masiva' en la historia geológica de la Tierra?",
+    "o": [
+      "A la desaparición periódica de una sola especie endémica",
+      "A la pérdida drástica y rápida de un porcentaje significativo del total de especies en un periodo geológico corto",
+      "A la migración temporal de especies de un continente a otro",
+      "Al proceso mediante el cual nacen nuevas especies genéticamente modificadas"
+    ],
+    "c": 1,
+    "e": "Una extinción masiva es un evento geológicamente breve donde un alto porcentaje de la biodiversidad global (más del 75%) desaparece sin ser reemplazada de inmediato."
+  },
+  {
+    "q": "¿Qué tipo de relación interespecífica se establece cuando una especie se beneficia de otra sin causarle un perjuicio ni un beneficio directo?",
+    "o": ["Comensalismo", "Parasitismo", "Mutualismo", "Depredación"],
+    "c": 0,
+    "e": "El comensalismo ocurre cuando un organismo obtiene alimento, refugio o transporte de otra especie sin perjudicarla ni beneficiarla de forma evidente."
+  },
+  {
+    "q": "¿Cuál es la función ecológica de las especies 'clave' o 'ingenieras' en un ecosistema?",
+    "o": [
+      "Su presencia o actividad estructura y mantiene la estabilidad de toda la comunidad ecológica",
+      "Son las especies más abundantes en términos de biomasa total",
+      "Son organismos introducidos artificialmente para reemplazar a la fauna nativa",
+      "Tienen una tasa de reproducción excepcionalmente baja que frena el crecimiento poblacional"
+    ],
+    "c": 0,
+    "e": "Las especies clave ejercen una influencia desproporcionadamente alta en la estructura de su comunidad; si desaparecen, el ecosistema cambia drásticamente o colapsa."
+  },
+  {
+    "q": "¿Qué indicador ambiental mide la demanda humana sobre los recursos de los ecosistemas en comparación con la capacidad de la Tierra para regenerarlos?",
+    "o": [
+      "Huella ecológica",
+      "Índice de desarrollo humano",
+      "Producto interno bruto verde",
+      "Coeficiente de radiación solar"
+    ],
+    "c": 0,
+    "e": "La huella ecológica contabiliza el área de tierra y agua biológicamente productiva necesaria para producir los recursos que consume una población y absorber sus residuos."
+  },
+  {
+    "q": "¿Qué consecuencia causa la fragmentación de un bosque continuo mediante la construcción de carreteras o infraestructura urbana?",
+    "o": [
+      "Efecto de borde y aislamiento reproductivo de las poblaciones",
+      "Aumento de la diversidad de especies de gran tamaño",
+      "Facilidad para el desplazamiento de grandes mamíferos",
+      "Generación automática de nuevos microclimas selváticos"
+    ],
+    "c": 0,
+    "e": "La fragmentación divide las poblaciones en parches aislados, reduciendo el flujo genético y exponiendo el perímetro de los parches al llamado 'efecto de borde'."
+  },
+  {
+    "q": "Las reservas marinas de protección estricta (zonas de 'no pesca') contribuyen a la biodiversidad marina mediante el fenómeno conocido como:",
+    "o": [
+      "Efecto desborde (spillover effect)",
+      "Acidificación controlada",
+      "Eutrofización artificial",
+      "Blanqueamiento de coral"
+    ],
+    "c": 0,
+    "e": "El 'efecto desborde' ocurre cuando la biomasa y el número de peces aumentan tanto dentro de la reserva que migran hacia zonas adyacentes, beneficiando la biodiversidad y la pesca externa."
+  },
+  {
+    "q": "¿Qué tipo de vegetación es característica de los ecosistemas mexicanos con mayor diversidad de especies por unidad de área?",
+    "o": [
+      "Bosque tropical perennifolio (Selva alta)",
+      "Matorral xerófilo",
+      "Pastizal de alta montaña",
+      "Vegetación de dunas costeras"
+    ],
+    "c": 0,
+    "e": "Las selvas altas o bosques tropicales húmedos son los ecosistemas terrestres más ricos en biodiversidad y complejidad estructural por metro cuadrado."
+  },
+  {
+    "q": "¿Cuál es la meta del concepto de desarrollo sustentable o sostenible?",
+    "o": [
+      "Satisfacer las necesidades actuales sin comprometer las capacidades de las futuras generaciones",
+      "Detener por completo la actividad industrial y económica global",
+      "Aumentar el consumo de recursos fósiles de forma controlada",
+      "Reemplazar la flora natural exclusivamente por monocultivos comerciales"
+    ],
+    "c": 0,
+    "e": "El desarrollo sustentable busca un equilibrio entre el bienestar social, el crecimiento económico y la preservación ecológica para garantizar la continuidad de la vida en el planeta."
+  },
+  {
+    "q": "¿Qué fenómeno ambiental provocado por la contaminación del aire daña directamente las hojas de las plantas y acidifica los cuerpos de agua, afectando la biodiversidad acuática?",
+    "o": [
+      "Lluvia ácida",
+      "Inversión térmica",
+      "Efecto invernadero natural",
+      "Eutrofización continental"
+    ],
+    "c": 0,
+    "e": "La lluvia ácida, provocada por emisiones de dióxido de azufre y óxidos de nitrógeno, altera el pH del suelo y del agua, lixiviando nutrientes y dañando la cubierta vegetal."
+  },
+  {
+    "q": "¿Qué nombre recibe el nivel de organización ecológica que comprende a todos los individuos de la misma especie que habitan en una zona y tiempo determinados?",
+    "o": [
+      "Población",
+      "Comunidad",
+      "Ecosistema",
+      "Bioma"
+    ],
+    "c": 0,
+    "e": "Una población es el grupo de organismos de la misma especie que coexisten en un área geográfica determinada y pueden cruzarse entre sí."
+  },
+  {
+    "q": "¿Qué es la capacidad de carga (K) de un hábitat para una población específica?",
+    "o": [
+      "El límite máximo de individuos que los recursos de un entorno pueden sostener de forma indefinida",
+      "La velocidad a la que una especie puede migrar hacia otros continentes",
+      "El número total de depredadores que se alimentan de una misma presa",
+      "La cantidad de mutaciones genéticas que puede acumular una población"
+    ],
+    "c": 0,
+    "e": "La capacidad de carga (K) representa el tamaño máximo de población que un entorno puede mantener con los recursos (alimento, agua, espacio) disponibles."
+  },
+  {
+    "q": "¿Cuál es la principal diferencia entre un ecosistema continental acuático léntico y uno lótico?",
+    "o": [
+      "Los ambientes lénticos tienen aguas estancadas o de escaso flujo (lagos) y los lóticos tienen aguas corrientes (ríos)",
+      "Los ambientes lénticos son marinos de alta salinidad y los lóticos son de agua dulce de deshielo",
+      "Los ambientes lénticos carecen de fotosíntesis y los lóticos poseen fitoplancton",
+      "Los ambientes lénticos son subterráneos y los lóticos son superficiales"
+    ],
+    "c": 0,
+    "e": "Los sistemas lénticos abarcan aguas quietas o de lento movimiento (lagunas, lagos, estanques), mientras que los lóticos corresponden a aguas en movimiento continuo (ríos, arroyos)."
+  },
+  {
+    "q": "¿Qué beneficio aporta la variedad de microorganismos en la rizosfera de las plantas?",
+    "o": [
+      "Facilitan la fijación y solubilización de nutrimentos esenciales como nitrógeno y fósforo",
+      "Inhiben el crecimiento celular de las raíces para acelerar la floración",
+      "Aumentan la evapotranspiración de las hojas durante la noche",
+      "Bloquean la absorción de agua para evitar la saturación hídrica"
+    ],
+    "c": 0,
+    "e": "Los microorganismos de la rizosfera (bacterias y hongos micorrízicos) ayudan a transformar nutrimentos del suelo en formas asimilables para la planta."
+  },
+  {
+    "q": "¿Qué es la sucesión ecológica primaria?",
+    "o": [
+      "El proceso de colonización biológica en un sustrato geológico completamente nuevo carente de suelo previo",
+      "La rápida recuperación de un bosque tras un incendio forestal",
+      "El reemplazo de especies en un ecosistema por introducción de fauna exótica",
+      "La degradación paulatina de un suelo fértil por el uso constante de plaguicidas"
+    ],
+    "c": 0,
+    "e": "La sucesión primaria ocurre en terrenos vírgenes donde no existía una comunidad biológica previa ni suelo formado (ej. roca volcánica expuesta o glaciares retirados)."
+  },
+  {
+    "q": "¿Cómo afecta la acidificación de los océanos a los organismos marinos con caparazón o esqueleto de carbonato de calcio?",
+    "o": [
+      "Dificulta la calcificación y puede disolver las estructuras calcáreas existentes",
+      "Aumenta la tasa de fijación de calcio en moluscos y corales",
+      "Provoca un incremento acelerado en la fotosíntesis del fitoplancton",
+      "Neutraliza la salinidad global permitiendo mayor diversidad de peces dulceacuícolas"
+    ],
+    "c": 0,
+    "e": "El exceso de CO2 disuelto forma ácido carbónico, reduciendo la disponibilidad de iones carbonato necesarios para la construcción y mantenimiento de conchas y esqueletos de coral."
+  },
+  {
+    "q": "¿Qué categoría de especie según la lista roja de la UICN indica un nivel de amenaza previo a la extinción en estado silvestre?",
+    "o": [
+      "En peligro crítico (CR)",
+      "Preocupación menor (LC)",
+      "Casi amenazada (NT)",
+      "Datos insuficientes (DD)"
+    ],
+    "c": 0,
+    "e": "La categoría 'En peligro crítico' (CR) indica que la especie enfrenta un riesgo extremadamente alto de extinción en estado silvestre en un futuro inmediato."
+  },
+  {
+    "q": "¿Cuál es un impacto ecológico directo del sobrepastoreo en zonas semiáridas?",
+    "o": [
+      "Erosión del suelo y desertificación",
+      "Aumento en la retención de humedad en el subsuelo",
+      "Incremento en la tasa de reforestación natural",
+      "Disminución generalizada de la temperatura ambiente"
+    ],
+    "c": 0,
+    "e": "El consumo excesivo de vegetación por el ganado remueve la cubierta protectora del suelo, compacta la tierra y desencadena procesos de erosión y desertificación."
+  },
+  {
+    "q": "¿Qué caracteriza a un ecosistema ecotono?",
+    "o": [
+      "Es la zona de transición gradual o límite entre dos comunidades o ecosistemas adyacentes",
+      "Un área abisal donde la luz solar no penetra",
+      "Un bioma de clima extremadamente frío sin vegetación superior",
+      "Un entorno cerrado creado artificialmente en laboratorios"
+    ],
+    "c": 0,
+    "e": "Un ecotono es la zona de frontera entre dos ecosistemas diferentes (por ejemplo, entre un bosque y un prado), caracterizado habitualmente por una alta riqueza de especies."
+  },
+  {
+    "q": "¿Qué causa la eutrofización en cuerpos de agua dulces o costeros?",
+    "o": [
+      "El aporte excesivo de nutrientes (nitrógeno y fósforo) provenientes de fertilizantes y aguas residuales",
+      "La escasez de luz solar debido a la presencia de niebla constante",
+      "La reducción drástica de la temperatura del agua en invierno",
+      "El incremento de la velocidad de la corriente del agua"
+    ],
+    "c": 0,
+    "e": "El exceso de nitratos y fosfatos genera una proliferación descontrolada de algas que, al morir y descomponerse, agotan el oxígeno disuelto en el agua (O2), provocando la muerte de fauna acuática."
+  },
+  {
+    "q": "¿Qué se entiende por 'diversidad gamma' dentro del estudio de la biodiversidad?",
+    "o": [
+      "La riqueza total de especies a nivel regional que abarca múltiples hábitats",
+      "La diversidad de especies dentro de un solo hábitat o comunidad local",
+      "La tasa de cambio en la composición de especies entre dos comunidades",
+      "El número total de mutaciones genéticas en una sola población"
+    ],
+    "c": 0,
+    "e": "La diversidad gamma representa la riqueza de especies a escala regional, combinando la diversidad dentro de los hábitats (alfa) y la variación entre ellos (beta)."
+  },
+  {
+    "q": "¿Qué mecanismo biológico de adaptación permite a algunas plantas de climas áridos (como los cactos) minimizar la pérdida de agua durante la fotosíntesis?",
+    "o": [
+      "Metabolismo Ácido de las Crasuláceas (CAM)",
+      "Ciclo de Calvin tradicional sin estomas",
+      "Fermentación láctica celular",
+      "Fotorrespiración acelerada continua"
+    ],
+    "c": 0,
+    "e": "El metabolismo CAM permite a las plantas abrir sus estomas únicamente durante la noche para capturar CO2, reduciendo drásticamente la transpiración diurna."
+  },
+  {
+    "q": "¿Cuál es la principal amenaza que enfrentan los bosques de manglar en las zonas costeras tropicales?",
+    "o": [
+      "La expansión de la camaronicultura industrial y el desarrollo urbano costero",
+      "El incremento masivo de la radiación ultravioleta marina",
+      "La falta de salinidad en las desembocaduras de los ríos",
+      "La congelación estacional de las mareas costeras"
+    ],
+    "c": 0,
+    "e": "La conversión de áreas de manglar en estanques para la cría de camarón y la urbanización de la línea de costa han destruido vastas extensiones de este ecosistema."
+  },
+  {
+    "q": "Las especies que poseen un amplio rango de tolerancia ambiental y consumen una gran variedad de alimentos se clasifican como:",
+    "o": [
+      "Generalistas",
+      "Especialistas",
+      "Endémicas estrictas",
+      "Stenoicas"
+    ],
+    "c": 0,
+    "e": "Las especies generalistas pueden prosperar en una amplia variedad de condiciones ambientales y hacer uso de diversos recursos alimenticios (ej. coyotes o mapaches)."
+  },
+  {
+    "q": "¿Qué función cumple la capa de ozono (O3) estratosférica en la preservación de la vida terrestre?",
+    "o": [
+      "Filtra la radiación ultravioleta de alta energía (UV-B y UV-C) procedente del Sol",
+      "Atrapa el calor para mantener la temperatura media global en 15 °C",
+      "Aporta el oxígeno necesario para la respiración aerobia de los animales",
+      "Cataliza la formación de nubes de lluvia en la troposfera"
+    ],
+    "c": 0,
+    "e": "El ozono estratosférico absorbe la mayor parte de los rayos UV nocivos del Sol, evitando mutaciones celulares y daños en el ADN de los seres vivos."
+  },
+  {
+    "q": "¿Qué es la biocenosis dentro de un ecosistema?",
+    "o": [
+      "El conjunto de todos los seres vivos (factores bióticos) que habitan en un espacio determinado",
+      "El entorno físico o inerte (factores abióticos) como el suelo, agua y clima",
+      "La energía solar total capturada por los productores primarios",
+      "El ritmo de extinción de especies en un periodo geológico"
+    ],
+    "c": 0,
+    "e": "La biocenosis (o comunidad biológica) es la parte viva del ecosistema, constituida por las poblaciones de animales, plantas, hongos y microorganismos en interacción."
+  },
+  {
+    "q": "¿Cuál de los siguientes biomas terrestres destaca por presentar permafrost (suelo permanentemente congelado) y una vegetación dominada por musgos y líquenes?",
+    "o": [
+      "Tundra",
+      "Taiga",
+      "Estepa",
+      "Sabana"
+    ],
+    "c": 0,
+    "e": "La tundra se caracteriza por sus subsuelos helados (permafrost), temperaturas extremadamente bajas y ausencia de vegetación arbórea de gran tamaño."
+  },
+  {
+    "q": "¿Qué es la bioacumulación en el contexto de la contaminación ambiental?",
+    "o": [
+      "El proceso de acumulación gradual de una sustancia química tóxica en los tejidos de un organismo a lo largo del tiempo",
+      "La capacidad de los árboles para almacenar carbono en su madera durante siglos",
+      "El incremento de la biomasa vegetal debido al uso de fertilizantes nitrogenados",
+      "La recolección y reciclaje de residuos orgánicos mediante compostaje"
+    ],
+    "c": 0,
+    "e": "La bioacumulación ocurre cuando un organismo absorbe un contaminante (como metales pesados o plaguicidas) a una velocidad mayor de la que puede metabolizarlo o excretarlo."
+  },
+  {
+    "q": "¿A qué se refiere la biomagnificación en una cadena trófica?",
+    "o": [
+      "El aumento progresivo en la concentración de una toxina a medida que se asciende en los niveles tróficos",
+      "La multiplicación del número de especies depredadoras en una reserva natural",
+      "El incremento de la energía disponible para los consumidores terciarios",
+      "La expansión del tamaño corporal de los herbívoros en clima frío"
+    ],
+    "c": 0,
+    "e": "La biomagnificación provoca que los depredadores tope concentren niveles significativamente más altos de tóxicos en sus cuerpos en comparación con los productores o consumidores primarios."
+  },
+  {
+    "q": "¿Cuál es la meta fundamental del enfoque de conservación de 'corredores biológicos'?",
+    "o": [
+      "Conectar fragmentos de hábitat natural para permitir el flujo genético y el movimiento de especies",
+      "Construir autopistas exclusivas para el transporte sustentable de mercancías",
+      "Delimitar zonas de caza deportiva de forma rotatoria y controlada",
+      "Aislar por completo a las poblaciones en peligro para evitar el contacto exterior"
+    ],
+    "c": 0,
+    "e": "Los corredores biológicos unen reservas o parches de vegetación aislados, facilitando el tránsito de fauna, la polinización y la dispersión de semillas para reducir los efectos de la fragmentación."
+  },
+  {
+    "q": "¿Qué papel juegan los ciclos biogeoquímicos (como el del carbono, nitrógeno y fósforo) en la conservación de la biodiversidad?",
+    "o": [
+      "Permiten el reciclaje continuo de elementos esenciales para la vida en los ecosistemas",
+      "Eliminan por completo las sustancias inorgánicas del suelo y del aire",
+      "Evitan la evolución adaptativa de las especies en zonas templadas",
+      "Aumentan la salinidad de los acuíferos continentales"
+    ],
+    "c": 0,
+    "e": "Los ciclos biogeoquímicos garantizan que la materia circule constantemente entre los organismos y el medio ambiente, manteniendo la productividad primaria y la vida."
+  },
+  {
+    "q": "¿Qué consecuencia directa provoca la introducción de especies invasoras en las islas marinas?",
+    "o": [
+      "Extinción acelerada de especies de avifauna y reptiles endémicos",
+      "Aumento inmediato en la diversidad genética de la fauna local",
+      "Formación de nuevos arrecifes de coral en las costas insulares",
+      "Disminución drástica de las precipitaciones en la isla"
+    ],
+    "c": 0,
+    "e": "Las especies insulares evolucionaron en aislamiento sin adaptaciones contra depredadores introducidos (como ratas o gatos), lo que causa extinciones masivas."
+  },
+  {
+    "q": "El concepto de 'deuda de extinción' en biología de la conservación se refiere a:",
+    "o": [
+      "El número de especies que desaparecerán en el futuro debido a la destrucción del hábitat ocurrida en el pasado",
+      "El costo financiero necesario para recuperar una especie extinta mediante clonación",
+      "El número de especímenes muertos durante el traslado a un zoológico ex situ",
+      "La pérdida de recursos pesqueros proyectada a cien años"
+    ],
+    "c": 0,
+    "e": "La deuda de extinción representa la pérdida retardada de especies que, aunque aún sobreviven tras la fragmentación de su hábitat, están condenadas a desaparecer con el tiempo."
+  },
+  {
+    "q": "¿Cuál es la función principal de los bancos de germoplasma o semillas en la conservación de la biodiversidad?",
+    "o": [
+      "Preservar la diversidad genética de las plantas fuera de su hábitat natural para el futuro",
+      "Sustituir los campos de cultivo tradicionales por depósitos subterráneos",
+      "Generar mutaciones genéticas artificiales para crear especies carnívoras",
+      "Vender semillas exclusivamente a empresas transnacionales"
+    ],
+    "c": 0,
+    "e": "Los bancos de germoplasma almacenan semillas a bajas temperaturas para conservar la variabilidad genética de especies vegetales amenazadas o de valor agrícola."
+  },
+  {
+    "q": "¿Qué se entiende por 'especie paraguas' o sombrilla en la planificación de reservas naturales?",
+    "o": [
+      "Una especie cuya protección indirectamente salvaguarda a muchas otras especies que comparten su hábitat",
+      "Una especie vegetal que evita la penetración directa de la lluvia en la selva",
+      "Un organismo que habita únicamente en climas extremosos con lluvias continuas",
+      "Una especie exótica utilizada para controlar plagas en cultivos"
+    ],
+    "c": 0,
+    "e": "Las especies sombrilla requieren grandes extensiones de hábitat intacto; al proteger su territorio, se conserva automáticamente a todo el ecosistema y sus especies."
+  },
+  {
+    "q": "¿Qué impacto ambiental genera el uso indiscriminado de plaguicidas de síntesis química en la biodiversidad del suelo?",
+    "o": [
+      "Reduce la abundancia y diversidad de lombrices, micorrizas y bacterias benéficas",
+      "Enriquece la concentración de materia orgánica y nitrógeno de forma natural",
+      "Estimula la multiplicación de plantas endémicas de floración rápida",
+      "Neutraliza por completo la acidez del subsuelo agrícola"
+    ],
+    "c": 0,
+    "e": "Los plaguicidas sintéticos afectan a organismos que no son el objetivo de la fumigación, alterando la estructura microbiológica y la fertilidad natural del suelo."
+  },
+  {
+    "q": "¿Qué caracteriza a las especies que siguen una estrategia de selección de tipo 'r' en la dinámica poblacional?",
+    "o": [
+      "Alta tasa de reproducción, tamaño corporal pequeño y escaso o nulo cuidado parental",
+      "Baja tasa de natalidad, gran tamaño corporal y prolongado cuidado parental",
+      "Esperanza de vida alta con reproducción tardía e inversión metabólica elevada",
+      "Dependencia estricta de climas polares para completar su ciclo biológico"
+    ],
+    "c": 0,
+    "e": "Las especies estrategas 'r' (como insectos o roedores) producen muchos descendientes de rápido crecimiento para colonizar entornos inestables."
+  },
+  {
+    "q": "¿Cuál es el principal servicio de regulación que prestan los humedales continentales?",
+    "o": [
+      "Purificación de agua, recarga de acuíferos y control de inundaciones",
+      "Producción masiva de oxígeno a niveles estratosféricos",
+      "Generación de corrientes eólicas continentales",
+      "Incremento de la salinidad en los lagos interiores"
+    ],
+    "c": 0,
+    "e": "Los humedales actúan como esponjas naturales que retienen excesos de agua, retienen sedimentos y filtran contaminantes del agua dulce."
+  },
+  {
+    "q": "La teoría de la biogeografía de islas sostiene que el número de especies en una isla depende principalmente de:",
+    "o": [
+      "La distancia al continente y el tamaño de la isla",
+      "La temperatura del agua oceánica y la profundidad del lecho marino",
+      "El número de volcanes activos en la región insular",
+      "La presencia de asentamientos humanos prehispánicos"
+    ],
+    "c": 0,
+    "e": "Desarrollada por MacArthur y Wilson, establece que el equilibrio de especies se determina por las tasas de inmigración (distancia) y extinción (área de la isla)."
+  },
+  {
+    "q": "¿Qué se entiende por 'valor intrínseco' de la biodiversidad?",
+    "o": [
+      "El valor que tiene la vida por el simple hecho de existir, independientemente de su utilidad para el ser humano",
+      "El precio económico de las especies en el mercado internacional de exportación",
+      "La cantidad de madera utilizable que se puede extraer de un bosque de pino",
+      "El potencial turístico comercial que posee una reserva natural"
+    ],
+    "c": 0,
+    "e": "El valor intrínseco argumenta que cada organismo vivo posee un valor inherente a su propia existencia, más allá de cualquier beneficio antropocéntrico."
+  },
+  {
+    "q": "¿Qué relación existe entre la deforestación y la aparición de nuevas enfermedades zoonóticas?",
+    "o": [
+      "Aumenta el contacto entre la fauna silvestre, vectores y humanos al destruir las barreras naturales",
+      "Elimina los virus y bacterias presentes en los follajes de las selvas altas",
+      "Provoca que los patógenos mueran por exceso de radiación ultravioleta",
+      "Disminuye la densidad poblacional de insectos transmisores de parásitos"
+    ],
+    "c": 0,
+    "e": "Al invadir o fragmentar hábitats silvestres, los seres humanos entran en contacto con patógenos y vectores salvajes, facilitando el salto zoonótico."
+  },
+  {
+    "q": "¿Qué es un bioma?",
+    "o": [
+      "Un conjunto de ecosistemas caracterizados por un clima, flora y fauna similares a escala global",
+      "La capa externa de la corteza terrestre rica en minerales preciosos",
+      "El total de bacterias que habitan dentro del sistema digestivo animal",
+      "Una técnica agrícola para cultivar bajo agua de mar"
+    ],
+    "c": 0,
+    "e": "Un bioma es una gran unidad bioclimática caracterizada por formaciones vegetales y comunidades de organismos adaptadas a condiciones climáticas regionales."
+  },
+  {
+    "q": "¿Cuál es la causa del blanqueamiento de los arrecifes de coral?",
+    "o": [
+      "La expulsión de las microalgas simbióticas (zooxantelas) por el aumento de la temperatura del agua",
+      "El depósito masivo de sedimentos calcáreos de origen industrial",
+      "El exceso de salinidad provocado por la evaporación costera",
+      "El ataque directo de bacterias anaerobias sobre la concha del coral"
+    ],
+    "c": 0,
+    "e": "Bajo estrés térmico por el calentamiento del agua, los corales expulsan a las zooxantelas fotosintéticas que les proveen alimento y color, tornándose blancos y vulnerables."
+  },
+  {
+    "q": "¿Qué se comprende por 'diversidad alfa' en los estudios ecológicos?",
+    "o": [
+      "El número de especies presentes dentro de una comunidad o área local uniforme",
+      "La tasa de cambio de especies entre dos gradientes de altitud",
+      "El total de familias de plantas registradas en todo un continente",
+      "La variación cromosómica existente entre dos poblaciones"
+    ],
+    "c": 0,
+    "e": "La diversidad alfa mide la riqueza puntual de especies en un hábitat o comunidad delimitada."
+  },
+  {
+    "q": "¿Por qué las selvas tropicales húmedas se consideran fundamentales para el ciclo global del agua?",
+    "o": [
+      "Aportan grandes volúmenes de humedad a la atmósfera mediante la evapotranspiración",
+      "Absorben toda la lluvia evitando que se formen ríos o arroyos",
+      "Filtran el agua de los océanos convirtiéndola en agua dulce potable",
+      "Producen hidrógeno gaseoso que reacciona con el oxígeno del aire"
+    ],
+    "c": 0,
+    "e": "Los árboles de las selvas liberan toneladas de vapor de agua a través de la evapotranspiración, generando 'ríos atmosféricos' que recargan las lluvias continentales."
+  },
+  {
+    "q": "¿Qué es la caza furtiva y cómo impacta a la biodiversidad?",
+    "o": [
+      "Es la captura o matanza ilegal de fauna silvestre, reduciendo críticamente las poblaciones",
+      "Es la recolección regulada de plantas medicinales con permiso gubernamental",
+      "Es el control biológico de plagas mediante depredadores naturales",
+      "Es la reintroducción de animales criados en cautiverio a sus hábitats"
+    ],
+    "c": 0,
+    "e": "La caza ilegal o furtiva diezma las poblaciones silvestres para el comercio ilícito de pieles, marfil o mascotas, empujando a las especies a la extinción."
+  },
+  {
+    "q": "¿Qué papel cumplen las plantas pioneras en una sucesión ecológica primaria?",
+    "o": [
+      "Colonizan sustratos rocosos, secretan ácidos y generan las primeras capas de suelo fértil",
+      "Consumen los nutrientes acumulados por los árboles de gran tamaño",
+      "Evolucionan en mamíferos herbívoros mediante cambios metabólicos",
+      "Bloquean la luz solar para impedir la germinación de arbustos"
+    ],
+    "c": 0,
+    "e": "Especies como líquenes y musgos son capaces de sobrevivir sobre roca desnuda, fragmentando el sustrato y acumulando materia orgánica para que germinen otras especies."
+  },
+  {
+    "q": "¿Qué es la cota de tolerancia ambiental de un organismo?",
+    "o": [
+      "El rango de condiciones físicas y químicas (temperatura, pH, humedad) dentro del cual una especie puede sobrevivir",
+      "La profundidad máxima a la que un animal submarino puede nadar sin morir",
+      "El tiempo exacto que una planta puede vivir sin luz solar directa",
+      "El peso corporal máximo que puede alcanzar un depredador en libertad"
+    ],
+    "c": 0,
+    "e": "Cada especie tiene un rango de tolerancia para los factores abióticos; fuera de estos límites ecológicos, el individuo experimenta estrés o perece."
+  },
+  {
+    "q": "¿Qué tipo de adaptación presentan los animales del desierto para minimizar la pérdida de agua por excreción?",
+    "o": [
+      "Excretan desechos nitrogenados altamente concentrados en forma de ácido úrico o urea densa",
+      "Eliminan grandes volúmenes de orina diluida varias veces al día",
+      "Transpiran constantemente a través de la piel para enfriar el cuerpo",
+      "Almacenan agua exclusivamente en sus estructuras óseas"
+    ],
+    "c": 0,
+    "e": "Animales adaptados a zonas áridas (como reptiles y aves) excretan ácido úrico semisólido, lo que requiere una pérdida de agua mínima en comparación con la urea diluida."
+  },
+  {
+    "q": "¿Cuál es la función del Protocolo de Nagoya dentro del marco del CDB?",
+    "o": [
+      "Regular el acceso a los recursos genéticos y la participación justa y equitativa en sus beneficios",
+      "Prohibir el uso de energía nuclear en zonas con alta biodiversidad",
+      "Establecer cuotas obligatorias de pesca comercial de ballenas",
+      "Subvencionar la construcción de represas hidroeléctricas en áreas protegidas"
+    ],
+    "c": 0,
+    "e": "El Protocolo de Nagoya promueve una distribución equitativa de los beneficios derivados de la utilización de recursos genéticos y saberes tradicionales."
+  },
+  {
+    "q": "Un ecosistema con alta resiliencia ecológica se caracteriza por:",
+    "o": [
+      "Su capacidad para absorber perturbaciones y recuperar su estructura y funcionamiento original",
+      "Su vulnerabilidad a colapsar ante cambios leves de temperatura",
+      "La presencia de una sola especie vegetal dominante sin competidores",
+      "La ausencia total de bacterias descomponedoras en el suelo"
+    ],
+    "c": 0,
+    "e": "La resiliencia es la aptitud de un sistema ecológico para retornar a su estado de equilibrio o funcionamiento normal tras sufrir un impacto o alteración ambiental."
+  },
+  {
+    "q": "¿Qué es la ecología de la restauración?",
+    "o": [
+      "La disciplina científica dedicada a recuperar ecosistemas degradados, dañados o destruidos",
+      "El estudio de los fósiles antiguos para reconstruir climas extintos",
+      "El mantenimiento preventivo de máquinas agrícolas de bajo impacto",
+      "El diseño de zoológicos urbanos con aire acondicionado"
+    ],
+    "c": 0,
+    "e": "La restauración ecológica busca asistir el proceso de recuperación de la estructura, función y composición biológica de un ecosistema que ha sido degradado."
+  },
+  {
+    "q": "¿Qué fenómeno ocurre cuando el viento y las corrientes marinas desplazan las aguas profundas ricas en nutrientes hacia la superficie costera?",
+    "o": [
+      "Afloramiento o surgencia marina",
+      "Eutrofización continental",
+      "Efecto de estancamiento bentónico",
+      "Inversión térmica marina"
+    ],
+    "c": 0,
+    "e": "Las surgencias marinas fertilizan la zona eufótica (con luz) con nitratos y fosfatos del fondo, desencadenando la proliferación de fitoplancton y una alta biodiversidad."
+  },
+  {
+    "q": "¿Por qué las especies especialistas son más vulnerables a la extinción que las generalistas?",
+    "o": [
+      "Requieren condiciones ambientales específicas y alimentos exclusivos que si se alteran provocan su declive",
+      "Poseen tasas de reproducción extremadamente elevadas que agotan sus recursos",
+      "Tienen la capacidad de migrar a cualquier otro continente sin dificultad",
+      "Son inmunes a las infecciones virales pero sensibles a la luz solar"
+    ],
+    "c": 0,
+    "e": "Las especies especialistas (como el oso panda) depen de hábitats o dietas muy estrechas; cualquier cambio drástico en su nicho pone en riesgo inmediato su supervivencia."
+  },
+  {
+    "q": "¿Qué indicador biológico se utiliza para evaluar la calidad del aire en zonas forestales o urbanas?",
+    "o": [
+      "La presencia y diversidad de líquenes en las cortezas de los árboles",
+      "El número de roedores encontrados en los pastizales",
+      "La abundancia de moscas domésticas cerca de cuerpos de agua",
+      "La velocidad de crecimiento de los pastos sintéticos"
+    ],
+    "c": 0,
+    "e": "Los líquenes son altamente sensibles a contaminantes atmosféricos como el dióxido de azufre ($SO_2$); su ausencia o presencia indica la calidad del aire."
+  },
+  {
+    "q": "¿Qué es la diversidad beta en ecología?",
+    "o": [
+      "El grado de cambio o recambio en la composición de especies entre diferentes comunidades o hábitats",
+      "El recuento total de organismos de una sola especie en un Parque Nacional",
+      "El porcentaje de plantas vasculares con flores en una selva baja",
+      "La cantidad de biomasa generada por los consumidores primarios"
+    ],
+    "c": 0,
+    "e": "La diversidad beta evalúa la diferencia en la variedad de especies entre dos o más ecosistemas a lo largo de un gradiente geográfico o ambiental."
+  },
+  {
+    "q": "Las especies introducidas fuera de su rango geográfico histórico que logran establecerse y multiplicarse sin control son denominadas:",
+    "o": [
+      "Especies exóticas invasoras",
+      "Especies endémicas estrictas",
+      "Organismos autóctonos",
+      "Poblaciones nativas dominantes"
+    ],
+    "c": 0,
+    "e": "Una especie exótica se vuelve invasora cuando su propagación amenaza la biodiversidad nativa, la economía o la salud pública del nuevo entorno."
+  },
+  {
+    "q": "¿Cómo contribuyen los bosques de vegetación autóctona a la prevención de deslaves y la conservación del suelo?",
+    "o": [
+      "Sus sistemas radiculares entraman y sujetan la tierra mientras las copas amortiguan el impacto de las gotas de lluvia",
+      "Absorben todos los minerales del suelo volviéndolo una roca sólida",
+      "Repelen el agua de lluvia haciendo que corra a gran velocidad sin tocar la tierra",
+      "Transforman la tierra arcillosa en arena fina de baja densidad"
+    ],
+    "c": 0,
+    "e": "Las raíces fijan la estructura del suelo en laderas y la vegetación reduce la energía de la lluvia, previniendo la erosión hídrica y los deslizamientos."
+  },
+  {
+    "q": "¿Qué beneficio genético aporta la existencia de conectividad entre poblaciones de una misma especie?",
+    "o": [
+      "Promueve el flujo génico, evitando la endogamia y la pérdida de variabilidad genética",
+      "Aumenta la probabilidad de mutaciones letales espontáneas",
+      "Fuerza a la especie a dividirse en dos clases sociales distintas",
+      "Reduce la longevidad promedio de los descendientes"
+    ],
+    "c": 0,
+    "e": "El flujo genético entre poblaciones dispersas mantiene una reserva genética diversa, lo que reduce los riesgos de la endogamia y aumenta la resistencia a enfermedades."
+  },
+  {
+    "q": "¿Qué ecosistema costero de transición se caracteriza por la mezcla de agua dulce de río y agua salada de mar?",
+    "o": [
+      "Estuario",
+      "Arrecife de coral",
+      "Trinchera oceánica",
+      "Atolón marino"
+    ],
+    "c": 0,
+    "e": "Los estuarios son cuerpos de agua semicerrados donde el agua dulce proveniente de los ríos se combina con el agua salada del océano, creando zonas de alta productividad."
+  },
+  {
+    "q": "¿Qué es la 'huella hídrica' de un producto comercial o agrícola?",
+    "o": [
+      "El volumen total de agua dulce utilizado directa e indirectamente para su producción",
+      "La cantidad de lluvia que cae sobre el cultivo durante la cosecha",
+      "El porcentaje de humedad que conserva el producto en su empaque final",
+      "El nivel de contaminación por plástico dejado en el mar durante su transporte"
+    ],
+    "c": 0,
+    "e": "La huella hídrica mide el consumo de agua dulce en toda la cadena de producción de un bien, servicio o alimento."
+  },
+  {
+    "q": "¿A qué se debe el fenómeno de zonificación de la vegetación en las grandes montañas?",
+    "o": [
+      "A las variaciones de temperatura, humedad y presión atmosférica asociadas a los cambios de altitud",
+      "Al tipo de rocas que colocan manualmente los agricultores en las cumbres",
+      "A la presencia constante de fauna silvestre en las zonas bajas",
+      "A la falta de radiación solar en los picos elevados durante el verano"
+    ],
+    "c": 0,
+    "e": "Al ascender en una montaña, la temperatura desciende y cambian las precipitaciones, lo que determina franjas o pisos térmicos con distinta vegetación."
+  },
+  {
+    "q": "¿Qué es un banco de corales o vivero coralino?",
+    "o": [
+      "Una técnica de conservación ex situ o in situ para cultivar fragmentos de coral y trasplantarlos a arrecifes degradados",
+      "Un acuario comercial destinado a la venta de peces tropicales",
+      "Una formación rocosa artificial hecha a base de plásticos reciclados",
+      "Una zona marina reservada para la extracción de materia prima farmacéutica"
+    ],
+    "c": 0,
+    "e": "Los viveros de coral permiten propagar fragmentos coralinos sanos en entornos protegidos para posteriormente reforestar arrecifes dañados por el cambio climático."
+  },
+  {
+    "q": "¿Qué repercusión tiene el uso de redes de arrastre en la biodiversidad del fondo marino?",
+    "o": [
+      "Destruye físicamente las estructuras bentónicas y genera una alta captura incidental de especies no objetivo",
+      "Aumenta la oxigenación de los sedimentos marinos profundos",
+      "Promueve el asentamiento de nuevas colonias de esponjas y corales",
+      "Acelera el crecimiento reproductivo de las ballenas filtradoras"
+    ],
+    "c": 0,
+    "e": "La pesca de arrastre devasta los ecosistemas del lecho marino al arrasar con corales bentónicos, esponjas y capturar toneladas de fauna no deseada."
+  },
+  {
+    "q": "¿Por qué la pérdida de polinizadores silvestres representa un riesgo para la seguridad alimentaria mundial?",
+    "o": [
+      "Más del 75% de los cultivos alimentarios del mundo dependen en parte de la polinización animal para la producción de frutos y semillas",
+      "Los insectos polinizadores son la única fuente de nitrógeno inorgánico para el trigo y el arroz",
+      "Sin polinizadores, el suelo agrícola pierde la capacidad de retener humedad",
+      "Las plantas sin polinización animal mueren de forma inmediata al cabo de 24 horas"
+    ],
+    "c": 0,
+    "e": "Una gran proporción de frutas, hortalizas y frutos secos fundamentales para la nutrición humana dependen directamente del trabajo de insectos, aves y murciélagos polinizadores."
+  },
+  {
+    "q": "¿Qué es el nicho ecológico de una especie?",
+    "o": [
+      "La función ecológica total que desempeña una especie dentro del ecosistema, incluyendo sus interacciones y uso de recursos",
+      "El lugar físico o dirección geográfica exacta donde vive una población",
+      "La estructura física que construye un animal para ocultarse de sus depredadores",
+      "El grupo taxonómico al que pertenece un organismo según su ADN"
+    ],
+    "c": 0,
+    "e": "El nicho ecológico abarca el papel funcional de un organismo: qué come, cómo se reproduce, qué condicionantes toleran y cómo altera su entorno."
+  },
+  {
+    "q": "¿Qué impacto causa la contaminación lumínica en la fauna silvestre nocturna?",
+    "o": [
+      "Desorienta a aves migratorias, tortugas marinas recién nacidas e insectos nocturnos",
+      "Inhibe la fotosíntesis nocturna de las plantas de sotobosque",
+      "Aumenta la capacidad visual de los mamíferos depredadores sin daño alguno",
+      "Provoca la congelación de los tejidos epiteliales en los murciélagos"
+    ],
+    "c": 0,
+    "e": "El exceso de luz artificial en la noche altera las rutas de navegación astronómica de las aves y confunde el desplazamiento de las crías de tortuga hacia el mar."
+  },
+  {
+    "q": "¿Qué es la biota de una región?",
+    "o": [
+      "El conjunto integrado de la flora y la fauna que habitan en un territorio determinado",
+      "El mapa genético completo de una especie amenazada",
+      "La capa de gas ozono presente sobre un Parque Nacional",
+      "El total de minerales acumulados en los cauces de los ríos"
+    ],
+    "c": 0,
+    "e": "Biota se refiere al conjunto de organismos vivos (plantas, animales, hongos y microorganismos) propios de una región geográfica específica."
+  },
+  {
+    "q": "¿Qué estrategia evolutiva permite a ciertas plantas sobrevivir a incendios forestales periódicos en biomas como el matorral mediterráneo o el chaparral?",
+    "o": [
+      "Semillas serótinas que se liberan o germinan estimuladas por el calor del fuego",
+      "Hojas carnosas rellenas de agua de mar en lugar de savia",
+      "Raíces que se desprenden del suelo para migrar a zonas húmedas",
+      "Flores de cera sintética que no se queman a altas temperaturas"
+    ],
+    "c": 0,
+    "e": "La pirofítia abarca adaptaciones donde las plantas responden al fuego liberando semillas protegidas en conos o estructuras resistentes que germinan tras el paso del incendio."
+  },
+  {
+    "q": "¿Por qué es importante proteger las especies de depredadores tope (como el jaguar o el lobo) en las reservas naturales?",
+    "o": [
+      "Regulan las poblaciones de herbívoros, evitando la sobreexplotación de la cubierta vegetal",
+      "Aumentan la temperatura ambiente del bosque durante el invierno",
+      "Son las únicas especies capaces de polinizar árboles de gran tamaño",
+      "Producen nutrientes orgánicos directamente mediante respiración"
+    ],
+    "c": 0,
+    "e": "Al controlar la densidad de los consumidores primarios, los depredadores tope evitan cascadas tróficas que llevarían a la degradación de la vegetación y del suelo."
+  },
+  {
+    "q": "¿Qué es el parasitismo en las relaciones biológicas?",
+    "o": [
+      "Una interacción donde un organismo se beneficia viviendo a expensas de un huésped al que perjudica",
+      "Una asociación donde ambos participantes obtienen una ganancia metabólica recíproca",
+      "La caza y consumo inmediato de una presa por un individuo más fuerte",
+      "La competencia pacífica por el mismo espacio geográfico entre dos herbívoros"
+    ],
+    "c": 0,
+    "e": "El parásito se alimenta o refugia en el huésped, causándole un daño paulatino que raramente le provoca la muerte inmediata para continuar aprovechándolo."
+  },
+  {
+    "q": "¿Qué es una Zona Núcleo dentro de una Reserva de la Biosfera?",
+    "o": [
+      "Un área estrictamente protegida destinada a la conservación de la naturaleza sin alteraciones humanas directas",
+      "La zona donde se ubican las industrias pesadas y centros urbanos",
+      "Un sector exclusivo para el desarrollo de la ganadería extensiva",
+      "El perímetro de estacionamientos y centros comerciales del parque"
+    ],
+    "c": 0,
+    "e": "La Zona Núcleo posee como función principal la preservación de los ecosistemas, permitiéndose únicamente actividades de investigación científica y monitoreo ambiental no destructivo."
+  },
+  {
+    "q": "¿Qué efecto tiene la acumulación de plásticos de un solo uso en las redes tróficas marinas?",
+    "o": [
+      "Se fragmentan en microplásticos que son ingeridos por organismos marinos, transfiriéndose a lo largo de la cadena alimentaria",
+      "Se disuelven en agua dulce enriqueciendo la concentración de calcio",
+      "Servir de alimento de alto valor calórico para peces de profundidad",
+      "Filtrar las toxinas del agua haciendo más pura la zona abisal"
+    ],
+    "c": 0,
+    "e": "Los microplásticos adsorben toxinas y son consumidos por el zooplancton y peces, Bioacumulándose y llegando a los depredadores superiores y al consumo humano."
+  },
+  {
+    "q": "¿Qué es la vegetación esclerófila?",
+    "o": [
+      "Plantas con hojas duras, coriáceas y cerosas adaptadas para resistir periodos de sequía prolongados",
+      "Vegetación que crece exclusivamente sumergida en ríos de agua dulce",
+      "Plantas parásitas que carecen de clorofila y raíces subterráneas",
+      "Árboles caducifolios que pierden sus hojas ante las primeras heladas del otoño"
+    ],
+    "c": 0,
+    "e": "Las hojas esclerófilas poseen cutículas gruesas que evitan la pérdida excesiva de agua por transpiración durante épocas de fuerte calor o sequía."
+  },
+  {
+    "q": "¿Qué consecuencia trae la desecación de lagunas y humedales para las aves migratorias?",
+    "o": [
+      "Destrucción de sitios de descanso, alimentación y nidificación a lo largo de sus rutas migratorias",
+      "Aumento en la velocidad de vuelo de las bandadas durante sus trayectos",
+      "Transformación inmediata de las aves acuáticas en especies terrestres estables",
+      "Disminución natural de sus depredadores en los continentes polares"
+    ],
+    "c": 0,
+    "e": "Los humedales son 'estaciones de reabastecimiento' críticas; su pérdida rompe la red de escalas migratorias, causando el colapso poblacional de miles de aves."
+  },
+  {
+    "q": "¿Qué se entiende por 'banco de genes'?",
+    "o": [
+      "Una colección de material genético conservado (semillas, ADN, esperma, óvulos) para proteger la diversidad biológica",
+      "Una base de datos financiera para el financiamiento de proyectos ambientales",
+      "Un archivo impreso con los nombres científicos de los fósiles hallados",
+      "Un laboratorio dedicado exclusivamente a la clonación con fines comerciales"
+    ],
+    "c": 0,
+    "e": "Los bancos de genes guardan recursos genéticos vivos o congelados para asegurar que no se pierda la diversidad frente a crisis ambientales o extinciones."
+  },
+  {
+    "q": "¿Qué función cumplen los líquenes como organismos colonizadores?",
+    "o": [
+      "Inician la formación de suelo mediante la intemperización biológica de las rocas",
+      "Absorben el exceso de agua en los pantanos para convertirlos en praderas",
+      "Sustituyen a las raíces de los grandes árboles de la selva tropical",
+      "Repelen a los insectos herbívoros mediante la emisión de gases tóxicos"
+    ],
+    "c": 0,
+    "e": "Al ser una simbiosis entre hongo y alga, los líquenes toleran condiciones extremas sobre roca y liberan ácidos que degradan el mineral creando la base del suelo."
+  },
+  {
+    "q": "¿Qué es la mimetización o mimetismo en los seres vivos?",
+    "o": [
+      "La semejanza evolutiva que adquiere un organismo con respecto a otra especie o a su entorno para obtener ventajas de supervivencia",
+      "La pérdida total de pigmentación epidérmica debida a la falta de luz solar",
+      "La capacidad de un animal para cambiar de sexo según la temperatura",
+      "El aumento repentino del tamaño corporal para asustar a los depredadores"
+    ],
+    "c": 0,
+    "e": "El mimetismo (como el mimetismo mülleriano o batesiano) permite a una especie evadir depredadores al confundirse con el entorno o parecer peligrosa."
+  },
+  {
+    "q": "¿Qué diferencia fundamental existe entre un ecosistema natural y un agroecosistema?",
+    "o": [
+      "El agroecosistema es un entorno modificado y mantenido por el ser humano con baja diversidad para la producción agrícola",
+      "El agroecosistema carece por completo de flujo de energía solar y agua",
+      "El ecosistema natural no posee relaciones de depredación entre su fauna",
+      "El agroecosistema presenta mayor resiliencia ecológica que un bosque virgen"
+    ],
+    "c": 0,
+    "e": "Los agroecosistemas son diseñados antropogénicamente para maximizar el rendimiento de unas cuantas especies, requiriendo insumos constantes (agua, fertilizantes) y siendo más frágiles."
+  },
+  {
+    "q": "¿Qué objetivo persigue la creación de un Santuario de la Naturaleza o Área de Protección de Flora y Fauna?",
+    "o": [
+      "Preservar hábitats críticos para la supervivencia de especies amenazadas o endémicas concretas",
+      "Promover la construcción de infraestructura turística de alta densidad",
+      "Asegurar zonas para la extracción minera a gran escala con bajo impuesto",
+      "Permitir la introducción de fauna silvestre exótica con fines de caza"
+    ],
+    "c": 0,
+    "e": "Estas áreas protegidas están orientadas a la preservación de los hábitats de los cuales depende la continuidad de especies específicas o de valor ecológico particular."
+  },
+  {
+    "q": "¿Qué es la huella de carbono de un producto o actividad humana?",
+    "o": [
+      "La cantidad total de emisiones de gases de efecto invernadero (expresada en CO2 equivalente) generadas por su producción y uso",
+      "El número de hectáreas de bosque quemadas para la fabricación del empaque",
+      "La cantidad de hollín visible depositada en la atmósfera durante su transporte",
+      "El volumen de petróleo crudo necesario para alimentar la planta de ensamblaje"
+    ],
+    "c": 0,
+    "e": "La huella de carbono cuantifica las emisiones de gases de efecto invernadero para evaluar el impacto de un producto en el cambio climático."
+  },
+  {
+    "q": "¿Qué función cumple el Convenio CITES en la protección de la biodiversidad?",
+    "o": [
+      "Regula y fiscaliza el comercio internacional de especies amenazadas de fauna y flora silvestres",
+      "Financia la construcción de reservas biológicas exclusivamente en continentes africanos",
+      "Prohíbe el uso de fertilizantes nitrogenados en zonas continentales agrícolas",
+      "Garantiza el libre tránsito de especies invasoras entre fronteras nacionales"
+    ],
+    "c": 0,
+    "e": "CITES busca asegurar que el comercio internacional de especímenes de animales y plantas silvestres no ponga en riesgo su supervivencia."
+  },
+  {
+    "q": "¿Por qué los agroecosistemas en monocultivo son más susceptibles a las plagas en comparación con los policultivos?",
+    "o": [
+      "Al carecer de diversidad vegetal, carecen de barreras naturales y refugios para depredadores de la plaga",
+      "Los monocultivos atraen mayores niveles de radiación solar directa que destruyen las hojas",
+      "Las plantas de una sola variedad producen toxinas que atraen únicamente a virus gigantes",
+      "Las plagas prefieren consumir plantas genéticamente modificadas por encima de las silvestres"
+    ],
+    "c": 0,
+    "e": "La homogeneidad genética y estructural de un monocultivo ofrece alimento ilimitado a las plagas sin la presencia de competidores o enemigos naturales."
+  },
+  {
+    "q": "El fenómeno biológico mediante el cual dos especies compiten por los mismos recursos limitados y una termina desplazando a la otra se conoce como:",
+    "o": [
+      "Principio de exclusión competitiva de Gause",
+      "Coevolución antagónica secundaria",
+      "Equilibrio punteado interdivergente",
+      "Efecto de cuello de botella ecológico"
+    ],
+    "c": 0,
+    "e": "El principio de Gause postula que dos especies que compiten exactamente por el mismo recurso limitado no pueden coexistir de forma estable a largo plazo."
+  },
+  {
+    "q": "¿Qué caracteriza al bioma de la taiga o bosque boreal?",
+    "o": [
+      "Dominancia de bosques de coníferas (pinos, abetos) adaptados a inviernos largos y fríos",
+      "Ausencia total de lluvias durante más de diez meses consecutivos al año",
+      "Presencia de arbustos espinosos y cactáceas gigantes de rápido crecimiento",
+      "Suelos profundamente fértiles enriquecidos con depósitos de ceniza volcánica reciente"
+    ],
+    "c": 0,
+    "e": "La taiga se sitúa al sur de la tundra en el hemisferio norte y destaca por sus extensas masas forestales de gimnospermas perennifolias."
+  },
+  {
+    "q": "¿Qué rol cumple la diversidad genotípica en el éxito de los programas de reintroducción de fauna silvestre?",
+    "o": [
+      "Aumenta la adaptabilidad de la nueva población reintroducida a cambios y enfermedades del entorno",
+      "Garantiza que todos los ejemplares liberados tengan exactamente el mismo peso corporal",
+      "Acelera el tiempo de gestación en los mamíferos criados en cautiverio",
+      "Evita que las crías sufran ataques por parte de depredadores autóctonos"
+    ],
+    "c": 0,
+    "e": "Una mayor variabilidad genética brinda a la población reintroducida la plasticidad necesaria para hacer frente a patógenos e imprevisibilidades ambientales."
+  },
+  {
+    "q": "¿Qué es la pesca incidental (bycatch) y por qué representa una amenaza para la biodiversidad marina?",
+    "o": [
+      "Es la captura no intencionada de comercialmente inviables o especies protegidas (tortugas, delfines, tiburones) que mueren en las redes",
+      "Es la captura de peces de agua dulce durante las inundaciones estacionales de los ríos",
+      "Es el consumo de peces pequeños por parte de las aves marinas costeras",
+      "Es la recolección manual de moluscos en zonas de marea baja durante la noche"
+    ],
+    "c": 0,
+    "e": "La pesca incidental descarta o mata anualmente a millones de animales marinos no objetivo, debilitando las poblaciones de especies vulnerables."
+  },
+  {
+    "q": "¿Qué beneficio aporta el mantillo o la hojarasca que cubre el suelo en los bosques húmedos?",
+    "o": [
+      "Mantiene la humedad, previene la erosión y aporta materia orgánica en descomposición",
+      "Impide por completo el desarrollo de la microfauna y de las hifas fúngicas",
+      "Refleja la luz del Sol hacia las copas de los árboles acelerando la floración",
+      "Incrementa la alcalinidad del suelo impidiendo el nacimiento de malas hierbas"
+    ],
+    "c": 0,
+    "e": "La hojarasca es una capa protectora esencial que amortigua la temperatura del suelo y alimenta a la red de descomponedores."
+  },
+  {
+    "q": "¿Qué es la coevolución?",
+    "o": [
+      "El cambio evolutivo recíproco entre dos o más especies que interactúan estrechamente entre sí",
+      "La evolución simultánea de dos especies en continentes separados sin contacto alguno",
+      "La extinción conjunta de un depredador y su presa debido a un evento catastrófico",
+      "La transformación de una especie vegetal en una especie fúngica con el paso del tiempo"
+    ],
+    "c": 0,
+    "e": "Un ejemplo clásico de coevolución ocurre entre las plantas con flor y sus polinizadores específicos, adaptando sus estructuras mutuamente."
+  },
+  {
+    "q": "¿Qué es una zona muerta o hipóxica en un cuerpo de agua acuático?",
+    "o": [
+      "Un área con concentraciones extremadamente bajas de oxígeno disuelto incapaz de sostener la mayor parte de la vida marina",
+      "Un sector abisal rodeado de rocas volcánicas sin agua líquida",
+      "Un estanque artificial utilizado para desinfectar la flora invasora",
+      "Una región marina donde la evaporación ha secado por completo el lecho"
+    ],
+    "c": 0,
+    "e": "La hipoxia es desencadenada por la eutrofización; las bacterias al descomponer algas masivas consumen el oxígeno, sofocando a peces y crustáceos."
+  },
+  {
+    "q": "¿Qué es el ecoturismo de bajo impacto?",
+    "o": [
+      "El turismo responsable que conserva el medio ambiente y mejora el bienestar de la población local",
+      "El viaje masivo a reservas naturales mediante la construcción de megaresorts",
+      "La caza deportiva planificada en áreas protegidas con la compra de licencias carísimas",
+      "El transporte de animales exóticos para su exhibición en hoteles de playa"
+    ],
+    "c": 0,
+    "e": "El ecoturismo busca minimizar la huella ambiental del viajero, concientizar sobre la conservación y generar beneficios socioeconómicos locales."
+  },
+  {
+    "q": "El fenómeno por el cual los nutrientes se desplazan de las capas superiores del suelo hacia las profundas debido al flujo de agua de lluvia se llama:",
+    "o": [
+      "Lixiviación o lavado de suelos",
+      "Capilaridad hídrica ascendente",
+      "Eutrofización freática",
+      "Sustitución mineral primaria"
+    ],
+    "c": 0,
+    "e": "La lixiviación puede empobrecer los suelos agrícolas o forestales al arrastrar minerales solubles fuera del alcance de las raíces de las plantas."
+  },
+  {
+    "q": "¿Cuál es la función ecológica de los arrecifes de ostra en las bahías costeras?",
+    "o": [
+      "Filtrar grandes volúmenes de agua, reducir la turbidez y servir de refugio para alevines",
+      "Producir sales minerales que incrementan la salinidad del agua dulce",
+      "Competir con las algas verdes consumiendo todo el dióxido de carbono",
+      "Generar mareas rojas mediante la liberación de toxinas amoniacales"
+    ],
+    "c": 0,
+    "e": "Las ostras son moluscos filtradores que limpian la columna de agua y construyen estructuras tridimensionales que albergan fauna juvenil."
+  },
+  {
+    "q": "¿Qué impacto ambiental directo produce la minería a cielo abierto en los ecosistemas terrestres?",
+    "o": [
+      "Remoción total de la cubierta vegetal, acidificación de acuíferos y pérdida irreversibles de suelo",
+      "Incremento de la fijación de nitrógeno en las cuencas hidrográficas circundantes",
+      "Aumento en la densidad de los bosques perennifolios de montaña",
+      "Disminución drástica de la radiación solar incidente sobre la mina"
+    ],
+    "c": 0,
+    "e": "La minería a cielo abierto altera drásticamente el relieve, destruye hábitats enteros y contamina fuentes hídricas con metales pesados y drenaje ácido."
+  },
+  {
+    "q": "¿Qué caracteriza a una especie estenoica?",
+    "o": [
+      "Un organismo con un rango de tolerancia muy estrecho frente a factores ambientales como la temperatura o salinidad",
+      "Una especie con la capacidad de adaptarse a cualquier tipo de dieta y clima",
+      "Un animal que carece de depredadores naturales dentro de su hábitat",
+      "Una planta que florece múltiples veces al año en cualquier estación"
+    ],
+    "c": 0,
+    "e": "Los organismos estenoicos (como los corales) son muy sensibles a pequeñas variaciones ambientales en su entorno habitual."
+  },
+  {
+    "q": "¿Qué es la diversidad criogénica o crio-conservación de la biodiversidad?",
+    "o": [
+      "La preservación de células, gametos o tejidos a temperaturas ultra bajas (nitrógeno líquido) para evitar su deterioro genético",
+      "La protección de biomas glaciares mediante la instalación de paneles aislantes",
+      "La hibernación artificial de mamíferos en parques zoológicos para su reproducción",
+      "La recolección de fósiles conservados naturalmente en el hielo glacial"
+    ],
+    "c": 0,
+    "e": "La crioconservación congela muestras biológicas a -196 °C, manteniendo viable el material genético de especies en riesgo inminente de extinción."
+  },
+  {
+    "q": "Las interacciones biológicas de mutualismo donde las dos especies no pueden sobrevivir la una sin la otra se clasifican como:",
+    "o": [
+      "Mutualismo obligado",
+      "Mutualismo facultativo",
+      "Comensalismo estricto",
+      "Protocooperación secundaria"
+    ],
+    "c": 0,
+    "e": "En el mutualismo obligado (como en los líquenes o en las avispas de los higos), la interdependencia metabólica o reproductiva es total."
+  },
+  {
+    "q": "¿Por qué las zonas costeras inundables (marismas) ayudan a mitigar el cambio climático global?",
+    "o": [
+      "Actúan como 'carbono azul', capturando y almacenando carbono en sus sedimentos de forma muy eficiente",
+      "Reflejan el 100% de la energía solar de vuelta al espacio sin calentarse",
+      "Eliminan las moléculas de metano del aire convirtiéndolas en oxígeno puro",
+      "Impiden el calentamiento del agua marina mediante la sombra de los acantilados"
+    ],
+    "c": 0,
+    "e": "Ecosistemas como marismas, manglares y pastos marinos secuestran carbono a tasas significativamente mayores por hectárea que los bosques terrestres."
+  },
+  {
+    "q": "¿Qué es un indicador de calidad ecológica en biología acuática?",
+    "o": [
+      "Una especie o grupo de organismos cuya presencia, abundancia o salud refleja el estado ecológico de un medio acuático",
+      "Un dispositivo electrónico que mide el flujo de corriente en las presas",
+      "La temperatura del agua registrada durante la temporada veraniega",
+      "La cantidad total de sedimento fino acumulado en las riberas del río"
+    ],
+    "c": 0,
+    "e": "Organismos como los macroinvertebrados bentónicos son bioindicadores clave para clasificar el nivel de contaminación de ríos y arroyos."
+  },
+  {
+    "q": "¿Qué fenómeno de fragmentación del hábitat impide el paso libre de mamíferos terrestres de gran tamaño?",
+    "o": [
+      "Construcción de barreras físicas lineales como autopistas y cercas infranqueables",
+      "Aumento en la densidad de árboles pioneros dentro de la selva",
+      "Inundación estacional de los valles por las lluvias anuales",
+      "Pérdida temporal del follaje arbóreo en estaciones secas"
+    ],
+    "c": 0,
+    "e": "La infraestructura humana lineal fragmenta el territorio, aumentando el riesgo de atropellamientos y aislando genéticamente a las poblaciones animales."
+  },
+  {
+    "q": "¿Qué son los servicios de provisión o suministro que nos brindan los ecosistemas?",
+    "o": [
+      "Los bienes materiales directos que obtenemos de la naturaleza, como alimento, agua dulce, madera y medicinas",
+      "Los procesos que regulan el clima, la erosión y la polinización de los cultivos",
+      "Los beneficios no materiales como la belleza paisajística y la recreación",
+      "Los procesos básicos como la fotosíntesis y la formación de suelo"
+    ],
+    "c": 0,
+    "e": "Los servicios de provisión abarcan todos los recursos físicos tangibles que la naturaleza suministra a las sociedades humanas."
+  },
+  {
+    "q": "¿Qué adaptación morfológica poseen los árboles de manglar para sobrevivir en suelos anóxicos (sin oxígeno) y salinos?",
+    "o": [
+      "Neumatóforos (raíces respiratorias) que sobresalen del agua y glándulas secretoras de sal",
+      "Troncos huecos rellenos de gas nitrógeno para flotar sobre el lodo",
+      "Hojas carnosas capaces de realizar fotosíntesis subterránea",
+      "Raíces primarias que penetran decenas de kilómetros en la corteza terrestre"
+    ],
+    "c": 0,
+    "e": "Los neumatóforos permiten a las raíces del manglar captar oxígeno del aire durante la marea baja, superando la anoxia del sedimento fangoso."
+  },
+  {
+    "q": "¿Qué consecuencia ecológica produce la pérdida de la capa superior del suelo por erosión eólica o hídrica?",
+    "o": [
+      "Pérdida irreversible de la reserva de materia orgánica, semillas y microorganismos fértiles",
+      "Aumento inmediato en la tasa de infiltración de agua subterránea",
+      "Generación espontánea de nuevos bosques primarios en zonas áridas",
+      "Neutralización total de las sales tóxicas acumuladas en el subsuelo"
+    ],
+    "c": 0,
+    "e": "El horizonte A del suelo contiene la mayor parte del humus y la actividad biológica; su pérdida destruye la fertilidad del ecosistema."
+  },
+  {
+    "q": "¿Qué se comprende por 'fauna endémica relicta'?",
+    "o": [
+      "Especies supervivientes de un grupo que tuvo una distribución amplia en el pasado geológico, ahora restringidas a un área reducida",
+      "Animales traídos de otros continentes para habitar en áreas urbanas",
+      "Especies criadas exclusivamente en laboratorios de ingeniería genética",
+      "Aves migratorias que frecuentan los polos durante el verano"
+    ],
+    "c": 0,
+    "e": "Las especies relictas son 'fósiles vivientes' o poblaciones remanentes que han sobrevivido a cambios climáticos geológicos en refugios específicos."
+  },
+  {
+    "q": "¿Por qué es riesgoso el cultivo masivo de variedades agrícolas genéticamente homogéneas (clones o líneas puras)?",
+    "o": [
+      "Una sola plaga o enfermedad adaptada puede devastar la totalidad de la cosecha al no haber resistencia genética individual",
+      "Requieren el triple de radiación solar para poder iniciar la fotosíntesis",
+      "Mutan espontáneamente convirtiéndose en especies de malas hierbas invasoras",
+      "Impiden el flujo del ciclo del agua en los acuíferos subterráneos"
+    ],
+    "c": 0,
+    "e": "Sin diversidad genética, un cultivo no posee individuos con variantes de resistencia natural frente a la aparición de un nuevo patógeno."
+  },
+  {
+    "q": "¿Qué es la capacidad de regeneración de un ecosistema?",
+    "o": [
+      "La tasa a la cual los recursos biológicos consumidos pueden ser reemplazados de forma natural por los procesos ecológicos",
+      "El número total de bacterias que nacen en un gramo de suelo por segundo",
+      "La velocidad a la que un bosque destruido puede ser pavimentado",
+      "El porcentaje de radiación ultravioleta absorbido por las plantas"
+    ],
+    "c": 0,
+    "e": "La capacidad de regeneración define el límite de explotación sostenible de un recurso renovable sin provocar su agotamiento."
+  },
+  {
+    "q": "¿Qué rol juegan los comedores de carroña (necrófagos) como los buitres o zopilotes en la salud de los ecosistemas?",
+    "o": [
+      "Eliminan cadáveres reduciendo la propagación de patógenos letales y reciclando nutrientes rápidamente",
+      "Compiten con las aves de presa matando especímenes sanos de la fauna",
+      "Aumentan la acumulación de gas metano en la atmósfera terrestre",
+      "Destruyen la semilla de los árboles impidiendo el nacimiento de bosques"
+    ],
+    "c": 0,
+    "e": "Los carroñeros limpian el entorno de materia orgánica en descomposición, conteniendo brotes infecciosos de bacterias como el ántrax."
+  },
+  {
+    "q": "¿Qué se entiende por 'diversidad funcional' dentro de una comunidad biológica?",
+    "o": [
+      "La variedad de roles ecológicos, rasgos y funciones que desempeñan los diferentes organismos en un ecosistema",
+      "El recuento simple del número total de individuos de todas las especies",
+      "El cálculo del peso corporal combinado de toda la fauna terrestre",
+      "La cantidad de aplicaciones comerciales que el ser humano puede dar a las plantas"
+    ],
+    "c": 0,
+    "e": "La diversidad funcional analiza qué hacen las especies (ej. polinizadores, fijadores de nitrógeno, descomponedores) para asegurar el funcionamiento del ecosistema."
+  },
+  {
+    "q": "¿Qué impacto ambiental produce el fenómeno de la contaminación por plásticos en el bioma abisal o de profundidad?",
+    "o": [
+      "Acumulación de basura no biodegradable que altera los microhábitats bentónicos y sofoca fauna de lento crecimiento",
+      "Calentamiento de las aguas marinas abisales por absorción de radiación",
+      "Incremento drástico en la biomasa de pez linterna en los fondos marinos",
+      "Eliminación de la salinidad en las trincheras oceánicas profundas"
+    ],
+    "c": 0,
+    "e": "Los plásticos se depositan en el lecho abisal donde la falta de luz y las bajas temperaturas hacen su degradación casi imposible, afectando comunidades bentónicas frágiles."
+  },
+  {
+    "q": "¿Qué es la ecología del paisaje?",
+    "o": [
+      "La disciplina que estudia las interacciones espaciales entre diferentes patrones del paisaje y los procesos ecológicos",
+      "El arte de diseñar jardines con plantas exóticas de alto valor estético",
+      "El monitoreo fotográfico de zonas turísticas costeras desde satélites",
+      "La clasificación de las rocas según su nivel de erosión por el viento"
+    ],
+    "c": 0,
+    "e": "Analiza cómo la heterogeneidad espacial (parches, matriz, corredores) influye en la distribución y movimiento de los organismos a gran escala."
+  },
+  {
+    "q": "¿A qué se debe el fenómeno conocido como 'marea roja'?",
+    "o": [
+      "A la proliferación masiva de microalgas (dinoflagelados) que pueden liberar toxinas dañinas para la fauna marina y humana",
+      "Al vertido industrial masivo de colorantes orgánicos sintéticos en las costas",
+      "A la presencia de grandes concentraciones de oxido de hierro disuelto en la marea",
+      "Al reflejo de la luz solar en los sedimentos de arcilla roja durante el atardecer"
+    ],
+    "c": 0,
+    "e": "Las floraciones algales nocivas (marea roja) concentran toxinas que paralizan o matan peces, moluscos y pueden causar intoxicaciones graves en humanos."
+  },
+  {
+    "q": "¿Qué beneficio ambiental aporta la práctica de la agroforestería o sistemas agroforestales?",
+    "o": [
+      "Combina árboles con cultivos o ganado, aumentando la biodiversidad, conservando el suelo y secuestrando carbono",
+      "Permite la eliminación total de la fauna silvestre mediante pesticidas biológicos",
+      "Aumenta la necesidad de fertilizantes sintéticos de síntesis química",
+      "Destruye las napas freáticas subterráneas para acelerar el secado del grano"
+    ],
+    "c": 0,
+    "e": "La agroforestería integra árboles en los sistemas agrícolas, mejorando la estructura del suelo, reteniendo agua y diversificando los ingresos del agricultor."
+  },
+  {
+    "q": "¿Qué se define como 'especie bandera' o emblemática en las campañas de conservación?",
+    "o": [
+      "Una especie carismática (ej. oso panda, águila real) utilizada para concientizar al público y recaudar fondos para la conservación",
+      "Una especie invasora que se propaga rápidamente por varios países de una región",
+      "Un organismo extinto cuyo ADN ha sido secuenciado completamente",
+      "Una planta ornamental utilizada para delimitar el mapa de un Parque Nacional"
+    ],
+    "c": 0,
+    "e": "Las especies bandera generan empatía en el público general, sirviendo como símbolo para movilizar la protección de hábitats enteros."
+  },
+  {
+    "q": "Las variaciones periódicas a largo plazo en la órbita de la Tierra y la inclinación de su eje que influyen en los cambios climáticos globales se conocen como:",
+    "o": [
+      "Ciclos de Milankovitch",
+      "Efecto Coriolis amplificado",
+      "Oscilación del Niño-La Niña",
+      "Constante solar de Gauss"
+    ],
+    "c": 0,
+    "e": "Los ciclos de Milankovitch describen cómo las pequeñas variaciones en la órbita terrestre alteran la distribución solar, desencadenando glaciaciones e interglaciares."
+  },
+  {
+    "q": "¿Qué es la resiliencia en un agroecosistema?",
+    "o": [
+      "La capacidad de mantener la producción agrícola a pesar de sequías, plagas u otros shocks ambientales",
+      "La propiedad de requerir el doble de plaguicidas tras cada temporada de cosecha",
+      "El proceso de conversión de la tierra fértil en desierto salino en poco tiempo",
+      "La aptitud para producir una sola variedad de fruta durante todo el año"
+    ],
+    "c": 0,
+    "e": "Un agroecosistema resiliente utiliza la diversidad ecológica para resistir y recuperarse de perturbaciones climáticas o biológicas sin colapsar."
+  },
+  {
+    "q": "¿Qué importancia tiene la diversidad de artrópodos de la hojarasca en un bosque templado?",
+    "o": [
+      "Fragmentan la materia vegetal muerta, acelerando la descomposición y el reciclaje de nutrientes",
+      "Bloquean la penetración de las raíces de las coníferas en el subsuelo",
+      "Consumen todo el vapor de agua evitando que el aire del bosque sea húmedo",
+      "Eliminan el oxígeno disponible para los hongos subterráneos"
+    ],
+    "c": 0,
+    "e": "Insectos, ácaros y miriápodos reducen el tamaño de la hojarasca, facilitando el trabajo metabólico de bacterias y hongos descomponedores."
+  },
+  {
+    "q": "¿Qué consecuencia causa la contaminación por plomo y otros metales pesados en las aves rapaces?",
+    "o": [
+      "Envenenamiento agudo y crónico (saturnismo), alterando su sistema nervioso y capacidad reproductiva",
+      "Fortalecimiento indeseado de la densidad de su plumaje impidiendo el vuelo",
+      "Transformación de su dieta carnívora a una dieta exclusivamente frugívora",
+      "Aumento en el grosor de la cáscara de los huevos impidiendo la eclosión"
+    ],
+    "c": 0,
+    "e": "Las rapaces ingieren perdigones de plomo al consumir presas cazadas con munición de plomo, sufriendo graves toxicidades que diezman sus poblaciones."
+  },
+  {
+    "q": "¿Qué se entiende por 'reserva extractivista' como modalidad de área protegida?",
+    "o": [
+      "Un área destinada al uso sustentable de recursos renovables por poblaciones tradicionales (ej. recolección de caucho o castañas)",
+      "Un territorio destinado a la explotación intensiva de petróleo y minería de carbón",
+      "Un laboratorio ex situ para la clonación masiva de especies maderables",
+      "Una zona urbana donde se procesan los residuos orgánicos de las metrópolis"
+    ],
+    "c": 0,
+    "e": "Las reservas extractivistas combinan la conservación de la naturaleza con la garantía de los medios de vida y cultura de las comunidades locales."
+  },
+  {
+    "q": "¿Por qué la pérdida del permafrost en las regiones árticas acelera el cambio climático?",
+    "o": [
+      "Al descongelarse, se degrada la materia orgánica acumulada liberando grandes volúmenes de metano y CO2",
+      "Provoca una absorción inmediata de las aguas de los océanos hacia el centro de la Tierra",
+      "Detiene las corrientes eólicas globales alterando la rotación de la atmósfera",
+      "Aumenta la reflexión de la luz solar (efecto albedo) en el polo norte"
+    ],
+    "c": 0,
+    "e": "El permafrost almacena carbono orgánico antiguo; su derretimiento activa microorganismos que descomponen esa materia, emitiendo gases de efecto invernadero."
+  },
+  {
+    "q": "¿Qué es la ecología de poblaciones?",
+    "o": [
+      "La rama de la ecología que estudia la estructura, dinámica y factores que regulan el tamaño de las poblaciones de una especie",
+      "La ciencia que clasifica el número de ciudades existentes en un país",
+      "El estudio de los virus y bacterias dentro de los organismos humanos",
+      "La medición de la producción de madera en un bosque cultivado"
+    ],
+    "c": 0,
+    "e": "Esta disciplina examina variables como la natalidad, mortalidad, inmigración y emigración para comprender cómo cambian los grupos de la misma especie."
+  },
+  {
+    "q": "¿Qué impacto ambiental genera el ruido antropogénico (submarino y terrestre) en la comunicación de la fauna?",
+    "o": [
+      "Interfiere con las señales acústicas utilizadas para la orientación, cortejo y detección de depredadores",
+      "Estimula el crecimiento acelerado de los órganos auditivos en los reptiles",
+      "Aumenta la frecuencia de fertilización en cetáceos de gran tamaño",
+      "Provoca la muerte inmediata de las plantas expuestas a altas frecuencias"
+    ],
+    "c": 0,
+    "e": "El ruido de motores, sonares e industria enmascara los cantos y ecos de orientación, desorientando a mamíferos marinos y aves."
+  },
+  {
+    "q": "El proceso por el cual un lago pasa de un estado oligotrófico (pobre en nutrientes) a eutrófico (rico en nutrientes) de forma natural durante siglos se denomina:",
+    "o": [
+      "Eutrofización natural o envejecimiento del lago",
+      "Sucesión regresiva bentónica",
+      "Salinización por evaporación",
+      "Acidificación lacustre espontánea"
+    ],
+    "c": 0,
+    "e": "A lo largo de tiempos geológicos, los lagos acumulan sedimentos y nutrientes gradualmente, en un proceso natural que la actividad humana acelera (eutrofización cultural)."
+  },
+  {
+    "q": "¿Qué es un 'refugio climático' en biología de la conservación?",
+    "o": [
+      "Área geográfica que mantiene condiciones climáticas relativamente estables mientras las regiones circundantes sufren cambios severos",
+      "Una instalación artificial climatizada para resguardar fauna exótica en invierno",
+      "Un refugio subterráneo construido para proteger al ganado del granizo",
+      "La copa de los árboles más altos en un bosque tropical lluvioso"
+    ],
+    "c": 0,
+    "e": "Los refugios climáticos brindan hábitats viables a largo plazo a especies amenazadas por el aumento global de temperaturas o sequías."
+  },
+  {
+    "q": "¿Qué rol juegan los arrecifes de coral en el ciclo global del carbono?",
+    "o": [
+      "Fijan el carbono disuelto al construir sus esqueletos de carbonato de calcio ($CaCO_3$)",
+      "Producen gas metano a partir de la digestión del plancton marino",
+      "Emiten grandes cantidades de bióxido de azufre a la atmósfera",
+      "Inhiben el crecimiento del fitoplancton que captura carbono"
+    ],
+    "c": 0,
+    "e": "Los corales duros precipitan carbonato de calcio para crear su exoesqueleto, inmovilizando cantidades masivas de carbono en el fondo marino durante milenios."
+  },
+  {
+    "q": "¿A qué se refiere la 'regla de Allen' en biología adaptativa?",
+    "o": [
+      "Las extremidades de los animales endotermos de la misma especie son más cortas en climas fríos para reducir la pérdida de calor",
+      "Los animales de latitudes altas son siempre de color blanco para mimetizarse con la nieve",
+      "Las especies de mayor tamaño siempre consumen una menor cantidad de alimento por kilo de peso",
+      "Los peces de aguas frías poseen una menor tolerancia a la salinidad que los de aguas cálidas"
+    ],
+    "c": 0,
+    "e": "La regla de Allen señala que las orejas, colas y patas de los mamíferos adaptados al frío son más reducidas para minimizar la superficie expuesta a la disipación térmica."
+  },
+  {
+    "q": "¿Qué es un servidumbre ecológica o de conservación?",
+    "o": [
+      "Un acuerdo legal voluntario entre un propietario privado y un organismo protector para limitar el uso del suelo y proteger su valor natural",
+      "Un impuesto obligatorio a las empresas que contaminan los acuíferos subterráneos",
+      "Un camino público asfaltado que atraviesa una Reserva de la Biosfera",
+      "El derecho del gobierno a expropiar tierras agrícolas abandonadas"
+    ],
+    "c": 0,
+    "e": "Las servidumbres ecológicas permiten a particulares proteger terrenos de alto valor ambiental restringiendo permanentemente actividades destructivas."
+  },
+  {
+    "q": "¿Qué consecuencia causa la salinización de los suelos agrícolas por riego inadecuado?",
+    "o": [
+      "Dificulta la absorción de agua por las raíces de las plantas debido al estrés osmótico y toxicidad por sales",
+      "Aumenta la retención de materia orgánica e incrementa el rendimiento del cultivo",
+      "Fomenta el crecimiento espontáneo de especies maderables de selva alta",
+      "Neutraliza de forma inmediata todos los plaguicidas aplicados"
+    ],
+    "c": 0,
+    "e": "El exceso de sales solubles acumuladas por evaporación del agua de riego impide la hidratación celular de los cultivos, dejando las tierras estériles."
+  },
+  {
+    "q": "¿Por qué la pérdida de diversidad genética reduce la fitness o adecuación biológica de una población?",
+    "o": [
+      "Incrementa la expresión de alelos recesivos perjudiciales y reduce la capacidad de respuesta adaptativa",
+      "Aumenta la tasa de consumo de alimentos sin generar ganancia de biomasa",
+      "Resta movilidad a los machos impidiéndoles escapar de sus predadores",
+      "Detiene la división celular durante los procesos de regeneración celular"
+    ],
+    "c": 0,
+    "e": "La endogamia en poblaciones pequeñas saca a la luz mutaciones nocivas y reduce la fecundidad y supervivencia general (depresión por endogamia)."
+  },
+  {
+    "q": "¿Qué es la fenología y cómo el cambio climático la altera?",
+    "o": [
+      "El estudio de los eventos biológicos estacionales; el calentamiento desincroniza la floración, migración y reproducción de las especies",
+      "La ciencia que estudia la forma de los cráneos de los mamíferos extintos",
+      "La medición de la densidad de los sedimentos en los lechos fluviales",
+      "La clasificación de las plantas según el color de sus hojas en primavera"
+    ],
+    "c": 0,
+    "e": "El cambio de temperaturas altera los tiempos de fenología (ej. flores que brotan antes de que lleguen sus polinizadores), desajustando las redes tróficas."
+  },
+  {
+    "q": "¿Qué papel desempeñan los manglares en la protección de la biodiversidad de los arrecifes de coral adyacentes?",
+    "o": [
+      "Retienen sedimentos y contaminantes provenientes de tierra adentro, manteniendo el agua marina clara y limpia",
+      "Inyectan nitratos concentrados al mar para acelerar el blanqueamiento coralino",
+      "Reducen la temperatura del agua del océano mediante sombras gigantescas",
+      "Filtran la sal marina haciendo que el agua que llega al arrecife sea dulce"
+    ],
+    "c": 0,
+    "e": "Las complejas raíces del manglar atrapan los sedimentos de la escorrentía, evitando que ahoguen y maten a los pólipos de coral que requieren luz clara."
+  },
+  {
+    "q": "¿Qué es la 'huella hídrica' de un producto agroalimentario?",
+    "o": [
+      "El volumen total de agua dulce utilizada directa e indirectamente para producirlo a lo largo de toda su cadena de suministro",
+      "La cantidad de agua de lluvia que cae sobre el cultivo durante el día de la cosecha",
+      "El volumen de agua evaporada únicamente en la fase de empaque comercial",
+      "La cantidad de vapor de agua emitida por la maquinaria utilizada para su transporte"
+    ],
+    "c": 0,
+    "e": "La huella hídrica evalúa el impacto sobre los recursos hídricos considerando el consumo de agua verde (lluvia), azul (superficial/subterránea) y gris (para diluir contaminantes)."
+  },
+  {
+    "q": "¿Qué se entiende por 'sucesión ecológica secundaria'?",
+    "o": [
+      "El proceso de recolonización y desarrollo vegetal en una zona donde la comunidad previa fue destruida pero el suelo fértil permanece intacto",
+      "La colonización de una roca volcánica recién formada completamente carente de suelo",
+      "El reemplazo de una especie vegetal por otra debido a la introducción de plaguicidas sintéticos",
+      "La transformación de un bioma terrestre en un ecosistema acuático por inundación marina"
+    ],
+    "c": 0,
+    "e": "A diferencia de la primaria, la sucesión secundaria ocurre tras perturbaciones como incendios o talas, aprovechando el banco de semillas y el suelo ya formado."
+  },
+  {
+    "q": "El proceso mediante el cual los microorganismos convierten el gas nitrógeno amoniacal en nitritos y luego en nitratos asimilables por las plantas se conoce como:",
+    "o": [
+      "Nitrificación",
+      "Desnitrificación",
+      "Amonificación secundaria",
+      "Fijación abiótica"
+    ],
+    "c": 0,
+    "e": "La nitrificación es un proceso aeróbico realizado por bacterias quimiolitótrofas (como Nitrosomonas y Nitrobacter) vital para la nutrición vegetal."
+  },
+  {
+    "q": "¿Qué efecto produce la acumulación de dióxido de carbono ($CO_2$) disuelto en los océanos sobre los organismos con concha?",
+    "o": [
+      "Provoca la acidificación del agua, reduciendo los iones carbonato necesarios para que construyan y mantengan sus conchas de $CaCO_3$",
+      "Aumenta el grosor de sus exoesqueletos haciéndolos inmunes a los depredadores",
+      "Sustituye el calcio de sus conchas por depósitos de sílice pura",
+      "Inhibe la respiración branquial al expulsar todo el oxígeno a la atmósfera"
+    ],
+    "c": 0,
+    "e": "El $CO_2$ reacciona con el agua formando ácido carbónico, lo que disuelve las estructuras calcáreas de corales, moluscos y plancton."
+  },
+  {
+    "q": "¿Qué es la bioacumulación?",
+    "o": [
+      "El proceso mediante el cual una sustancia tóxica se acumula en los tejidos de un organismo a una tasa mayor de la que puede ser metabolizada o excretada",
+      "El incremento masivo de la biomasa vegetal tras una lluvia primaveral",
+      "La acumulación de fósiles en las capas sedimentarias del subsuelo",
+      "El almacenamiento de agua en los tallos de las plantas suculentas"
+    ],
+    "c": 0,
+    "e": "Sustancias lipofílicas como los metilmercurios o pesticidas organoclorados se concentran en la grasa de los organismos a lo largo de su vida."
+  },
+  {
+    "q": "¿A qué se refiere la biomagnificación en las cadenas tróficas?",
+    "o": [
+      "Al aumento progresivo en la concentración de un contaminante en los tejidos de los organismos en niveles tróficos sucesivamente más altos",
+      "Al incremento en el tamaño corporal de los depredadores de ápice en comparación con las presas",
+      "A la multiplicación exponencial de las poblaciones de fitoplancton en primavera",
+      "Al aumento de la energía disponible a medida que se asciende en la pirámide ecológica"
+    ],
+    "c": 0,
+    "e": "Debido a la biomagnificación, los superdepredadores (como orcas o águilas) acumulan las dosis más elevadas y peligrosas de toxinas persistentemente presentes en la red."
+  },
+  {
+    "q": "¿Qué función ecofisiológica desempeñan las micorrizas en la mayoría de las plantas terrestres?",
+    "o": [
+      "Facilitan la absorción de agua y nutrientes minerales (como el fósforo) a cambio de carbohidratos producidos por fotosíntesis",
+      "Protegen a las hojas de la radiación ultravioleta emitiendo pigmentos reflectantes",
+      "Sustituyen la función de las estomas durante periodos de sequía severa",
+      "Fijan nitrógeno atmosférico directamente en las flores de los árboles"
+    ],
+    "c": 0,
+    "e": "La simbiosis micorrízica entre hongos del suelo y raíces extiende enormemente el área de exploración radicular para la captación de agua y fósforo."
+  },
+  {
+    "q": "¿Qué es la perturbación intermedia (Hipótesis del Nivel de Perturbación Intermedio)?",
+    "o": [
+      "La noción de que la diversidad de especies alcanza su máximo cuando las perturbaciones ambientales ocurren con frecuencia e intensidad moderadas",
+      "La teoría de que los ecosistemas solo son estables cuando no sufren ningún tipo de alteración externa",
+      "El principio por el cual las catástrofes extremas son indispensables para el nacimiento de nuevas clases taxonómicas",
+      "El equilibrio exacto entre la tasa de natalidad y mortalidad en una población aislada"
+    ],
+    "c": 0,
+    "e": "Frecuencias intermedias de perturbación evitan que las especies competidoras dominantes monopolicen los recursos sin llegar a exterminar a las especies más vulnerables."
+  },
+  {
+    "q": "¿Qué rol juegan los humedales continentales en la regulación del ciclo hídrico?",
+    "o": [
+      "Actúan como esponjas naturales que absorben el exceso de agua en crecidas, recargan acuíferos y filtran contaminantes",
+      "Aceleran la evaporación rápida evitando que los ríos lleguen al mar",
+      "Incrementan la salinidad de los acuíferos subterráneos adyacentes",
+      "Detienen la circulación de corrientes de aire impidiendo la formación de nubes"
+    ],
+    "c": 0,
+    "e": "Los humedales amortiguan las inundaciones reteniendo el agua de escorrentía, purificándola biológicamente mediante la vegetación y los sedimentos."
+  },
+  {
+    "q": "¿A qué se debe el 'efecto de borde' en fragmentos de bosque o selva?",
+    "o": [
+      "A las alteraciones microclimáticas y biológicas que ocurren en el límite entre el interior del hábitat y la matriz antropizada adyacente",
+      "Al crecimiento acelerado de los árboles más antiguos situados justo en el centro del fragmento",
+      "A la desaparición completa de los insectos voladores dentro de los parches de vegetación",
+      "Al aumento sostenido de la humedad relativa conforme se aproxima uno a la orilla del bosque"
+    ],
+    "c": 0,
+    "e": "Los bordes presentan mayor radiación, viento y variaciones térmicas, lo que favorece a especies oportunistas e invasoras en detrimento de las especialistas de interior."
+  },
+  {
+    "q": "¿Qué es un 'hotspot' o punto caliente de biodiversidad?",
+    "o": [
+      "Una región biogeográfica con un alto nivel de endemismo vegetal y animal que sufre una amenaza crítica de destrucción de hábitat",
+      "Una zona volcánica submarina donde la temperatura del agua permite el crecimiento de bacterias termófilas",
+      "Un área agrícola donde la temperatura ambiente supera los 45 °C de forma constante",
+      "Un territorio dedicado exclusivamente a la cría de especies exóticas en cautiverio"
+    ],
+    "c": 0,
+    "e": "Para ser considerado hotspot se requiere albergar al menos 1,500 especies de plantas endémicas y haber perdido al menos el 70% de su vegetación primaria."
+  },
+  {
+    "q": "¿Cuál es la causa principal del blanqueamiento o decoloración de los corales?",
+    "o": [
+      "La expulsión de las microalgas simbiontes (zooxantelas) debido al estrés térmico por el aumento de temperatura del agua",
+      "La deposición masiva de sedimentos plásticos sobre la superficie del arrecife",
+      "La falta total de salinidad en las aguas marinas tropicales durante la noche",
+      "El consumo directo del esqueleto de coral por parte de peces herbívoros"
+    ],
+    "c": 0,
+    "e": "El estrés por calor rompe la simbiosis entre el pólipo y las zooxantelas; al perder sus algas fotosintéticas, el coral se vuelve blanco y corre riesgo de morir por inanición."
+  },
+  {
+    "q": "¿Qué es la 'capacidad de carga' ($K$) de una población en un hábitat determinado?",
+    "o": [
+      "El tamaño máximo de población de una especie que los recursos de un entorno específico pueden sostener de forma indefinida",
+      "El peso biológico total acumulado por todos los productores primarios de una cadena",
+      "El número de crías que una hembra puede procrear a lo largo de su vida reproductiva",
+      "La velocidad máxima de desplazamiento de un grupo de mamíferos durante una migración"
+    ],
+    "c": 0,
+    "e": "La capacidad de carga ($K$) representa el límite superior del crecimiento poblacional determinado por la disponibilidad de alimento, agua, espacio y refugio."
+  },
+  {
+    "q": "¿Qué caracteriza a una 'especie clave' (keystone species) en un ecosistema?",
+    "o": [
+      "Una especie cuyo impacto en la comunidad es disproportionadamente grande en relación con su abundancia biomasa",
+      "La especie vegetal más abundante y de mayor tamaño presente en un bioma",
+      "Un organismo introducido que desplaza a las comunidades autóctonas sin predadores",
+      "Una especie cuya población no sufre variaciones independientemente de los cambios ambientales"
+    ],
+    "c": 0,
+    "e": "Su remoción desencadena un efecto dominó (cascada trófica) que altera drásticamente la estructura y diversidad de toda la comunidad ecológica."
+  },
+  {
+    "q": "¿Qué es la desertificación?",
+    "o": [
+      "La degradación de la tierra en zonas áridas, semiáridas y subhúmedas secas resultante de variaciones climáticas y actividades humanas",
+      "La expansión natural de las dunas costeras por la fuerza de los vientos alisios",
+      "El secado estacional de las charcas temporales durante la época de verano",
+      "La tala de bosques tropicales húmedos exclusivamente en zonas montañosas"
+    ],
+    "c": 0,
+    "e": "La sobreexplotación del suelo, el sobrepastoreo y la deforestación reducen la cubierta vegetal y la materia orgánica, transformando tierras fértiles en áreas áridas."
+  },
+  {
+    "q": "¿Qué función desempeñan las bacterias fijadoras de nitrógeno (como Rhizobium) en las raíces de las leguminosas?",
+    "o": [
+      "Transforman el gas nitrógeno atmosférico ($N_2$) en amonio ($NH_4^+$), una forma química utilizable por las plantas",
+      "Absorben la glucosa sobrante del suelo para evitar la proliferación de mohos",
+      "Secretan hormonas que aceleran la caída de las hojas maduras en otoño",
+      "Descomponen los silicatos de la roca madre para liberar calcio y magnesio"
+    ],
+    "c": 0,
+    "e": "Mediante la enzima nitrogenasa, estas bacterias simbióticas convierten el $N_2$ inerte en compuestos nitrogenados esenciales para la síntesis de aminoácidos."
+  },
+  {
+    "q": "¿Qué es la 'cascada trófica'?",
+    "o": [
+      "Un proceso ecológico desencadenado por la adición o eliminación de depredadores tope, que propaga cambios a lo través de niveles tróficos sucesivos",
+      "El flujo unidireccional de agua limpia a través de las diferentes plantas hidroeléctricas",
+      "La pérdida acumulativa de energía en forma de calor al pasar de un nivel de la pirámide al siguiente",
+      "La migración vertical del zooplancton hacia la superficie durante las noches sin luna"
+    ],
+    "c": 0,
+    "e": "La alteración en el nivel trófico superior afecta la abundancia o comportamiento de los herbívoros, regulando indirectamente la vegetación y otros niveles."
+  },
+  {
+    "q": "¿Qué es el 'albedo' y cómo influye en el balance térmico de la Tierra?",
+    "o": [
+      "El porcentaje de radiación solar reflejado por una superficie; superficies claras (nieve/hielo) reflejan más energía enfriando el planeta",
+      "La cantidad de calor interno emitido por el núcleo terrestre hacia la corteza",
+      "El índice de humedad que retiene la vegetación denso en una selva tropical",
+      "La velocidad a la que los gases de efecto invernadero absorben los rayos infrarrojos"
+    ],
+    "c": 0,
+    "e": "La pérdida de hielo ártico reduce el albedo global, provocando que el océano oscuro absorba más calor y acelere el calentamiento."
+  },
+  {
+    "q": "¿Qué caracteriza a las especies clasificadas como 'r-estrategas'?",
+    "o": [
+      "Producen un elevado número de descendientes con poca inversión parental y maduración rápida, adaptadas a ambientes inestables",
+      "Invierten gran energía en el cuidado de pocas crías y poseen una alta longevidad",
+      "Mantienen sus poblaciones de forma constante cerca de la capacidad de carga ($K$)",
+      "Tienen dietas altamente especializadas y habitan únicamente en biomas maduros"
+    ],
+    "c": 0,
+    "e": "Los r-estrategas (como insectos o roedores) priorizan una alta tasa intrínseca de incremento poblacional ($r$) para colonizar hábitats efímeros."
+  },
+  {
+    "q": "¿A qué se refiere la 'resiliencia ecológica'?",
+    "o": [
+      "La capacidad de un ecosistema para absorber perturbaciones y reorganizarse sin perder esencialmente su estructura, función e identidad",
+      "La velocidad exacta con la que una planta recupera sus hojas tras ser atacada por una plaga",
+      "La resistencia física de la madera de los árboles frente a vientos de fuerza de huracán",
+      "La invulnerabilidad total de un bioma maduro frente a cambios climáticos globales"
+    ],
+    "c": 0,
+    "e": "La resiliencia mide cuánto estrés puede tolerar un sistema antes de cambiar drásticamente hacia un estado alternativo no deseado."
+  },
+  {
+    "q": "¿Qué es la 'eutrofización cultural' o antrópica en un cuerpo de agua?",
+    "o": [
+      "El vertido de nutrientes (fósforo y nitrógeno) por actividades humanas que causa la floración masiva de algas y el agotamiento del oxígeno",
+      "El aumento paulatino de los niveles de salinidad debido al vertido de salmueras industriales",
+      "La alteración del pH acuático causada exclusivamente por las emanaciones de lluvia ácida",
+      "La proliferación de peces exóticos introducidos para el control biológico de mosquitos"
+    ],
+    "c": 0,
+    "e": "El exceso de fertilizantes y aguas residuales estimula el crecimiento desmedido de algas; al morir, su descomposición bacteriana consume el oxígeno disuelto."
+  },
+  {
+    "q": "¿Qué función cumple la franja de vegetación riparia (riberas de los ríos)?",
+    "o": [
+      "Estabiliza los márgenes del cauce, filtra los contaminantes de la escorrentía y provee sombra y refugio a la vida acuática",
+      "Aumenta la velocidad de las corrientes previniendo la acumulación de grava fértil",
+      "Elimina por completo el dióxido de carbono disuelto en la corriente de agua",
+      "Impide el libre tránsito de especies anfibias entre el agua y la tierra firme"
+    ],
+    "c": 0,
+    "e": "Los bosques de ribera actúan como amortiguadores esenciales que previenen la erosión de las orillas y capturan el exceso de sedimentos y agrotóxicos."
+  },
+  {
+    "q": "¿A qué se refiere el término 'servicios de regulación' prestados por los ecosistemas?",
+    "o": [
+      "A los beneficios obtenidos del control de procesos naturales como el clima, la calidad del aire, la purificación del agua y las enfermedades",
+      "A los productos directos como alimentos, fibras y madera extraídos de las reservas forestales",
+      "A las leyes y normativas ambientales creadas por las instituciones gubernamentales",
+      "A los valores estéticos, espirituales y recreativos que inspiran la cultura humana"
+    ],
+    "c": 0,
+    "e": "Los servicios de regulación mantienen el equilibrio operativo del planeta, modulando eventos extremos, polinización y ciclos de plagas."
+  },
+  {
+    "q": "¿Qué es la invasión biológica por especies exóticas?",
+    "o": [
+      "El establecimiento y propagación de especies fuera de su área de distribución natural que alteran la biodiversidad y los servicios del ecosistema",
+      "La migración estacional masiva de aves desde el hemisferio norte hacia el sur",
+      "La recolonización de campos abandonados por parte de la vegetación nativa regional",
+      "El transporte voluntario de ganado doméstico para el pastoreo en praderas alpinas"
+    ],
+    "c": 0,
+    "e": "Sin predadores o patógenos naturales en la nueva zona, las especies invasoras compiten eficazmente contra las nativas, constituyendo una causa principal de extinción."
+  },
+  {
+    "q": "¿Por qué las especies endémicas continentales o insulares son más vulnerables a la extinción?",
+    "o": [
+      "Poseen distribuciones geográficas restringidas y adaptaciones especializadas, lo que limita su capacidad frente a alteraciones de hábitat",
+      "Carecen de variabilidad genética básica para sintetizar proteínas dentro de sus células",
+      "Se reproducen únicamente durante los eclipses solares o lunares",
+      "Son consumidas preferentemente por todas las especies de aves migratorias"
+    ],
+    "c": 0,
+    "e": "Al habitar en un área limitada (como una isla), cualquier destrucción local de su entorno o llegada de patógenos puede erradicar a toda la especie."
+  },
+  {
+    "q": "¿Qué es el 'banco de semillas del suelo'?",
+    "o": [
+      "La reserva natural de semillas viables no germinadas presentes en el suelo y la hojarasca, capaces de regenerar la vegetación tras una perturbación",
+      "Una bóveda subterránea construida por seres humanos para conservar semillas congeladas",
+      "La acumulación de frutos caídos que sirven de alimento exclusivo para roedores",
+      "La capa de minerales donde las raíces absorben los nutrientes inorgánicos"
+    ],
+    "c": 0,
+    "e": "El banco de semillas representa la memoria y potencial de recuperación del ecosistema, permitiendo la resiliencia vegetal tras incendios o desbroces."
+  },
+  {
+    "q": "¿Qué función ecofisiológica cumple la estoma en las hojas de las plantas superiores?",
+    "o": [
+      "Regula el intercambio gaseoso ($CO_2$ y $O_2$) y la pérdida de agua mediante el proceso de transpiración",
+      "Absorbe directamente la energía solar para convertirla en calor utilizable",
+      "Ancla la hoja al tallo previniendo su caída durante vientos intensos",
+      "Sintetiza la lignina requerida para el endurecimiento del tejido leñoso"
+    ],
+    "c": 0,
+    "e": "Las células oclusivas de las estomas se abren o cierran en respuesta a la disponibilidad de agua y luz, balanceando la fotosíntesis con la hidratación."
+  },
+  {
+    "q": "¿A qué se refiere la 'resistencia ambiental' en dinámica de poblaciones?",
+    "o": [
+      "El conjunto de factores bióticos y abióticos (limitación de recursos, plagas, clima) que impiden que una población crezca según su potencial biótico",
+      "La capacidad de los insectos para sobrevivir a la aplicación repetida de insecticidas químicos",
+      "La tolerancia de las plantas de desierto a temperaturas extremadamente elevadas",
+      "La capacidad de los suelos para evitar la erosión hídrica durante las tormentas"
+    ],
+    "c": 0,
+    "e": "La resistencia ambiental actúa como un freno natural que frena el crecimiento exponencial y estabiliza a las poblaciones en torno a su capacidad de carga."
+  },
+  {
+    "q": "¿Qué es la 'conectividad ecológica' entre paisajes fragmentados?",
+    "o": [
+      "El grado en que el paisaje facilita o impide el movimiento de los organismos y el flujo de procesos ecológicos entre parches de hábitat",
+      "La instalación de redes de monitoreo satelital en áreas protegidas continentales",
+      "La continuidad física de las carreteras asfaltadas que atraviesan una reserva",
+      "El grado de semejanza genética entre especies que habitan en continentes distintos"
+    ],
+    "c": 0,
+    "e": "Asegurar la conectividad (a través de corredores biológicos) es vital para evitar el aislamiento genético y permitir el desplazamiento adaptativo de la fauna."
+  },
+  {
+    "q": "¿Qué es la 'sombra de lluvia' en la ecología de vertientes montañosas?",
+    "o": [
+      "Un área seca en el lado de sotavento de una montaña, debido a que las masas de aire pierden su humedad al ascender por el lado de barlovento",
+      "La disminución de la fotosíntesis provocada por la sombra persistente de los picos alucinantes",
+      "La reducción de la precipitación causada por la deforestación de las laderas inferiores",
+      "La franja de bosque denso donde la lluvia es interceptada casi por completo por las copas de los árboles"
+    ],
+    "c": 0,
+    "e": "El aire se enfría y descarga su humedad al subir por barlovento; al descender por sotavento, se calienta y seca, creando biomas áridos o semiáridos."
+  },
+  {
+    "q": "¿Qué son los 'contaminantes orgánicos persistentes' (COP)?",
+    "o": [
+      "Sustancias químicas sintéticas que se resisten a la degradación ambiental, se bioacumulan y transportan a largas distancias",
+      "Restos de materia vegetal en descomposición que permanecen en el humus durante décadas",
+      "Fertilizantes de nitrógeno de liberación lenta utilizados en la agricultura orgánica",
+      "Gases naturales emitidos por los pantanos tras la descomposición de hojarasca"
+    ],
+    "c": 0,
+    "e": "Los COP (como el DDT o las dioxinas) son estables y liposolubles, persistiendo años en el medio ambiente y acumulándose en la cadena alimentaria."
+  },
+  {
+    "q": "¿Qué caracteriza a las especies 'K-estrategas'?",
+    "o": [
+      "Tienen pocas crías, alta inversión en el cuidado parental, maduración lenta y poblaciones estables cerca de la capacidad de carga ($K$)",
+      "Producen miles de huevos sin brindarles protección y se reproducen rápidamente en ambientes inestables",
+      "Tienen ciclos de vida extremadamente cortos y son muy eficientes colonizando ambientes destruidos",
+      "Dependen exclusivamente del viento para la dispersión de sus estructuras reproductivas"
+    ],
+    "c": 0,
+    "e": "Los K-estrategas (como elefantes, ballenas o primates) maximizan la supervivencia de cada individuo en ambientes competitivos y estables."
+  },
+  {
+    "q": "¿Qué es la 'deforestación embrionaria o hormiga'?",
+    "o": [
+      "La tala progresiva e informal de pequeñas parcelas de bosque que, acumulada con el tiempo, genera una fragmentación severa del paisaje",
+      "La destrucción del follaje de los árboles provocada por plagas masivas de hormigas cortadoras",
+      "La pérdida espontánea de regeneración natural causada por el sobrepastoreo de roedores",
+      "El desmonte planificado de fajas de protección contra incendios forestales"
+    ],
+    "c": 0,
+    "e": "Aunque a pequeña escala parece insignificante, el desmonte paulatino en múltiples puntos destruye la continuidad estructural del ecosistema forestal."
+  },
+  {
+    "q": "¿Qué es la 'neutralización del suelo' por minerales de origen cálcico?",
+    "o": [
+      "La adición de cal ($CaCO_3$) para elevar el pH de suelos altamente ácidos y mejorar la disponibilidad de nutrientes para las plantas",
+      "El lavado total de sales mediante la aplicación excesiva de agua de riego",
+      "El proceso por el cual el suelo pierde toda su capacidad para retener agua dulce",
+      "La compactación de los poros del suelo producida por la maquinaria agrícola pesada"
+    ],
+    "c": 0,
+    "e": "El encalado reduce la acidez y la toxicidad por aluminio en los suelos, favoreciendo la actividad microbiológica y la captación de nutrientes."
+  },
+  {
+    "q": "¿Qué rol juegan los organismos detritívoros (como lombrices y colémbolos) en el suelo?",
+    "o": [
+      "Consumen materia orgánica muerta fragmentándola y facilitando la descomposición química por bacterias y hongos",
+      "Fijan directamente el vapor de agua atmosférico en forma de rocío subterráneo",
+      "Sintetizan pesticidas naturales que eliminan las raíces de las plantas competidoras",
+      "Atrapan los gases de efecto invernadero del aire y los convierten en minerales pesados"
+    ],
+    "c": 0,
+    "e": "Al digerir y triturar la hojarasca y restos orgánicos, aumentan la superficie disponible para la acción enzimática de los descomponedores microbianos."
+  },
+  {
+    "q": "¿Qué es la 'sostenibilidad ambiental'?",
+    "o": [
+      "La administración responsable de los recursos naturales de modo que se satisfagan las necesidades presentes sin comprometer las de las generaciones futuras",
+      "La prohibición total de cualquier actividad económica o de extracción dentro de un país",
+      "El uso intensivo de los recursos no renovables hasta su agotamiento para financiar tecnologías limpias",
+      "La capacidad de mantener un crecimiento industrial ilimitado en un planeta de recursos finitos"
+    ],
+    "c": 0,
+    "e": "Implica la tasa de consumo de recursos renovables no superior a su tasa de regeneración y la emisión de contaminantes dentro de la capacidad de absorción del medio."
+  },
+  {
+    "q": "¿A qué se le denomina 'zonificación ecológica' en un área protegida?",
+    "o": [
+      "La división del territorio en sectores con diferentes grados de protección y niveles permitidos de uso o intervención humana",
+      "La separación estricta de las plantas hembra y macho para evitar la polinización no controlada",
+      "La clasificación de los tipos de rocas según su edad geológica y resistencia a la erosión",
+      "La asignación de tarifas turísticas diferenciadas según la nacionalidad de los visitantes"
+    ],
+    "c": 0,
+    "e": "La zonificación establece desde zonas núcleo de conservación estricta hasta zonas de amortiguamiento y uso sustentable compatible con la conservación."
+  },
+  {
+    "q": "¿Qué es un 'bioindicador' ecológico?",
+    "o": [
+      "Un organismo o comunidad cuyo estado o respuesta fisiológica/poblacional indica las condiciones ambientales o el nivel de contaminación de un sitio",
+      "Un sensor electrónico enterrado para medir la temperatura y humedad del suelo",
+      "Un tinte químico utilizado para identificar las vetas de minerales en las rocas",
+      "Una especie exótica introducida para acelerar la tasa de fotosíntesis de un bosque"
+    ],
+    "c": 0,
+    "e": "Especies sensibles como los líquenes (para calidad del aire) o truchas (para pureza hídrica) señalan perturbaciones antes de que sean fácilmente medibles."
+  },
+  {
+    "q": "¿Qué es la 'diversidad beta' en ecología de comunidades?",
+    "o": [
+      "La tasa de cambio en la composición de especies entre diferentes comunidades o a lo largo de un gradiente ambiental",
+      "El número total de especies presentes dentro de un solo ecosistema o hábitat homogéneo (diversidad alfa)",
+      "La diversidad genética combinada de todas las poblaciones a escala biogeográfica global (diversidad gamma)",
+      "La proporción de individuos carnívoros en comparación con los herbívoros dentro de una red trófica"
+    ],
+    "c": 0,
+    "e": "La diversidad beta mide el recambio de especies de un sitio a otro, reflejando la heterogeneidad espacial del paisaje."
+  },
+  {
+    "q": "¿Por qué las franjas de amortiguamiento alrededor de los Parques Nacionales son fundamentales?",
+    "o": [
+      "Mitigan los impactos negativos de las actividades humanas colindantes y reducen los efectos de borde sobre la zona núcleo",
+      "Impiden la salida de las aves migratorias hacia otros continentes durante el invierno",
+      "Sirven exclusivamente para la construcción de hoteles de gran capacidad turística",
+      "Garantizan el drenaje rápido de los ríos hacia áreas de cultivo intensivo"
+    ],
+    "c": 0,
+    "e": "Estas zonas de transición absorben presiones como la expansión urbana o agrícola, protegiendo los valores ecológicos de las áreas núcleo conservadas."
+  },
+  {
+    "q": "¿Qué es el 'drenaje ácido de mina' y qué impacto ecológico produce?",
+    "o": [
+      "El efluente ácido rico en sulfatos y metales pesados generado por la oxidación de sulfuros al exporse al aire y agua, el cual devasta la vida acuática",
+      "El agua limpia purificada mediante el filtrado con rocas calizas en instalaciones mineras",
+      "La pérdida de humedad en las plantas adyacentes a las canteras de extracción de arena",
+      "La liberación de metano puro por las grietas de la corteza durante las perforaciones"
+    ],
+    "c": 0,
+    "e": "El drenaje ácido reduce drásticamente el pH de ríos y arroyos, solubilizando metales tóxicos que matan la fauna y flora dulceacuícola."
+  },
+  {
+    "q": "¿A qué se refiere el término 'pérdida de hábitat'?",
+    "o": [
+      "El proceso por el cual un hábitat natural es transformado o destruido hasta el punto de no poder sostener a sus especies nativas",
+      "La migración temporal de una manada de mamíferos en búsqueda de agua en épocas de sequía",
+      "El cambio estacional de color en el follaje de los bosques caducifolios",
+      "La reducción temporal en la tasa de fotosíntesis producida por días nublados"
+    ],
+    "c": 0,
+    "e": "La pérdida de hábitat (por agricultura, urbanización o minería) representa la causa directa número uno de la crisis global de extinción de especies."
+  },
+  {
+    "q": "¿Qué es un 'ecosistema degradado'?",
+    "o": [
+      "Un ecosistema que ha perdido su estructura, función, diversidad o productividad original debido a impactos naturales o antrópicos",
+      "Un bioma que atraviesa naturalmente la fase invernal de reposo vegetativo",
+      "Un área protegida que carece de personal administrativo suficiente para su resguardo",
+      "Un entorno donde las especies especialistas han desplazado por completo a las generalistas"
+    ],
+    "c": 0,
+    "e": "Un ecosistema degradado retiene parte de su comunidad biológica, pero su capacidad para brindar servicios ecológicos y auto-mantenerse se encuentra comprometida."
+  },
+  {
+    "q": "¿A qué se le denomina 'servicios de soporte' en la evaluación de los ecosistemas?",
+    "o": [
+      "A los procesos ecológicos fundamentales que sustentan la producción de todos los demás servicios (ej. ciclo de nutrientes, fotosíntesis, formación de suelo)",
+      "Al suministro de materiales y materias primas utilizables directamente por las industrias humanas",
+      "A las infraestructuras físicas construidas para la conservación de la fauna en cautiverio",
+      "A la regulación de plagas y enfermedades mediante el uso de enemigos naturales sintéticos"
+    ],
+    "c": 0,
+    "e": "Los servicios de soporte son la base estructural y funcional del planeta; sin ellos no existirían los servicios de provisión, regulación ni culturales."
+  },
+  {
+    "q": "¿Qué es la 'huella ecológica' de una población humana?",
+    "o": [
+      "La medida de la superficie de tierra y agua biológicamente productiva requerida para producir los recursos consumidos y absorber los residuos generados",
+      "El área física total pavimentada que ocupan las edificaciones e infraestructuras de una ciudad",
+      "La cantidad total de kilogramos de basura plástica no reciclada que termina en los océanos cada año",
+      "El número de hectáreas de bosque plantadas para compensar las emisiones de CO2 industriales"
+    ],
+    "c": 0,
+    "e": "Compara la demanda humana sobre la biosfera con la biocapacidad o capacidad del planeta para regenerar esos recursos y procesar sus desechos."
+  },
+  {
+    "q": "¿Qué se entiende por 'restauración ecológica'?",
+    "o": [
+      "El proceso de asistir a la recuperación de un ecosistema que ha sido degradado, dañado o destruido para restablecer su integridad ecológica",
+      "La sustitución de un bosque nativo destruido por una monocultura de árboles comerciales de crecimiento rápido",
+      "El aislamiento total de un área para impedir cualquier tipo de estudio biológico en ella",
+      "La recolección periódica de la hojarasca para evitar la propagación de incendios en parques urbanos"
+    ],
+    "c": 0,
+    "e": "Busca devolver al ecosistema degradado su estructura, composición de especies y procesos funcionales hacia una trayectoria histórica o resiliente."
+  },
+  {
+    "q": "¿Qué función ecológicamente crucial desempeñan las abejas y otros polinizadores silvestres?",
+    "o": [
+      "Permiten la reproducción sexual de la gran mayoría de las plantas con flor y garantizan la producción de frutos y semillas en cultivos y vegetación silvestre",
+      "Controlan la población de bacterias fitopatógenas mediante la ingesta de savia",
+      "Reciclan la madera muerta accelerando la producción de fertilizantes orgánicos en el suelo",
+      "Incrementan el nivel de oxígeno en la atmósfera al consumir el polen sobrante"
+    ],
+    "c": 0,
+    "e": "Más del 75% de los cultivos alimentarios del mundo y el 80% de las plantas silvestres con flor dependen directamente de la polinización por animales."
+  },
+  {
+    "q": "¿Qué es la 'fitorremediación'?",
+    "o": [
+      "El uso de plantas y sus microorganismos asociados para degradar, extraer, contener o inmovilizar contaminantes del suelo y del agua",
+      "La erradicación de malas hierbas mediante la siembra de especies invasoras de rápida cobertura",
+      "El proceso de fertilización foliar de los cultivos utilizando extractos solubles de algas marinas",
+      "La alteración genética de los árboles para incrementar la resistencia a las heladas invernales"
+    ],
+    "c": 0,
+    "e": "Es una biotecnología limpia que aprovecha la capacidad de ciertas plantas (hiperacumuladoras) para limpiar suelos contaminados por metales pesados o hidrocarburos."
+  },
+  {
+    "q": "¿Qué es la 'neutralidad de degradación de las tierras'?",
+    "o": [
+      "El estado en el que la cantidad y calidad de los recursos de la tierra necesarios para sostener las funciones del ecosistema se mantienen estables o se incrementan",
+      "La prohibición total de la conversión de zonas urbanas en parcelas dedicadas al cultivo",
+      "El equilibrio químico perfecto entre los iones de sodio y potasio en la matriz del suelo",
+      "La condición de un suelo desértico que ha perdido por completo su capacidad de retener humedad"
+    ],
+    "c": 0,
+    "e": "Busca un balance donde las pérdidas de tierra fértil por actividad humana o clima sean compensadas con la restauración de áreas equivalente en el mismo periodo."
+  },
+  {
+    "q": "¿Qué caracteriza a los bosques primarios o vírgenes?",
+    "o": [
+      "Bosques de especies nativas donde los procesos ecológicos no han sido alterados significativamente por la actividad humana directa",
+      "Plantaciones forestales comerciales de pinos o eucaliptos destinadas a la industria papelera",
+      "Zonas arboladas regeneradas recientemente tras el abandono de actividades agrícolas",
+      "Parques urbanos diseñados con vegetación de distintos continentes con fines ornamentales"
+    ],
+    "c": 0,
+    "e": "Tienen una estructura compleja, gran biodiversidad, árboles centenarios y una abundancia de madera muerta que sostiene redes tróficas especializadas."
+  },
+  {
+    "q": "¿Qué es la 'huella de carbono neutral' o neutralidad de carbono?",
+    "o": [
+      "El estado en que las emisiones netas de gases de efecto invernadero liberadas a la atmósfera se equilibran a cero mediante la reducción y la compensación",
+      "La prohibición absoluta del uso de cualquier tipo de combustible fósil en un país determinado",
+      "El cálculo del carbono almacenado en las rocas sedimentarias de la corteza terrestre",
+      "La conversión de todos los residuos sólidos urbanos en biogás sintético para cocinar"
+    ],
+    "c": 0,
+    "e": "Se logra reduciendo las emisiones al mínimo posible y compensando las emisiones residuales mediante proyectos de absorción (como reforestación) o créditos de carbono."
+  },
+  {
+    "q": "¿Qué es la 'sucesión ecológica primaria'?",
+    "o": [
+      "El proceso de colonización y desarrollo comunitario que ocurre en un sustrato completamente nuevo y carente de suelo o materia orgánica previa",
+      "El crecimiento de brotes secundarios en un bosque dañado por un incendio de baja intensidad",
+      "La introducción intencionada de cultivos anuales en tierras agrícolas previamente aradas",
+      "El reemplazo gradual de peces herbívoros por carnívoros en un estanque de acuicultura"
+    ],
+    "c": 0,
+    "e": "Ocurre en sitios como coladas de lava recién enfriadas o dunas recién formadas, donde especies pioneras (como líquenes y musgos) deben formar suelo primero."
+  },
+  {
+    "q": "El proceso del ciclo del nitrógeno en el que los nitratos son convertidos de nuevo en gas nitrógeno ($N_2$) por bacterias anaeróbicas se denomina:",
+    "o": [
+      "Desnitrificación",
+      "Amotización primaria",
+      "Fijación biológica",
+      "Lixiviación de nitratos"
+    ],
+    "c": 0,
+    "e": "Bacterias como *Pseudomonas* realizan este proceso en condiciones anóxicas (suelos anegados, sedimentos), devolviendo el nitrógeno a la atmósfera."
+  },
+  {
+    "q": "¿Qué impacto causa la escorrentía agrícola rica en pesticidas organoclorados en los ecosistemas dulceacuícolas?",
+    "o": [
+      "Produce la mortalidad masiva de invertebrados acuáticos e interrumpe las cadenas tróficas por bioacumulación en peces",
+      "Aumenta la tasa de fotosíntesis de las macrofitas sumergidas de forma ilimitada",
+      "Elimina la salinidad del agua favoreciendo a los organismos de agua salobre",
+      "Neutraliza de inmediato la acidez del agua estabilizando el pH en 7"
+    ],
+    "c": 0,
+    "e": "Estos compuestos son altamente persisentes, liposolubles y tóxicos, afectando la supervivencia y reproducción de la fauna acuática y sus predadores."
+  },
+  {
+    "q": "¿A qué se refiere la 'biocapacidad' de una región geográfica?",
+    "o": [
+      "La capacidad de sus ecosistemas para generar recursos biológicos útiles y absorber los desechos generados por los humanos",
+      "El número total de bacterias por metro cúbico de aire en un entorno urbano",
+      "El peso combined en toneladas de todas las plantas y animales criados en granjas",
+      "La velocidad a la cual la materia orgánica se quema en las centrales de biomasa"
+    ],
+    "c": 0,
+    "e": "La biocapacidad representa la oferta ecológica del planeta; si la huella ecológica humana la supera, se genera un déficit ecológico."
+  },
+  {
+    "q": "¿Qué es un 'corredor ecológico fluvial'?",
+    "o": [
+      "La franja continua de vegetación e hidrología a lo largo de un río que conecta hábitats y facilita la dispersión de la biodiversidad",
+      "Un canal artificial de concreto construido para acelerar la navegación de barcos de carga",
+      "Una tubería subterránea utilizada para transportar agua residual a las plantas de tratamiento",
+      "El espacio de playa utilizado exclusivamente por aves migratorias para nidificar"
+    ],
+    "c": 0,
+    "e": "Los corredores fluviales mantienen la conectividad biológica entre paisajes, permitiendo el flujo génico y el desplazamiento de especies acuáticas y terrestres."
+  },
+  {
+    "q": "¿Qué es la 'acidificación del suelo' y qué consecuencia tiene sobre la vegetación?",
+    "o": [
+      "El descenso del pH del suelo que moviliza metales tóxicos (como el aluminio) y reduce la disponibilidad de nutrientes esenciales",
+      "El aumento en la concentración de sales de sodio que endurecen la superficie del terreno",
+      "La congelación del agua en los poros del suelo que rompe las raíces de los árboles",
+      "La acumulación de materia orgánica no descompuesta que impide el crecimiento de hongos"
+    ],
+    "c": 0,
+    "e": "Suelos muy ácidos causan toxicidad por $Al^{3+}$ que destruye el ápice de las raíces, bloqueando la absorción de calcio, magnesio y fósforo."
+  },
+  {
+    "q": "¿Qué es el 'efecto invernadero natural'?",
+    "o": [
+      "El fenómeno por el cual gases atmosféricos retienen parte del calor emitido por la Tierra, manteniendo una temperatura apta para la vida",
+      "El calentamiento anómalo causado exclusivamente por la quema de combustibles fósiles a partir del siglo XIX",
+      "El aumento de la producción agrícola en invernaderos de vidrio aislados térmicamente",
+      "La radiación ultravioleta excesiva que penetra a través de los agujeros de la capa de ozono"
+    ],
+    "c": 0,
+    "e": "Sin el efecto invernadero natural (producido por vapor de agua, $CO_2$, $CH_4$, etc.), la temperatura media de la Tierra sería de aproximadamente -18 °C."
+  },
+  {
+    "q": "¿A qué se refiere la 'diversidad gamma'?",
+    "o": [
+      "La riqueza total de especies a escala regional o de paisaje que combina la diversidad dentro y entre hábitats",
+      "El número de mutaciones genéticas presentes en un solo individuo de una especie amenazada",
+      "La proporción de especies carnívoras con respecto a las herbívoras en una red trófica",
+      "La variabilidad morfológica observable dentro de una misma población de insectos"
+    ],
+    "c": 0,
+    "e": "La diversidad gamma mide la biodiversidad a gran escala espacial, integrando la diversidad alfa (local) y la diversidad beta (recambio)."
+  },
+  {
+    "q": "¿Qué es la 'deforestación neta'?",
+    "o": [
+      "La diferencia entre la superficie total de bosque perdida y la superficie de bosque ganada mediante regeneración o reforestación",
+      "La tala total de un bosque sin importar la cantidad de vegetación primaria remanente",
+      "El porcentaje de madera destruido por plagas de escolítidos durante el verano",
+      "La pérdida de vegetación en los bordes de los caminos agrícolas forestales"
+    ],
+    "c": 0,
+    "e": "Mide la variación real de la cobertura forestal; un país puede tener deforestación bruta alta pero menor deforestación neta si reforesta en similar proporción."
+  },
+  {
+    "q": "¿Qué papel cumplen los glaciares continentales y de montaña en el ciclo del agua?",
+    "o": [
+      "Almacenan la mayor parte de las reservas de agua dulce del planeta y regulan el caudal estacional de los ríos",
+      "Generan nubes de lluvia al evaporar agua helada directamente hacia la estratosfera",
+      "Filtran la sal de las aguas oceánicas para suministrar agua a las corrientes abisales",
+      "Impiden que las placas tectónicas se desplacen hacia las zonas continentales"
+    ],
+    "c": 0,
+    "e": "Los glaciares actúan como gigantescas reservas de agua dulce que liberan caudal gradualmente durante las épocas secas o de deshielo estacional."
+  },
+  {
+    "q": "¿Qué se entiende por 'extinción en cadena' o descalabro secundario?",
+    "o": [
+      "La desaparición de una especie desencadenada directa o indirectamente por la extinción de otra de la que dependía",
+      "El proceso de muerte natural masiva de peces debido a la llegada de una ola de frío",
+      "La pérdida progresiva de hojas en los árboles atacados por un virus vegetal",
+      "La sustitución de un bosque primario por matorrales xerófilos de baja altura"
+    ],
+    "c": 0,
+    "e": "Ocurre habitualmente cuando se extingue una especie clave o un polinizador específico, provocando el colapso de los organismos asociados a él."
+  },
+  {
+    "q": "¿Qué es el 'monitoreo biológico' o biomonitoreo?",
+    "o": [
+      "El uso sistemático de respuestas biológicas de organismos para evaluar cambios o la calidad en el medio ambiente a lo largo del tiempo",
+      "La marcación de animales silvestres con transmisores GPS para estudiar rutas turísticas",
+      "El conteo de animales criados en cautiverio dentro de zoológicos urbanos",
+      "La medición de la radiación solar incidente en una estación meteorológica automática"
+    ],
+    "c": 0,
+    "e": "Permite registrar las tendencias de salud de los ecosistemas analizando la presencia, abundancia o fisiología de organismos clave."
+  },
+  {
+    "q": "¿Qué es la 'huella de nitrógeno'?",
+    "o": [
+      "La cantidad de reactivos de nitrógeno liberados al medio ambiente como resultado del consumo de recursos de una persona o comunidad",
+      "El volumen de fertilizantes sintéticos almacenados en las bodegas comerciales de una finca",
+      "El número de nodulaciones bacterianas presentes en una hectárea de soya",
+      "La cantidad de gas nitrógeno puro inhalado por la fauna silvestre en un bosque"
+    ],
+    "c": 0,
+    "e": "Evalúa el impacto del nitrógeno reactivo (emisiones de $NO_x$, efluentes con nitratos) que altera los ciclos biogeoquímicos y causa eutrofización."
+  },
+  {
+    "q": "¿Qué beneficio aporta el pastoreo rotacional en la conservación de los pastizales naturales?",
+    "o": [
+      "Permite el descanso y recuperación de la cubierta vegetal, evitando el sobrepastoreo y la compactación excesiva del suelo",
+      "Elimina la necesidad de fuentes de agua dulce para el ganado en producción",
+      "Favorece el desarrollo exclusivo de malezas invasoras de raíz profunda",
+      "Incremente drásticamente las emisiones de metano por parte de los rumiantes"
+    ],
+    "c": 0,
+    "e": "Al alternar los potreros, se da tiempo a las gramíneas nativas para regenerar raíces y biomasa, manteniendo la fertilidad y estructura del suelo."
+  },
+  {
+    "q": "¿A qué se refiere la 'degradación forestal' a diferencia de la deforestación?",
+    "o": [
+      "La reducción de la capacidad del bosque para prestar servicios o producir bienes, sin implicar un cambio de uso de suelo hacia otro tipo",
+      "La conversión permanente de un bosque en campos de cultivo o pastizales para ganado",
+      "El cambio estacional de color en el follaje provocado por el otoño en climas fríos",
+      "La quema controlada de rastrojos en terrenos agrícolas limítrofes con las reservas"
+    ],
+    "c": 0,
+    "e": "Un bosque degradado sigue siendo bosque en los mapas, pero ha perdido biodiversidad, biomasa o densidad estructural a causa de incendios, tala selectiva, etc."
+  },
+  {
+    "q": "¿Qué es un 'especie generalista'?",
+    "o": [
+      "Un organismo capaz de prosperar en una amplia variedad de condiciones ambientales y utilizar un rango diverso de recursos",
+      "Una especie adaptada únicamente a un micronicho sumamente específico e inalterable",
+      "Un organismo extinto en estado silvestre que solo sobrevive en bancos de germoplasma",
+      "Una planta que solo puede ser polinizada por una única especie de murciélago"
+    ],
+    "c": 0,
+    "e": "Las especies generalistas (como los mapaches o ratomas) toleran mejor la intervención humana y las alteraciones en el hábitat que las especialistas."
+  },
+  {
+    "q": "¿Qué es la 'solución basada en la naturaleza' (SbN)?",
+    "o": [
+      "Acciones para proteger, gestionar y restaurar de forma sostenible ecosistemas naturales o modificados que abordan desafíos de la sociedad",
+      "La sustitución de plantas nativas por estructuras de plástico verde en áreas urbanas",
+      "La erradicación de toda fauna silvestre para evitar la transmisión de zoonosis",
+      "La extracción de minerales marinos para financiar proyectos de energía eólica"
+    ],
+    "c": 0,
+    "e": "Las SbN utilizan la infraestructura verde (ej. restauración de manglares para defensa costera) aportando beneficios socioeconómicos y de biodiversidad simultáneamente."
+  },
+  {
+    "q": "¿Qué rol juegan los polinizadores nocturnos (como murciélagos y polillas) en los ecosistemas?",
+    "o": [
+      "Aseguran la reproducción de plantas que abren sus flores durante la noche, muchas de alto valor ecológico y económico",
+      "Consumen las semillas maduras para evitar que germinen debajo del árbol padre",
+      "Aumentan la humedad de las flores mediante la expulsión de polen húmedo",
+      "Impiden la llegada de aves insectívoras a las copas de los árboles durante el día"
+    ],
+    "c": 0,
+    "e": "Cactus, agaves y numerosas especies de árboles dependientes de la polinización nocturna (quiropterofilia o psicofilia nocturna) para producir frutos y mantener su variabilidad."
+  },
+  {
+    "q": "¿Por qué el fósforo es habitualmente el factor limitante en los ecosistemas dulceacuícolas?",
+    "o": [
+      "Su ciclo es esencialmente sedimentario y no posee una fase gaseosa abundante en la atmósfera como el nitrógeno o carbono",
+      "Las plantas acuáticas destruyen las moléculas de fósforo durante el día",
+      "Es disuelto e inmovilizado al instante por las moléculas de agua pura",
+      "Se evapora rápidamente cuando la luz solar incide sobre la superficie de los lagos"
+    ],
+    "c": 0,
+    "e": "El fósforo proviene de la meteorización de rocas fosfatadas y entra despacio a las cuencas; por ello, un aporte extra (detergentes, fertilizantes) desata floraciones de algas."
+  },
+  {
+    "q": "¿Qué es la 'compensación ecológica' o de biodiversidad?",
+    "o": [
+      "Medidas de conservación destinadas a compensar los impactos residuales negativos e inevitables de un proyecto tras aplicar la jerarquía de mitigación",
+      "El pago de impuestos gubernamentales por el uso de recursos hídricos en la industria",
+      "La compra de alimentos orgánicos por parte de los consumidores urbanos",
+      "La siembra temporal de cultivos de cobertura en tierras en descanso"
+    ],
+    "c": 0,
+    "e": "Busca lograr una 'pérdida neta cero' de biodiversidad mediante acciones de restauración o protección en un sitio equivalente al afectado."
+  },
+  {
+    "q": "¿A qué se refiere la 'hipótesis de la perturbación intermedia' en diversidad de especies?",
+    "o": [
+      "Establece que la riqueza de especies es máxima en niveles intermedios de perturbación ambiental",
+      "Propone que los ecosistemas más estables son aquellos que sufren perturbaciones continuas e intensas",
+      "Afirma que la diversidad biológica solo se mantiene en áreas sin ningún tipo de impacto",
+      "Plantea que las perturbaciones borran por completo la memoria ecológica de las comunidades"
+    ],
+    "c": 0,
+    "e": "En niveles moderados se frena el dominio de los competidores más agresivos sin llegar a erradicar a las especies más vulnerables a la perturbación."
+  },
+  {
+    "q": "¿Qué es la 'acidificación marina'?",
+    "o": [
+      "La reducción del pH en el océano provocada por la absorción del $CO_2$ antropogénico emitido a la atmósfera",
+      "El incremento de salinidad por altas tasas de evaporación en las zonas ecuatoriales",
+      "La contaminación por derrame directo de productos químicos ácidos desde los barcos",
+      "El aumento en la concentración de ácido sulfúrico proveniente del drenaje de minas"
+    ],
+    "c": 0,
+    "e": "Al reaccionar el $CO_2$ con el agua marina se forma ácido carbónico, reduciendo la concentración de carbonato necesario para los arrecifes y moluscos."
+  },
+  {
+    "q": "¿Qué caracteriza a un 'ecosistema clímax'?",
+    "o": [
+      "Una comunidad ecológica que ha alcanzado un estado de equilibrio dinámico estable con su clima y suelo a través de la sucesión",
+      "Un área recién destruida por una erupción volcánica que inicia la colonización",
+      "Un cultivo intensivo monocultural que requiere grandes insumos de agroquímicos",
+      "Un bioma que cambia drásticamente de especies vegetales de forma anual"
+    ],
+    "c": 0,
+    "e": "El clímax representa la fase madura de la sucesión ecológica, donde la eficiencia en el uso de la energía y el reciclaje de nutrientes son máximos."
+  },
+  {
+    "q": "¿Qué rol juegan las 'especies nodriza' en la restauración de zonas áridas?",
+    "o": [
+      "Facilitan el establecimiento y crecimiento de otras especies al proporcionar sombra, humedad y protección contra herbívoros",
+      "Absorben toda el agua del subsuelo impidiendo el desarrollo de malezas competidoras",
+      "Producen toxinas que alejan a los insectos polinizadores silvestres de la zona",
+      "Eliminan los microorganismos del suelo para mantenerlo estéril y limpio"
+    ],
+    "c": 0,
+    "e": "Las plantas nodriza alteran favorablemente el microclima bajo su copa, creando un 'islote de fertilidad' que ayuda al éxito de plántulas vulnerables."
+  },
+  {
+    "q": "¿Qué se entiende por 'deuda de extinción'?",
+    "o": [
+      "La extinción futura e inevitable de especies debido a eventos o destrucción de hábitat que ocurrieron en el pasado",
+      "El costo económico de los proyectos destinados a la clonación de animales extintos",
+      "El número de especies no descubiertas que mueren antes de ser catalogadas",
+      "El compromiso internacional de los países para financiar parques nacionales"
+    ],
+    "c": 0,
+    "e": "Incluso si la destrucción del hábitat se detiene hoy, algunas poblaciones habrán caído por debajo de su umbral de viabilidad y terminarán extinguiéndose tiempo después."
+  },
+  {
+    "q": "¿Qué es la 'lixiviación de nitratos' en los suelos de uso agrícola?",
+    "o": [
+      "El lavado del exceso de nitratos del suelo hacia las aguas subterráneas por acción del agua de lluvia o riego",
+      "La conversión de amonio en gas nitrógeno liberado a la atmósfera",
+      "La inmovilización del nitrógeno por parte de las lombrices de tierra",
+      "La acumulación de capas de nitrógeno sólido en la superficie del terreno"
+    ],
+    "c": 0,
+    "e": "Dado que el anión nitrato ($NO_3^-$) no se une a las arcillas del suelo, el agua lo arrastra fácilmente, contaminando acuíferos y causando eutrofización."
+  },
+  {
+    "q": "¿Qué función ecofisiológica cumple la cutícula cérea en las hojas de las plantas xerófitas?",
+    "o": [
+      "Reduce drásticamente la pérdida de agua por transpiración cuticular y refleja la radiación solar excesiva",
+      "Absorbe el nitrógeno gaseoso presente en el aire durante los días calurosos",
+      "Aumenta la tasa de absorción de agua de lluvia a través del tejido foliar",
+      "Facilita la entrada masiva de vapor de agua durante las noches frías"
+    ],
+    "c": 0,
+    "e": "La cutícula gruesa e hidrófoba previene la desecación en ambientes áridos, protegiendo las células de las pérdidas de agua no estomáticas."
+  },
+  {
+    "q": "¿A qué se le denomina 'sobrepastoreo'?",
+    "o": [
+      "El consumo del tapiz vegetal por animales herbívoros a un ritmo superior a la capacidad de regeneración de las plantas",
+      "El traslado continuo de rebaños de una región de montaña a una de valle",
+      "La alimentación de ganado exclusivamente con granos y concentrados sintéticos",
+      "La siembra masiva de pastos exóticos en terrenos agrícolas degradados"
+    ],
+    "c": 0,
+    "e": "El sobrepastoreo destruye la vegetación protectora, compacta el suelo con el pisoteo y deja la tierra expuesta a la erosión hídrica y eólica."
+  },
+  {
+    "q": "¿Qué es un 'biofiltro' en ingeniería ambiental basada en ecosistemas?",
+    "o": [
+      "Un sistema que utiliza material biológico (plantas, microorganismos) para capturar y degradar contaminantes del agua o del aire",
+      "Un filtro de carbón activado sintetizado en laboratorios químicos industriales",
+      "Un plástico biodegradable utilizado para recubrir tuberías de agua potable",
+      "Una red sintética colocada en los ríos para atrapar plásticos grandes"
+    ],
+    "c": 0,
+    "e": "Los biofiltros (como los humedales artificiales) aprovechan la acción metabólica de plantas y bacterias para purificar efluentes de manera sostenible."
+  },
+  {
+    "q": "¿Qué es la 'ecología del comportamiento' (etología ecológica)?",
+    "o": [
+      "El estudio de las bases ecológicas e evolutivas del comportamiento animal en respuesta a las presiones del entorno",
+      "La disciplina que entrena a los animales silvestres para vivir en parques urbanos",
+      "El estudio del impacto de la contaminación acústica sobre las estructuras de los edificios",
+      "La medición de las ondas cerebrales en mamíferos expuestos a cautiverio"
+    ],
+    "c": 0,
+    "e": "Examina cómo las conductas (cortejo, forrajeo, territorialidad) aumentan la supervivencia y el éxito reproductivo en un contexto ecológico determinado."
+  },
+  {
+    "q": "¿A qué se refiere la 'fragilidad de un ecosistema'?",
+    "o": [
+      "La susceptibilidad de un ecosistema a sufrir alteraciones profundas o colapsar frente a pequeñas perturbaciones",
+      "La incapacidad de las plantas para producir flores durante los años secos",
+      "La baja densidad de depredadores tope dentro de un bioma forestal",
+      "La presencia de especies de vida corta que mueren al cabo de una temporada"
+    ],
+    "c": 0,
+    "e": "Ecosistemas frágiles (como los alpinos, insulares o corales) poseen poca resiliencia o tolerancia a cambios en sus variables críticas."
+  },
+  {
+    "q": "¿Qué es la 'captura y almacenamiento de carbono' (CAC) basado en la naturaleza?",
+    "o": [
+      "El fortalecimiento o restauración de sumideros naturales (bosques, humedales, suelos) para fijar el $CO_2$ atmosférico en biomasa o sedimentos",
+      "El bombeo de humo industrial a presión dentro de minas de sal abandonadas",
+      "La fabricación de bloques de concreto mezclados con cenizas volcánicas",
+      "El almacenamiento de madera talada en depósitos subterráneos herméticos"
+    ],
+    "c": 0,
+    "e": "Aprovecha la fotosíntesis y la dinámica de los suelos para secuestrar el carbono de la atmósfera de forma duradera y ecológica."
+  },
+  {
+    "q": "¿Qué es la 'depresión por endogamia' en poblaciones amenazadas?",
+    "o": [
+      "La reducción de la supervivencia y fertilidad causada por el apareamiento entre individuos emparentados en poblaciones pequeñas",
+      "El aumento repentino de enfermedades transmisibles debido a la sobrepoblación en una reserva",
+      "El cambio en la conducta reproductiva provocado por la falta de espacio físico",
+      "La disminución en la tasa de migración de las hembras jóvenes hacia otros territorios"
+    ],
+    "c": 0,
+    "e": "Al reducirse la diversidad genética, se incrementa la probabilidad de expresar alelos recesivos deletéreos que debilitan la población."
+  },
+  {
+    "q": "¿A qué se le denomina 'bosque secundario'?",
+    "o": [
+      "Un bosque que se ha regenerado de forma natural tras una destrucción total o parcial del bosque primario por causas humanas o naturales",
+      "Una plantación comercial de árboles exóticos destinada a la obtención de pulpa de papel",
+      "La capa inferior de vegetación de menor altura que crece debajo de la canopia principal",
+      "Un vivero forestal donde se producen plántulas para proyectos de reforestación"
+    ],
+    "c": 0,
+    "e": "Los bosques secundarios son clave para la recuperación de la biodiversidad y el carbono en paisajes modificados, aunque difieren en composición del primario."
+  },
+  {
+    "q": "¿Qué rol juegan los manglares en la protección de las costas frente a eventos meteorológicos extremos?",
+    "o": [
+      "Disipan la energía de las olas de marejada de tempestad y reducen la erosión costera mediante sus densas redes de raíces",
+      "Modifican la trayectoria de los vientos tropicales desviándolos hacia mar adentro",
+      "Inhiben la formación de lluvias torrenciales en la franja costera adyacente",
+      "Elevan la temperatura de la playa para evaporar el exceso de agua marina"
+    ],
+    "c": 0,
+    "e": "La compleja estructura zancuda de los manglares amortigua el impacto mecánico de olas y marejadas, actuando como escudos naturales para las comunidades costeras."
+  },
+  {
+    "q": "¿Qué es la 'bioprospección' sostenible?",
+    "o": [
+      "La exploración y búsqueda sistemática de recursos genéticos y bioquímicos en la naturaleza con valor comercial o médico, respetando la conservación",
+      "La extracción intensiva de madera preciosa en bosques vírgenes para la fabricación de muebles",
+      "El uso de radares subterráneos para la localización de yacimientos petrolíferos",
+      "La cría masiva de insectos exóticos para la producción de harina animal"
+    ],
+    "c": 0,
+    "e": "Busca descubrir compuestos útiles (fármacos, enzimas) en la biodiversidad promoviendo la distribución justa de beneficios y la preservación de las especies."
+  },
+  {
+    "q": "¿Qué es un 'especie paraguas' (umbrella species)?",
+    "o": [
+      "Una especie cuya protección requiere áreas tan grandes y complejas que conserva indirectamente a muchas otras especies de la misma comunidad",
+      "Una especie vegetal con hojas anchas que protegen al suelo de la radiación directa",
+      "Un hongo que crece en la base de los árboles protegiéndolos de parásitos",
+      "Un animal que acumula agua en sus tejidos para abastecer a otros en sequías"
+    ],
+    "c": 0,
+    "e": "Al definir la extensión y calidad de un área protegida basándose en las amplias necesidades de una especie paraguas (ej. jaguar), se resguarda a todo el ecosistema."
+  },
+  {
+    "q": "¿A qué se refiere el término 'isla de calor urbana'?",
+    "o": [
+      "El fenómeno por el cual las zonas urbanas registran temperaturas sustancialmente más altas que las áreas rurales circundantes debido al concreto y falta de vegetación",
+      "Un bioma insular tropical caracterizado por altas temperaturas constantes todo el año",
+      "Una instalación industrial que libera agua caliente a los ríos adyacentes",
+      "La concentración de gases de efecto invernadero únicamente sobre la zona centro de las ciudades"
+    ],
+    "c": 0,
+    "e": "La sustitución de la vegetación por asfalto y edificaciones altera el albedo y la evapotranspiración, atrapando calor en la infraestructura urbana."
+  },
+  {
+    "q": "¿Qué es la 'zoocoria' en la ecología de plantas?",
+    "o": [
+      "El proceso de dispersión de semillas o diásporas vegetales llevado a cabo por animales",
+      "La enfermedad infecciosa transmitida entre la fauna silvestre y el ganado doméstico",
+      "La migración diaria del zooplancton hacia la superficie oceánica",
+      "El consumo de tejidos animales por parte de plantas carnívoras de pantano"
+    ],
+    "c": 0,
+    "e": "La zoocoria (vía ingestión-endozoocoria o adherencia externa-epizoocoria) es crucial para que las plantas colonicen nuevos sitios y eviten la competencia con la planta madre."
+  },
+  {
+    "q": "¿Qué es la 'degradación del suelo por salinización secundaria'?",
+    "o": [
+      "La acumulación perjudicial de sales solubles en la superficie por un riego inadecuado combinado con alta evaporación y mal drenaje",
+      "El depósito natural de sales marinas en las costas por la brisa del océano",
+      "La disolución de rocas calizas por la acción del ácido carbónico en el agua subterránea",
+      "El uso excesivo de fertilizantes orgánicos compostados en invernaderos"
+    ],
+    "c": 0,
+    "e": "El riego con agua que contiene sales disueltas en áreas secas provoca que al evaporarse el agua, la sal quede atrapada en las capas superiores del suelo."
+  },
+  {
+    "q": "¿Qué rol desempeñan los macroinvertebrados bentónicos como indicadores de la salud de los ríos?",
+    "o": [
+      "Tienen diferentes niveles de tolerancia a la contaminación, por lo que la composición de su comunidad refleja la calidad del agua a medio plazo",
+      "Filtran el agua eliminando el 100% de los metales pesados en disolución",
+      "Regulan la temperatura del agua al consumir las microalgas de la superficie",
+      "Aumentan el flujo de la corriente al excavar túneles profundos en el lecho"
+    ],
+    "c": 0,
+    "e": "Insectos como efímeras o plecópteros son muy sensibles a la pérdida de oxígeno y contaminantes, mientras que los gusanos tubifex son tolerantes; su abundancia relativa señala el nivel de degradación."
+  },
+  {
+    "q": "¿Qué es el 'valor de existencia' de la biodiversidad?",
+    "o": [
+      "El valor asignado al conocimiento de que una especie o ecosistema existe, independientemente de que los humanos lo usen o no",
+      "El precio asignado en el mercado comercial a la madera de un árbol centenario",
+      "El costo monetario consumido por la alimentación de un animal en un zoológico",
+      "El beneficio económico directo derivado de la venta de medicinas extraídas de plantas"
+    ],
+    "c": 0,
+    "e": "Es un valor intrínseco o no de uso, reflejado en la disposición de la sociedad a conservar especies como la ballena azul aunque nunca lleguen a ver una en persona."
+  },
+  {
+    "q": "¿Qué es la 'luz artificial nocturna' (LAN) y cuál es su impacto ecológico?",
+    "o": [
+      "La alteración de los ciclos de luz natural por alumbrado humano, que desorienta a la fauna, altera ritmos circadianos y perturba interacciones tróficas",
+      "La luz emitida por organismos bioluminiscentes en las profundidades del mar",
+      "El brillo provocado por la combustión de biogás en vertederos de basura",
+      "El uso de lámparas de cultivo en invernaderos cerrados durante el día"
+    ],
+    "c": 0,
+    "e": "La LAN interfiere con la orientación de aves migratorias, tortugas e insectos nocturnos, además de desincronizar los ritmos fisiológicos regulados por la oscuridad."
+  },
+  {
+    "q": "¿Qué es un 'cultivo de cobertura' y qué beneficio ecológico aporta?",
+    "o": [
+      "Plantas sembradas no para ser cosechadas, sino para proteger el suelo contra la erosión, fijar nitrógeno y mejorar la estructura orgánica",
+      "El uso de plásticos sobre el terreno para elevar la temperatura del cultivo principal",
+      "La siembra de árboles frutales alrededor de las parcelas para desviar el viento",
+      "Un cultivo intensivo destinado exclusivamente a la producción de biocombustibles"
+    ],
+    "c": 0,
+    "e": "Los cultivos de cobertura (como leguminosas o gramíneas) mantienen el suelo cubierto en periodos entre cosechas, previniendo la erosión y la lixiviación de nutrientes."
+  },
+  {
+    "q": "¿A qué se refiere la 'resistencia ecológica' de una comunidad?",
+    "o": [
+      "La capacidad de una comunidad ecológica para permanecer prácticamente inalterada a pesar de experimentar perturbaciones ambientales",
+      "La velocidad a la que un sistema destruido vuelve a su estado original",
+      "La tolerancia de las bacterias a la acción de los antibióticos biológicos",
+      "La capacidad de las plantas de tolerar la sombra producida por los árboles más altos"
+    ],
+    "c": 0,
+    "e": "A diferencia de la resiliencia (que implica recuperarse tras el cambio), la resistencia mide cuánto logra evitar el cambio inicial frente a un impacto."
+  },
+  {
+    "q": "¿Qué es la 'regla de Bergmann' en biogeografía animal?",
+    "o": [
+      "Las especies de endotermos tienden a presentar mayor tamaño corporal en latitudes más frías para reducir la pérdida de calor por unidad de masa",
+      "Los animales carnívoros son más eficientes cazando en zonas tropicales de alta temperatura",
+      "Las aves de áreas insulares pierden gradualmente la capacidad de volar al no haber depredadores",
+      "Las plantas de clima frío poseen hojas de mayor tamaño que las plantas de climas secos"
+    ],
+    "c": 0,
+    "e": "Un cuerpo de mayor volumen tiene una relación superficie/volumen más pequeña, lo que disminuye la disipación del calor en ambientes fríos."
+  },
+  {
+    "q": "¿Qué es el 'enriquecimiento estrófico' en la biota de un suelo?",
+    "o": [
+      "El incremento de la materia orgánica y diversidad biológica del suelo mediante el aporte de compost, rastrojos y aportes biológicos",
+      "El vertido masivo de sales de sodio sintéticas para acelerar la rotura de la arcilla",
+      "La eliminación completa de hongos y bacterias mediante esterilización por calor",
+      "El cultivo exclusivo de plantas no fijadoras de nitrógeno durante varios ciclos"
+    ],
+    "c": 0,
+    "e": "El aporte continuo de carbono orgánico alimenta la red trófica del suelo, fortaleciendo la estructura del terreno y la retención de agua y nutrientes."
+  },
+  {
+    "q": "¿A qué se le llama 'homogeneización biótica'?",
+    "o": [
+      "El proceso por el cual las comunidades biológicas regionales se vuelven cada vez más similares debido a la pérdida de especies nativas e invasión de cosmopolitas",
+      "La clonación genéticamente idéntica de plantas amenazadas para su restauración",
+      "La distribución uniforme de los nutrientes minerales en toda la superficie del suelo",
+      "La convergencia evolutiva de especies no emparentadas que viven en biomas similares"
+    ],
+    "c": 0,
+    "e": "La expansión de especies generalistas adaptadas a los entornos humanos sustituye a las especies nativas especializadas, reduciendo la unicidad biológica regional."
+  },
+  {
+    "q": "¿Qué es un 'sistema socioecológico'?",
+    "o": [
+      "Un sistema integrado de personas y naturaleza con interacciones recíprocas y complejas entre sus componentes sociales y ecológicos",
+      "Un parque urbano diseñado con fines de entretenimiento y cobro de entrada",
+      "Un modelo informático para predecir el valor bursátil de las materias primas",
+      "Una comunidad campesina que no utiliza ningún tipo de tecnología en sus cultivos"
+    ],
+    "c": 0,
+    "e": "Reconoce que la dinámica humana y la dinámica del ecosistema están fuertemente entrelazadas y no pueden analizarse o gestionarse por separado."
+  },
