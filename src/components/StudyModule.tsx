@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { 
   getRandomQuestions, 
@@ -8,14 +8,12 @@ import {
 } from '../data/questionBank';
 import { saveExamResult } from '../lib/store';
 import { 
-  BookOpen, 
   CheckCircle, 
   XCircle, 
   ArrowLeft, 
   RotateCcw, 
   Trophy, 
-  ChevronRight,
-  Clock
+  ChevronRight 
 } from 'lucide-react';
 import type { Page } from './Navbar';
 
@@ -48,7 +46,6 @@ export default function StudyModule({ onNavigate }: Props) {
   const [isFinished, setIsFinished] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
 
-  // Iniciar miniexamen de 10 reactivos usando preguntas no repetidas por materia
   const startSubjectPractice = (subject: SubjectId) => {
     const loadedQuestions = getRandomQuestions(10, subject);
     setSelectedSubject(subject);
@@ -117,7 +114,6 @@ export default function StudyModule({ onNavigate }: Props) {
 
   const currentQuestion = questions[currentIdx];
 
-  // Vista 1: Selector de Materia
   if (!selectedSubject) {
     return (
       <div className="max-w-4xl mx-auto space-y-6 py-6">
@@ -159,7 +155,6 @@ export default function StudyModule({ onNavigate }: Props) {
     );
   }
 
-  // Vista 2: Resultados del Miniexamen
   if (isFinished) {
     let correctCount = 0;
     questions.forEach((q) => {
@@ -212,7 +207,6 @@ export default function StudyModule({ onNavigate }: Props) {
     );
   }
 
-  // Vista 3: Pregunta Activa
   return (
     <div className="max-w-3xl mx-auto space-y-6 py-4">
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex justify-between items-center">
