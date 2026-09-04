@@ -1,160 +1,167 @@
-export type SubjectId =
-  | 'habilidad_verbal'
-  | 'matematicas'
-  | 'habilidad_matematica'
-  | 'espanol'
-  | 'biologia'
-  | 'fisica'
-  | 'quimica'
-  | 'historia'
-  | 'geografia'
-  | 'formacion_civica_etica';
+export type SubjectId = 
+  | 'spanish' 
+  | 'math' 
+  | 'physics' 
+  | 'chemistry' 
+  | 'biology' 
+  | 'history' 
+  | 'geography' 
+  | 'civics' 
+  | 'verbal' 
+  | 'math_reasoning';
 
-export type Question = {
+export interface Question {
   id: string;
   subject: SubjectId;
   topic: string;
-  question: string;
+  text: string;
   options: string[];
-  correctIndex: number;
+  correctAnswer: number;
   explanation: string;
-};
+}
 
-export type SubjectInfo = {
+export interface SubjectInfo {
   id: SubjectId;
   name: string;
-  icon: string;
   color: string;
   topics: string[];
+}
+
+export const SUBJECT_NAMES: Record<SubjectId, string> = {
+  spanish: 'Español',
+  math: 'Matemáticas',
+  physics: 'Física',
+  chemistry: 'Química',
+  biology: 'Biología',
+  history: 'Historia',
+  geography: 'Geografía',
+  civics: 'Formación Cívica y Ética',
+  verbal: 'Habilidad Verbal',
+  math_reasoning: 'Habilidad Matemática',
 };
 
 export const SUBJECTS: SubjectInfo[] = [
-  {
-    id: 'habilidad_verbal',
-    name: 'Habilidad Verbal',
-    icon: 'MessageSquareText',
-    color: 'from-blue-500 to-cyan-500',
-    topics: ['Comprensión de lectura', 'Manejo de vocabulario'],
-  },
-  {
-    id: 'geografia',
-    name: 'Geografía',
-    icon: 'Globe2',
-    color: 'from-teal-500 to-cyan-600',
-    topics: [
-      'El espacio geográfico y los mapas',
-      'Recursos naturales y preservación del ambiente',
-      'Dinámica de la población y riesgos',
-      'Espacios económicos y desigualdad social',
-      'Espacios culturales y políticos',
-    ],
-  },
-  {
-    id: 'fisica',
-    name: 'Física',
-    icon: 'Atom',
-    color: 'from-sky-500 to-indigo-500',
-    topics: [
-      'El movimiento. La descripción de los cambios en la naturaleza',
-      'Las fuerzas. La explicación de los cambios',
-      'Las interacciones de la materia. Un modelo para describir lo que no percibimos',
-      'Manifestaciones de la estructura interna de la materia',
-    ],
-  },
-  {
-    id: 'espanol',
-    name: 'Español',
-    icon: 'BookOpen',
-    color: 'from-rose-500 to-pink-500',
-    topics: [
-      'Obtención de Información',
-      'Organización de información',
-      'Elementos que intervienen en la coherencia, la cohesión y la adecuación en los textos. Nexos y expresiones. Signos de puntuación. Oraciones.',
-      'Tipos de textos. Recursos lingüísticos. Textos informativos. Documentos legales y administrativos. Textos periodísticos. Textos publicitarios.',
-    ],
-  },
-  {
-    id: 'quimica',
-    name: 'Química',
-    icon: 'FlaskConical',
-    color: 'from-violet-500 to-purple-500',
-    topics: [
-      'Las características de los materiales',
-      'Estructura y periodicidad de los elementos',
-      'La reacción química',
-    ],
-  },
-  {
-    id: 'habilidad_matematica',
-    name: 'Habilidad Matemática',
-    icon: 'BrainCircuit',
-    color: 'from-amber-500 to-orange-500',
-    topics: ['Sucesiones numéricas', 'Series espaciales', 'Imaginación espacial', 'Problemas de razonamiento'],
-  },
-  {
-    id: 'biologia',
-    name: 'Biología',
-    icon: 'Dna',
-    color: 'from-green-500 to-lime-500',
-    topics: [
-      'El valor de la biodiversidad',
-      'Tecnología y sociedad',
-      'Transformación de materia y energía',
-      'Nutrición y respiración para el cuidado de la salud',
-      'Reproducción y sexualidad',
-      'Genética, tecnología y sociedad',
-    ],
-  },
-  {
-    id: 'historia',
-    name: 'Historia',
-    icon: 'ScrollText',
-    color: 'from-orange-500 to-red-500',
-    topics: [
-      'De principios del siglo XVI a principios del siglo XVIII',
-      'De mediados del siglo XVIII a mediados del siglo XIX',
-      'De mediados del siglo XIX a 1920',
-      'El mundo entre 1920 y 1960',
-      'Décadas recientes',
-      'Las culturas prehispánicas y la conformación de la Nueva España',
-      'Nueva España desde su consolidación hasta la independencia',
-      'De la consumación de la Independencia al inicio de la Revolución Mexicana (1821-1911)',
-      'Instituciones revolucionarias y desarrollo económico (1911-1979)',
-      'México en la era global (1970-2000)',
-    ],
-  },
-  {
-    id: 'matematicas',
-    name: 'Matemáticas',
-    icon: 'Calculator',
-    color: 'from-emerald-500 to-teal-500',
-    topics: [
-      'Sentido numérico y pensamiento algebraico',
-      'Forma, espacio y medida',
-      'Manejo de la información',
-      'Análisis y representación de datos',
-    ],
-  },
-  {
-    id: 'formacion_civica_etica',
-    name: 'Formación Cívica y Ética',
-    icon: 'Scale',
-    color: 'from-slate-500 to-gray-600',
-    topics: [
-      'Retos de la sociedad mexicana',
-      'Los desafíos del mundo contemporáneo',
-      'La construcción de la ciudadanía',
-      'Participación ciudadana y vida democrática',
-    ],
-  },
+  { id: 'spanish', name: 'Español', color: 'from-blue-500 to-indigo-600', topics: ['Funciones de la lengua', 'Gramática', 'Ortografía', 'Comprensión lectora'] },
+  { id: 'math', name: 'Matemáticas', color: 'from-emerald-500 to-teal-600', topics: ['Álgebra', 'Aritmética', 'Geometría', 'Ecuaciones'] },
+  { id: 'physics', name: 'Física', color: 'from-amber-500 to-orange-600', topics: ['Movimiento', 'Fuerzas', 'Energía', 'Electricidad y Magnetismo'] },
+  { id: 'chemistry', name: 'Química', color: 'from-rose-500 to-pink-600', topics: ['Estructura atómica', 'Tabla periódica', 'Enlaces químicos', 'Reacciones químicas'] },
+  { id: 'biology', name: 'Biología', color: 'from-green-500 to-emerald-700', topics: ['Célula', 'Genética', 'Evolución', 'Ecología'] },
+  { id: 'history', name: 'Historia', color: 'from-purple-500 to-violet-600', topics: ['Historia Universal', 'Historia de México', 'Revolución Mexicana', 'Mundo Contemporáneo'] },
+  { id: 'geography', name: 'Geografía', color: 'from-cyan-500 to-blue-600', topics: ['Geografía física', 'Geografía humana', 'Recursos naturales', 'Geopolítica'] },
+  { id: 'civics', name: 'Formación Cívica y Ética', color: 'from-teal-500 to-emerald-600', topics: ['Derechos humanos', 'Democracia', 'Valores y ética', 'Convivencia'] },
+  { id: 'verbal', name: 'Habilidad Verbal', color: 'from-fuchsia-500 to-pink-600', topics: ['Sinónimos y antónimos', 'Analogías', 'Comprensión de textos', 'Completar oraciones'] },
+  { id: 'math_reasoning', name: 'Habilidad Matemática', color: 'from-sky-500 to-indigo-600', topics: ['Secuencias numéricas', 'Patrones espaciales', 'Problemas de lógica', 'Razonamiento abstracto'] },
 ];
 
-export const SUBJECT_MAP: Record<SubjectId, SubjectInfo> = SUBJECTS.reduce(
-  (acc, s) => ({ ...acc, [s.id]: s }),
-  {} as Record<SubjectId, SubjectInfo>,
-);
+// Reemplaza esta lista con las 1000 preguntas completas de tu repositorio
+export const ALL_QUESTIONS: Question[] = [
+  // ... Tu arreglo completo de preguntas
+];
 
-export const SUBJECT_NAMES: Record<SubjectId, string> = SUBJECTS.reduce(
-  (acc, s) => ({ ...acc, [s.id]: s.name }),
-  {} as Record<SubjectId, string>,
-);
+// Claves para el almacenamiento persistente de preguntas vistas
+const STORAGE_KEY_SEEN = 'ecoems_seen_question_ids';
+
+/**
+ * Obtiene la lista de IDs de preguntas que ya han sido utilizadas.
+ */
+function getSeenQuestionIds(): string[] {
+  try {
+    const data = localStorage.getItem(STORAGE_KEY_SEEN);
+    return data ? JSON.parse(data) : [];
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Guarda y actualiza la lista de preguntas vistas.
+ */
+function markQuestionsAsSeen(ids: string[]) {
+  try {
+    const seen = new Set(getSeenQuestionIds());
+    ids.forEach((id) => seen.add(id));
+    localStorage.setItem(STORAGE_KEY_SEEN, JSON.stringify(Array.from(seen)));
+  } catch (e) {
+    console.error('Error al guardar historial de preguntas', e);
+  }
+}
+
+/**
+ * Reinicia el ciclo de preguntas vistas cuando el banco se ha agotado.
+ */
+export function resetSeenQuestions() {
+  try {
+    localStorage.removeItem(STORAGE_KEY_SEEN);
+  } catch (e) {
+    console.error('Error al reiniciar preguntas vistas', e);
+  }
+}
+
+/**
+ * Mezcla un arreglo de forma estrictamente aleatoria usando Fisher-Yates shuffle.
+ */
+function shuffleArray<T>(array: T[]): T[] {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+/**
+ * Genera un conjunto de preguntas únicas sin repeticiones inmediatas ni históricas.
+ * Sirve tanto para miniexámenes como para el examen de prueba completo.
+ */
+export function getRandomQuestions(
+  count: number,
+  subjectFilter?: SubjectId
+): Question[] {
+  // 1. Filtrar preguntas por materia si aplica
+  let pool = subjectFilter
+    ? ALL_QUESTIONS.filter((q) => q.subject === subjectFilter)
+    : ALL_QUESTIONS;
+
+  if (pool.length === 0) return [];
+
+  // 2. Obtener preguntas vistas
+  const seenIds = new Set(getSeenQuestionIds());
+
+  // 3. Filtrar preguntas no vistas dentro del pool seleccionado
+  let availableQuestions = pool.filter((q) => !seenIds.has(q.id));
+
+  // 4. Si las disponibles son menores a las requeridas, reiniciar historial para esa categoría
+  if (availableQuestions.length < count) {
+    // Eliminar del historial solo los IDs pertenecientes al pool actual
+    const currentPoolIds = new Set(pool.map((q) => q.id));
+    const updatedSeen = Array.from(seenIds).filter((id) => !currentPoolIds.has(id));
+    
+    try {
+      localStorage.setItem(STORAGE_KEY_SEEN, JSON.stringify(updatedSeen));
+    } catch (e) {
+      console.error(e);
+    }
+
+    // El pool vuelve a estar completamente disponible
+    availableQuestions = [...pool];
+  }
+
+  // 5. Mezclar de forma estrictamente aleatoria
+  const shuffled = shuffleArray(availableQuestions);
+
+  // 6. Tomar exactamente el número de preguntas solicitado asegurando unicidad por ID
+  const selectedMap = new Map<string, Question>();
+  for (const question of shuffled) {
+    if (selectedMap.size >= count) break;
+    if (!selectedMap.has(question.id)) {
+      selectedMap.set(question.id, question);
+    }
+  }
+
+  const selectedQuestions = Array.from(selectedMap.values());
+
+  // 7. Marcar las preguntas seleccionadas como vistas
+  markQuestionsAsSeen(selectedQuestions.map((q) => q.id));
+
+  return selectedQuestions;
+}
