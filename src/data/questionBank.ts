@@ -1,18 +1,18 @@
-import { expandedQuestions } from './expandedBank';
-import { supplementQuestions } from './supplementBank';
-import { theoryQuestions } from './theoryBank';
+import { EXPANDED_BANK } from './expandedBank';
+import { SUPPLEMENT_BANK } from './supplementBank';
+import { THEORY_BANK } from './theoryBank';
 
-export type SubjectId = 
-  | 'spanish' 
-  | 'math' 
-  | 'physics' 
-  | 'chemistry' 
-  | 'biology' 
-  | 'history' 
-  | 'geography' 
-  | 'civics' 
-  | 'verbal' 
-  | 'math_reasoning';
+export type SubjectId =
+  | 'espanol'
+  | 'matematicas'
+  | 'fisica'
+  | 'quimica'
+  | 'biologia'
+  | 'historia'
+  | 'geografia'
+  | 'formacion_civica_etica'
+  | 'habilidad_verbal'
+  | 'habilidad_matematica';
 
 export interface Question {
   id: string;
@@ -25,26 +25,69 @@ export interface Question {
 }
 
 export const SUBJECT_NAMES: Record<SubjectId, string> = {
-  spanish: 'Español',
-  math: 'Matemáticas',
-  physics: 'Física',
-  chemistry: 'Química',
-  biology: 'Biología',
-  history: 'Historia',
-  geography: 'Geografía',
-  civics: 'Formación Cívica y Ética',
-  verbal: 'Habilidad Verbal',
-  math_reasoning: 'Habilidad Matemática',
+  espanol: 'Español',
+  matematicas: 'Matemáticas',
+  fisica: 'Física',
+  quimica: 'Química',
+  biologia: 'Biología',
+  historia: 'Historia',
+  geografia: 'Geografía',
+  formacion_civica_etica: 'Formación Cívica y Ética',
+  habilidad_verbal: 'Habilidad Verbal',
+  habilidad_matematica: 'Habilidad Matemática',
 };
 
 const STORAGE_KEY_SEEN = 'ecoems_seen_question_ids';
 
-// Combinación de tus bancos de preguntas
+// Función auxiliar para aplanar estructuras tipo { materia: { tema: RawQ[] } } o arreglos de preguntas
+function flattenBank(bank: any): Question[] {
+  if (!bank || typeof bank !== 'object') return [];
+  
+  // Si ya es un arreglo plano de preguntas
+  if (Array.isArray(bank)) {
+    return bank.map((q, idx) => ({
+      id: q.id || `q_flat_${idx}`,
+      subject: q.subject || 'matematicas',
+      topic: q.topic || 'General',
+      text: q.text || q.q || '',
+      options: q.options || q.o || [],
+      correctAnswer: typeof q.correctAnswer === 'number' ? q.correctAnswer : (q.c ?? 0),
+      explanation: q.explanation || q.e || '',
+    }));
+  }
+
+  const result: Question[] = [];
+
+  Object.entries(bank).forEach(([subjectKey, topics]) => {
+    const subject = subjectKey as SubjectId;
+    if (topics && typeof topics === 'object') {
+      Object.entries(topics as Record<string, any[]>).forEach(([topic, questions]) => {
+        if (Array.isArray(questions)) {
+          questions.forEach((q, idx) => {
+            result.push({
+              id: q.id || `${subject}_${topic}_${idx}`,
+              subject,
+              topic,
+              text: q.text || q.q || '',
+              options: q.options || q.o || [],
+              correctAnswer: typeof q.correctAnswer === 'number' ? q.correctAnswer : (q.c ?? 0),
+              explanation: q.explanation || q.e || '',
+            });
+          });
+        }
+      });
+    }
+  });
+
+  return result;
+}
+
+// Combinación y aplanado de todos los bancos de preguntas
 export const ALL_QUESTIONS: Question[] = [
-  ...(Array.isArray(expandedQuestions) ? expandedQuestions : []),
-  ...(Array.isArray(supplementQuestions) ? supplementQuestions : []),
-  ...(Array.isArray(theoryQuestions) ? theoryQuestions : []),
-] as Question[];
+  ...flattenBank(EXPANDED_BANK),
+  ...flattenBank(SUPPLEMENT_BANK),
+  ...flattenBank(THEORY_BANK),
+];
 
 export function getSeenQuestionIds(): string[] {
   try {
@@ -76,13 +119,16 @@ export function resetSeenQuestions() {
 export function getRandomQuestions(count: number, subject?: SubjectId): Question[] {
   if (!ALL_QUESTIONS || ALL_QUESTIONS.length === 0) return [];
 
-  let pool = subject 
+  let pool = subject
     ? ALL_QUESTIONS.filter((q) => q.subject === subject)
     : ALL_QUESTIONS;
+
+  if (pool.length === 0) return [];
 
   const seenIds = new Set(getSeenQuestionIds());
   let available = pool.filter((q) => !seenIds.has(q.id));
 
+  // Si se agotaron las preguntas no vistas para el filtro, reiniciamos historial del pool
   if (available.length < count) {
     resetSeenQuestions();
     available = [...pool];
