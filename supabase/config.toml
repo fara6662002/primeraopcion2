@@ -1,0 +1,2 @@
+[functions.send-progress-report]
+verify_jwt = true
