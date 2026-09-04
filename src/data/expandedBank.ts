@@ -524,3 +524,5 @@ export const EXPANDED_BANK: Partial<Record<SubjectId, Record<string, RawQ[]>>> =
     ],
   },
 };
+
+export const expandedQuestions = EXPANDED_BANK;
