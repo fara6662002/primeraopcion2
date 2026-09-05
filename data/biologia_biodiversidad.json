@@ -5952,3 +5952,554 @@
     "c": 0,
     "e": "Marca simbólica y científicamente el fin del Holoceno, reconociendo la huella geológica indeleble de la civilización humana."
   },
+  {
+    "q": "¿Qué objetivo persigue principalmente la 'biología de la conservación'?",
+    "o": [
+      "Investigar las causas de la pérdida de biodiversidad y encontrar soluciones científicas para proteger y restaurar las especies y sus hábitats",
+      "Maximizar la extracción comercial de madera en los bosques tropicales maduros",
+      "Crear zoológicos privados para exhibir animales exóticos de todo el mundo",
+      "Estudiar exclusivamente la anatomía interna de los mamíferos marinos"
+    ],
+    "c": 0,
+    "e": "Es una disciplina científica aplicada y de crisis que busca frenar la extinción masiva de la biodiversidad provocada por la actividad humana."
+  },
+  {
+    "q": "¿Qué evalúa la 'tasa de extinción de fondo' (background extinction rate)?",
+    "o": [
+      "La tasa natural y normal de desaparición de especies a lo largo de la historia evolutiva de la Tierra antes de la alteración humana",
+      "La cantidad exacta de animales que mueren en los incendios forestales anuales",
+      "El porcentaje de plantas que se secan por falta de riego en las zonas urbanas",
+      "La velocidad a la que se extinguen las bacterias en los laboratorios industriales"
+    ],
+    "c": 0,
+    "e": "Las estimaciones actuales indican que la actividad humana ha elevado la tasa de extinción actual entre cientos y miles de veces por encima de esta tasa de fondo."
+  },
+  {
+    "q": "¿Qué caracteriza a una 'especie sombrilla' (umbrella species) en conservación?",
+    "o": [
+      "Aquella que requiere grandes extensiones de hábitat, por lo que su protección efectiva salvaguarda indirectamente a muchas otras especies que comparten su ecosistema",
+      "Un animal que utiliza su cuerpo para proteger a sus crías de la lluvia y los depredadores",
+      "Una planta acuática flotante que da sombra a los peces en los lagos poco profundos",
+      "Cualquier especie de ave migratoria que cruza los continentes dos veces al año"
+    ],
+    "c": 0,
+    "e": "Ejemplos clásicos incluyen a los grandes felinos o aves rapaces que exigen territorios extensos e intactos para sobrevivir."
+  },
+  {
+    "q": "¿Qué es una 'especie bandera' (flagship species)?",
+    "o": [
+      "Una especie carismática y reconocible utilizada como icono para generar apoyo público, recaudación de fondos y conciencia ambiental",
+      "Cualquier insecto que porte los colores de la bandera nacional en sus alas",
+      "Una especie invasora que domina y destruye los ecosistemas locales",
+      "El primer animal descubierto en una reserva natural recién inaugurada"
+    ],
+    "c": 0,
+    "e": "Ejemplos como el oso panda, el tigre o la ballena azul movilizan la sensibilidad social hacia la protección de sus hábitats."
+  },
+  {
+    "q": "¿Qué establece la iniciativa global de conservación conocida como '30x30'?",
+    "o": [
+      "Proteger formalmente al menos el 30% de la superficie terrestre y marina del planeta para el año 2030",
+      "Reducir las emisiones de carbono en un 30% en los próximos 30 meses",
+      "Aumentar la población de especies en peligro en un 30% utilizando 30 millones de hectáreas",
+      "Limitar el consumo de agua potable a 30 litros diarios por persona para el año 2030"
+    ],
+    "c": 0,
+    "e": "Es un objetivo clave adoptado en marcos internacionales (como el Marco Global de Biodiversidad de Kunming-Montreal) para frenar la crisis de biodiversidad."
+  },
+  {
+    "q": "¿Cómo se clasifican los 'servicios de regulación' dentro de los servicios de los ecosistemas?",
+    "o": [
+      "Beneficios obtenidos de la regulación de los procesos ecosistémicos (ej. purificación del agua, control de clima, polinización, mitigación de inundaciones)",
+      "La producción directa de alimentos, fibras y combustibles fósiles para el consumo",
+      "Los valores estéticos, espirituales y recreativos que otorgan los paisajes naturales",
+      "La formación de suelos y el ciclo básico de nutrientes geoquímicos"
+    ],
+    "c": 0,
+    "e": "Estos servicios actúan como un soporte invisible pero crítico para mantener la estabilidad ambiental y la habitabilidad del planeta."
+  },
+  {
+    "q": "¿Qué abarcan los 'servicios de aprovisionamiento' de los ecosistemas?",
+    "o": [
+      "Los productos materiales obtenidos directamente de los ecosistemas (ej. alimentos, agua dulce, madera, fibras, recursos medicinales)",
+      "La capacidad de los bosques para absorber el dióxido de carbono atmosférico",
+      "La regulación de las plagas agrícolas mediante insectos depredadores nativos",
+      "El esparcimiento y el turismo ecológico en los parques nacionales"
+    ],
+    "c": 0,
+    "e": "Representan los recursos más tangibles y directamente explotados por la economía y la subsistencia humana."
+  },
+  {
+    "q": "¿Qué definen los 'servicios culturales' proporcionados por la naturaleza?",
+    "o": [
+      "Beneficios no materiales que las personas obtienen de los ecosistemas a través del enriquecimiento espiritual, desarrollo cognitivo, recreación y estética",
+      "La transformación industrial de materias primas en productos manufacturados",
+      "El almacenamiento de carbono orgánico en las capas profundas del suelo",
+      "La polinización cruzada de los cultivos hortícolas en los valles"
+    ],
+    "c": 0,
+    "e": "Incluyen el valor paisajístico, la inspiración artística, el ecoturismo y la identidad cultural vinculada al territorio."
+  },
+  {
+    "q": "¿Qué función cumplen los 'servicios de apoyo o soporte' en los ecosistemas?",
+    "o": [
+      "Aquellos necesarios para la producción de todos los demás servicios ecosistémicos (ej. formación de suelo, fotosíntesis, ciclo de nutrientes)",
+      "El suministro económico directo de subvenciones estatales a los agricultores",
+      "La construcción de diques de contención artificiales para proteger las ciudades",
+      "La distribución comercial de alimentos orgánicos en los mercados urbanos"
+    ],
+    "c": 0,
+    "e": "A diferencia de los demás servicios, sus impactos sobre los seres humanos son indirectos o se manifiestan a muy largo plazo."
+  },
+  {
+    "q": "¿Qué representa el concepto económico de 'capital natural'?",
+    "o": [
+      "El stock mundial de recursos naturales renovables y no renovables (incluyendo suelos, agua, aire y todos los seres vivos) que rinde un flujo de beneficios",
+      "La cantidad de dinero invertida por los gobiernos en la creación de parques nacionales",
+      "El valor monetario de las empresas madereras y mineras multinacionales",
+      "Los beneficios económicos generados por la industria del turismo de masas"
+    ],
+    "c": 0,
+    "e": "Reconoce a la naturaleza como un activo fundamental cuyo agotamiento compromete la base de la riqueza y el bienestar humano."
+  },
+  {
+    "q": "¿Qué mide específicamente la 'huella hídrica' de un producto o actividad?",
+    "o": [
+      "El volumen total de agua dulce utilizada directa e indirectamente para producir los bienes y servicios consumidos",
+      "La cantidad de litros de agua contaminada vertida directamente a los ríos sin tratar",
+      "La velocidad a la que se evaporan los embalses artificiales en las zonas áridas",
+      "El porcentaje de humedad retenida en el suelo agrícola tras una tormenta"
+    ],
+    "c": 0,
+    "e": "Incluye el agua azul (superficial/subterránea), verde (de lluvia almacenada en el suelo) y gris (necesaria para diluir contaminantes)."
+  },
+  {
+    "q": "¿Qué calcula la 'huella de carbono'?",
+    "o": [
+      "La totalidad de emisiones de gases de efecto invernadero (GEI) asociadas directa o indirectamente a un individuo, organización, evento o producto",
+      "El peso total de los árboles talados para la producción de carbón vegetal en el mundo",
+      "La concentración de hollín acumulada en la atmósfera de las ciudades industriales",
+      "La cantidad de carbono almacenada en los arrecifes de coral oceánicos"
+    ],
+    "c": 0,
+    "e": "Se expresa comúnmente en equivalentes de dióxido de carbono ($CO_2eq$) para cuantificar el impacto sobre el calentamiento global."
+  },
+  {
+    "q": "¿Qué evalúa un 'Análisis de Ciclo de Vida' (ACV)?",
+    "o": [
+      "Los impactos ambientales potenciales de un producto, proceso o servicio a lo largo de todas sus etapas (desde la extracción de materias primas hasta su disposición final)",
+      "El tiempo exacto que tarda un animal en completar su ciclo reproductivo en libertad",
+      "La rentabilidad financiera de una empresa durante sus primeros diez años en el mercado",
+      "La velocidad de descomposición de los materiales orgánicos en un vertedero municipal"
+    ],
+    "c": 0,
+    "e": "Permite adoptar un enfoque de 'la cuna a la tumba' para evitar trasladar los impactos ambientales de una fase a otra."
+  },
+  {
+    "q": "¿Qué postula el modelo de la 'economía circular'?",
+    "o": [
+      "Un sistema económico basado en la reutilización, reparación, refabricación y reciclaje de materiales para minimizar los residuos y mantener el valor el mayor tiempo posible",
+      "Un ciclo continuo de crecimiento financiero ilimitado basado en la extracción rápida de recursos",
+      "La eliminación total del uso de dinero en efectivo en favor de monedas digitales",
+      "El intercambio obligatorio de productos agrícolas entre países vecinos"
+    ],
+    "c": 0,
+    "e": "Contrasta con el modelo lineal tradicional de 'extraer, fabricar, usar y tirar', imitando la eficiencia de los ciclos naturales."
+  },
+  {
+    "q": "¿Qué caracteriza al modelo económico 'lineal' tradicional?",
+    "o": [
+      "Un flujo de producción donde los recursos se transforman en bienes que, tras su uso rápido, se desechan como residuos, generando una alta presión ambiental",
+      "Un sistema donde todos los productos se reciclan de manera obligatoria y regulada",
+      "Un intercambio comercial basado exclusivamente en la exportación de materias primas agrícolas",
+      "Una red de distribución de energía basada en fuentes 100% renovables"
+    ],
+    "c": 0,
+    "e": "Es un modelo insostenible a largo plazo debido a la finitud de los recursos naturales y la saturación de los vertederos."
+  },
+  {
+    "q": "¿Qué es el 'ecodiseño' (o diseño para el medio ambiente)?",
+    "o": [
+      "La integración de criterios ambientales en la fase de concepción y diseño de productos para reducir su impacto ecológico a lo largo de su ciclo de vida",
+      "La creación de ropa con estampados inspirados exclusivamente en paisajes naturales",
+      "La construcción de edificios con grandes ventanales de cristal para ahorrar luz artificial",
+      "La plantación de jardines verticales en las fachadas de las oficinas corporativas"
+    ],
+    "c": 0,
+    "e": "Busca facilitar el desensamblaje, la durabilidad, la reciclabilidad y la eficiencia energética desde el origen del producto."
+  },
+  {
+    "q": "¿Qué implica el principio de 'responsabilidad extendida del productor' (REP)?",
+    "o": [
+      "Que los fabricantes tienen la responsabilidad financiera y/o física de la gestión de sus productos en la fase de residuo post-consumo",
+      "Que las empresas deben pagar salarios más altos a los empleados de las fábricas",
+      "Que los gobiernos otorgan subsidios ilimitados a las empresas que exportan tecnología",
+      "Que los consumidores son los únicos responsables de reciclar sus propios envases"
+    ],
+    "c": 0,
+    "e": "Incentiva a las marcas a diseñar productos más fáciles de reciclar, ya que internalizan los costos de su recogida y tratamiento final."
+  },
+  {
+    "q": "¿Qué son los 'bonos de carbono'?",
+    "o": [
+      "Certificados negociables que representan el derecho a emitir una tonelada de dióxido de carbono o su equivalente, financiando proyectos de reducción de emisiones",
+      "Bonificaciones económicas entregadas a los ciudadanos que utilizan bicicletas",
+      "Impuestos especiales aplicados a los combustibles fósiles en las gasolineras",
+      "Títulos valores emitidos por bancos centrales para respaldar monedas ecológicas"
+    ],
+    "c": 0,
+    "e": "Funcionan dentro de mercados de carbono regulados o voluntarios para incentivar económicamente la mitigación climática."
+  },
+  {
+    "q": "¿En qué consiste la 'compensación de emisiones' de carbono?",
+    "o": [
+      "Financiar proyectos externos (como reforestación o energías limpias) para neutralizar o equilibrar las emisiones de GEI que una entidad no ha podido evitar",
+      "Eliminar por completo las emisiones de una fábrica cerrando sus operaciones industriales",
+      "Comprar derechos de emisión a otras empresas competidoras dentro del mismo país",
+      "Almacenar temporalmente los residuos plásticos en contenedores especiales"
+    ],
+    "c": 0,
+    "e": "Aunque es una herramienta de transición, suele generar debates sobre si fomenta reducciones reales en la fuente o actúa como un mero espejismo."
+  },
+  {
+    "q": "¿Qué es la 'captura y almacenamiento de carbono' (CAC)?",
+    "o": [
+      "Tecnologías diseñadas para capturar el dióxido de carbono emitido por procesos industriales o centrales eléctricas antes de que llegue a la atmósfera y confinarlo bajo tierra",
+      "El proceso natural mediante el cual los árboles absorben luz solar durante el día",
+      "La filtración del aire urbano utilizando enormes purificadores mecánicos en las calles",
+      "La compactación de residuos orgánicos en fosas sépticas rurales"
+    ],
+    "c": 0,
+    "e": "Busca mitigar el impacto de industrias difíciles de descarbonizar, aunque enfrenta desafíos de costos, eficiencia y seguridad de almacenamiento a largo plazo."
+  },
+  {
+    "q": "¿Qué propone la tecnología 'BECCS' (Bioenergía con Captura y Almacenamiento de Carbono)?",
+    "o": [
+      "Generar energía quemando biomasa y capturando simultáneamente las emisiones de CO2 resultantes para almacenarlas, logrando emisiones netas negativas",
+      "Producir combustibles sintéticos utilizando la energía solar de los desiertos",
+      "Transformar residuos plásticos marinos en biocombustibles para aviones comerciales",
+      "Cultivar microalgas en tanques iluminados artificialmente para purificar aguas residuales"
+    ],
+    "c": 0,
+    "e": "Se considera una tecnología de emisiones negativas clave en muchos modelos climáticos para extraer carbono de la atmósfera."
+  },
+  {
+    "q": "¿Qué es la energía geotérmica?",
+    "o": [
+      "Aquella que aprovecha el calor procedente del interior de la Tierra para generar electricidad o calefacción directa",
+      "La energía obtenida a partir de la descomposición de los residuos orgánicos en la superficie",
+      "El calor generado por la fricción de las mareas oceánicas contra las costas rocosas",
+      "La radiación infrarroja emitida por el suelo terrestre durante las noches de verano"
+    ],
+    "c": 0,
+    "e": "Es una fuente de energía renovable constante y de carga base, independiente de las condiciones meteorológicas superficiales."
+  },
+  {
+    "q": "¿Qué caracteriza al 'hidrógeno verde'?",
+    "o": [
+      "Hidrógeno obtenido mediante la electrólisis del agua utilizando electricidad generada exclusivamente a partir de fuentes renovables",
+      "Hidrógeno extraído directamente de yacimientos naturales subterráneos profundos",
+      "Hidrógeno producido a partir de gas natural con captura parcial de sus emisiones",
+      "Gas verde obtenido por la fermentación de restos vegetales en descomposición"
+    ],
+    "c": 0,
+    "e": "Su producción no genera emisiones directas de gases de efecto invernadero, posicionándose como vector energético clave para la transición."
+  },
+  {
+    "q": "¿Qué diferencia principal existe entre el hidrógeno gris y el hidrógeno verde?",
+    "o": [
+      "El gris se produce a partir de gas fósil (reformado con vapor) emitiendo CO2, mientras que el verde se genera mediante electrólisis con energía renovable y cero emisiones",
+      "El gris es de uso doméstico y el verde se utiliza exclusivamente en la industria aeroespacial",
+      "El hidrógeno gris es líquido a temperatura ambiente y el verde es un gas comprimido",
+      "No existe diferencia química; solo cambia el colorante utilizado para identificar los tanques"
+    ],
+    "c": 0,
+    "e": "La gran mayoría del hidrógeno industrial actual es gris, lo que representa una huella de carbono muy elevada que se busca reemplazar."
+  },
+  {
+    "q": "¿Qué ventajas ofrecen los biocombustibles de segunda generación frente a los de primera?",
+    "o": [
+      "Se producen a partir de residuos agrícolas, forestales o cultivos no comestibles, evitando competir con la tierra destinada a la producción de alimentos",
+      "Son completamente gratuitos y se pueden fabricar en cualquier cocina doméstica",
+      "Tienen un rendimiento energético mil veces mayor que el petróleo crudo refinado",
+      "No requieren ningún tipo de procesamiento químico previo para su uso en motores"
+    ],
+    "c": 0,
+    "e": "Los biocombustibles de primera generación (como el etanol de maíz) han sido criticados por encarecer los alimentos y usar tierras cultivables."
+  },
+  {
+    "q": "¿Qué desafíos ambientales plantean los biocombustibles de primera generación?",
+    "o": [
+      "Competencia directa con la seguridad alimentaria, uso intensivo de agua y fertilizantes, y riesgo de deforestación por cambio de uso de suelo",
+      "Emisión masiva de gases radioactivos durante su combustión en los vehículos",
+      "Incompatibilidad total con los motores de combustión interna modernos",
+      "Reducción drástica de la temperatura global debido a su efecto refrigerante"
+    ],
+    "c": 0,
+    "e": "El desvío de cosechas para combustible puede elevar los precios globales de los alimentos y generar impactos ecológicos negativos."
+  },
+  {
+    "q": "¿Qué aprovecha la energía undimotriz?",
+    "o": [
+      "La energía cinética y potencial generada por el movimiento de las olas en la superficie de los océanos",
+      "El ascenso y descenso periódico del nivel del mar provocado por las mareas lunares",
+      "La diferencia de temperatura entre las capas superficiales y profundas del mar",
+      "Las corrientes marinas constantes que fluyen a lo largo de los estrechos oceánicos"
+    ],
+    "c": 0,
+    "e": "Es una fuente marina renovable con un gran potencial energético aún en fases avanzadas de desarrollo tecnológico e implementación."
+  },
+  {
+    "q": "¿Qué explota la energía mareomotriz?",
+    "o": [
+      "La energía liberada por el movimiento vertical de las mareas producido por la atracción gravitatoria de la Luna y el Sol",
+      "La fuerza destructiva de los tsunamis provocados por terremotos submarinos",
+      "El oleaje violento generado por las tormentas tropicales costeras",
+      "La bioluminiscencia generada por el plancton en las bahías cerradas"
+    ],
+    "c": 0,
+    "e": "Requiere grandes amplitudes de marea en estuarios o bahías específicas para la instalación de diques y turbinas generadoras."
+  },
+  {
+    "q": "¿Qué ventajas prometen las celdas solares de perovskita en la tecnología fotovoltaica?",
+    "o": [
+      "Alta eficiencia de conversión, flexibilidad de diseño, menor costo de fabricación y posibilidad de producirse mediante procesos en solución a baja temperatura",
+      "Capacidad para generar electricidad durante las noches sin necesidad de baterías",
+      "Durabilidad eterna garantizada sin sufrir ningún tipo de degradación por la intemperie",
+      "Resistencia absoluta al agua salada bajo el nivel del mar"
+    ],
+    "c": 0,
+    "e": "Representan una de las líneas de investigación más dinámicas para abaratar y diversificar la energía solar, aunque investigan su estabilidad."
+  },
+  {
+    "q": "¿Qué caracteriza a la 'agricultura de precisión'?",
+    "o": [
+      "El uso de tecnologías avanzadas (GPS, sensores, drones, análisis de datos) para optimizar la gestión de parcelas y aplicar insumos según las necesidades específicas",
+      "La prohibición absoluta del uso de tractores y maquinaria pesada en los campos",
+      "El riego manual milimétrico realizado exclusivamente por agricultores expertos",
+      "La selección genética manual de semillas mediante técnicas tradicionales ancestrales"
+    ],
+    "c": 0,
+    "e": "Permite maximizar los rendimientos agrícolas minimizando el desperdicio de agua, fertilizantes y pesticidas."
+  },
+  {
+    "q": "¿Qué busca el 'control biológico de plagas' en la agricultura?",
+    "o": [
+      "Utilizar los enemigos naturales de una plaga (depredadores, parasitoides o patógenos) para mantener sus poblaciones por debajo del umbral de daño económico",
+      "Pulverizar pesticidas químicos sintéticos de amplio espectro en grandes cantidades",
+      "Esterilizar por completo el suelo agrícola mediante radiación ultravioleta",
+      "Modificar genéticamente a las plantas para que expulsen un olor insoportable"
+    ],
+    "c": 0,
+    "e": "Reduce la dependencia de plaguicidas químicos sintéticos y previene la resistencia de las plagas y la contaminación ambiental."
+  },
+  {
+    "q": "¿Qué beneficio agronómico y ecológico aporta la 'rotación de cultivos'?",
+    "o": [
+      "Romper los ciclos biológicos de las plagas, mejorar la estructura del suelo y reponer nutrientes naturales (como la fijación de nitrógeno por leguminosas)",
+      "Agotar rápidamente los minerales del suelo para forzar el uso de abonos químicos",
+      "Mantener el mismo cultivo intensivo durante décadas sin alterar el terreno",
+      "Evitar por completo la necesidad de cosechar los productos agrícolas"
+    ],
+    "c": 0,
+    "e": "Es una práctica milenaria fundamental en la agronomía sostenible para mantener la fertilidad y salud de los suelos sin sobreexplotación."
+  },
+  {
+    "q": "¿Qué define al 'policultivo' (o asociación de cultivos)?",
+    "o": [
+      "La práctica de cultivar múltiples especies vegetales diferentes de manera simultánea en la misma parcela de terreno",
+      "La siembra exclusiva de una sola variedad vegetal altamente seleccionada en grandes extensiones",
+      "La alternancia temporal de diferentes cosechas en años consecutivos",
+      "El cultivo de plantas exclusivamente en invernaderos hidropónicos cerrados"
+    ],
+    "c": 0,
+    "e": "Imita la diversidad de los ecosistemas naturales, mejorando la resistencia a plagas y optimizando el uso de nutrientes y espacio (ej. la milpa)."
+  },
+  {
+    "q": "¿Qué caracteriza a la agricultura hidropónica?",
+    "o": [
+      "Un método de cultivo sin suelo donde las plantas reciben los nutrientes esenciales disueltos en soluciones acuosas",
+      "La siembra directa en lodo marino utilizando agua salada oceánica",
+      "Un sistema de riego por inundación profunda en campos de arroz tradicionales",
+      "La producción de vegetales en zonas desérticas mediante la condensación de niebla"
+    ],
+    "c": 0,
+    "e": "Permite un control preciso de los nutrientes y un ahorro drástico de agua en comparación con la agricultura tradicional en tierra."
+  },
+  {
+    "q": "¿Qué es la 'acuaponía'?",
+    "o": [
+      "Un sistema de producción sostenible que combina la acuicultura (cría de peces) con la hidroponía (cultivo de plantas sin suelo) en un circuito cerrado recirculante",
+      "La alimentación de peces de acuario con restos de vegetales cultivados en tierra",
+      "Un método para purificar aguas residuales industriales utilizando algas marinas",
+      "La pesca intensiva de especies comerciales en los lagos artificiales"
+    ],
+    "c": 0,
+    "e": "Los desechos de los peces son transformados por bacterias en nutrientes para las plantas, las cuales limpian el agua que regresa al estanque."
+  },
+  {
+    "q": "¿Qué son los organismos genéticamente modificados (OGM) o transgénicos?",
+    "o": [
+      "Organismos cuyo material genético ha sido alterado utilizando técnicas de ingeniería genética para introducir genes de otras especies con fines específicos",
+      "Plantas híbridas obtenidas mediante cruces tradicionales y selección manual durante siglos",
+      "Microorganismos que han mutado de forma natural debido a la radiación solar",
+      "Alimentos procesados industrialmente con aditivos químicos y colorantes artificiales"
+    ],
+    "c": 0,
+    "e": "Permiten conferir características como resistencia a plagas o tolerancia a herbicidas, aunque su uso genera debates éticos y ecológicos."
+  },
+  {
+    "q": "¿Qué riesgos ecológicos se asocian comúnmente al uso masivo de cultivos OGM resistentes a insectos?",
+    "o": [
+      "El desarrollo de resistencia en las plagas objetivo, el impacto potencial sobre insectos no blanco y el flujo génico hacia parientes silvestres",
+      "La transformación instantánea de los campos cultivados en desiertos estériles",
+      "La generación de emisiones radiactivas en los alimentos cosechados",
+      "El aumento drástico del consumo de agua en las cuencas agrícolas"
+    ],
+    "c": 0,
+    "e": "Por ello se implementan medidas de manejo de resistencia, como la siembra de refugios de plantas no transgénicas."
+  },
+  {
+    "q": "¿Qué es la 'biorremediación'?",
+    "o": [
+      "El uso de organismos vivos (bacterias, hongos, plantas) para limpiar o neutralizar contaminantes ambientales en suelos o aguas degradadas",
+      "La destrucción química de residuos peligrosos mediante ácidos industriales fuertes",
+      "La incineración controlada de basura urbana en hornos de alta temperatura",
+      "La filtración mecánica de microplásticos en las plantas de tratamiento de agua"
+    ],
+    "c": 0,
+    "e": "Aprovecha la capacidad metabólica natural de ciertos microorganismos para degradar hidrocarburos, metales pesados o compuestos tóxicos."
+  },
+  {
+    "q": "¿Qué es la 'fitorremediación'?",
+    "o": [
+      "Una rama de la biorremediación que utiliza plantas específicas para extraer, acumular, inmovilizar o degradar contaminantes del suelo o del agua",
+      "La tala de árboles enfermos para evitar la propagación de plagas forestales",
+      "La reforestación de áreas áridas utilizando abonos orgánicos sintéticos",
+      "El estudio botánico de las plantas medicinales en las selvas tropicales"
+    ],
+    "c": 0,
+    "e": "Ciertas plantas hiperacumuladoras pueden absorber metales pesados como níquel, cadmio o plomo a través de sus raíces."
+  },
+  {
+    "q": "¿Qué son las 'rizofiltraciones' en la descontaminación ambiental?",
+    "o": [
+      "Una técnica de fitorremediación donde se utilizan las raíces de plantas acuáticas para absorber y precipitar contaminantes de efluentes líquidos",
+      "El filtrado del agua de lluvia a través de las capas de humus en los bosques",
+      "La retención de nutrientes en el subsuelo gracias a las raíces profundas de los árboles",
+      "La descomposición de plásticos por bacterias simbióticas en la rizósfera"
+    ],
+    "c": 0,
+    "e": "Es muy útil para tratar aguas contaminadas con radionucleidos o metales pesados antes de que lleguen a los mantos acuíferos."
+  },
+  {
+    "q": "¿Qué es el compostaje aeróbico?",
+    "o": [
+      "Un proceso biológico controlado de descomposición de materia orgánica realizado por microorganismos en presencia de oxígeno",
+      "La quema de residuos vegetales en ausencia de aire para producir carbón vegetal",
+      "La fermentación de alimentos en recipientes herméticos sumergidos en agua",
+      "La evaporación rápida de los lodos cloacales mediante ventiladores industriales"
+    ],
+    "c": 0,
+    "e": "Transforma residuos orgánicos en un abono rico en nutrientes (compost) sin generar malos olores si se gestiona adecuadamente."
+  },
+  {
+    "q": "¿Qué diferencia principal existe entre el compostaje tradicional y el vermicompostaje?",
+    "o": [
+      "El vermicompostaje utiliza lombrices específicas (como la lombriz roja californiana) para acelerar y procesar la descomposición de la materia orgánica",
+      "El compostaje se realiza en el agua y el vermicompostaje en cámaras frigoríficas",
+      "El compostaje produce plásticos y el vermicompostaje produce fertilizantes líquidos",
+      "No existe diferencia; son nombres comerciales para el mismo proceso microbiano"
+    ],
+    "c": 0,
+    "e": "Las lombrices ingieren y digieren los residuos, generando un humus de lombriz (lombricomposta) de altísima calidad agronómica."
+  },
+  {
+    "q": "¿Qué es la 'digestión anaeróbica' de residuos orgánicos?",
+    "o": [
+      "Un proceso biológico en el cual microorganismos descomponen la materia orgánica en ausencia total de oxígeno, produciendo biogás y digestato",
+      "La quema directa de basura orgánica en incineradores industriales sellados",
+      "El secado al sol de los restos vegetales para fabricar biocombustibles sólidos",
+      "La congelación rápida de lodos residuales para evitar su descomposición"
+    ],
+    "c": 0,
+    "e": "Es una tecnología clave para valorizar residuos húmedos (estiércol, lodos, restos de comida) generando energía renovable y abono."
+  },
+  {
+    "q": "¿Qué es el 'biogás'?",
+    "o": [
+      "Un gas combustible compuesto principalmente por metano y dióxido de carbono, producido por la descomposición anaeróbica de materia orgánica",
+      "Un gas sintético extraído directamente de pozos petroleros en los desiertos",
+      "El vapor de agua purificado emitido por las plantas durante la fotosíntesis",
+      "Un aerosol ecológico utilizado para la limpieza industrial sin químicos"
+    ],
+    "c": 0,
+    "e": "Puede ser utilizado para generar electricidad, calor o como combustible vehicular tras ser depurado."
+  },
+  {
+    "q": "¿Qué es la 'pirólisis' de biomasa?",
+    "o": [
+      "La descomposición térmica de material orgánico a temperaturas elevadas en ausencia de oxígeno, obteniendo biochar, bioaceite y gases",
+      "La quema descontrolada de bosques durante la temporada de sequía extrema",
+      "El enfriamiento criogénico de residuos plásticos para facilitar su trituración",
+      "La disolución de compuestos orgánicos en ácidos corrosivos concentrados"
+    ],
+    "c": 0,
+    "e": "Es un proceso termoquímico versátil que permite valorizar residuos agrícolas y forestales transformándolos en productos útiles."
+  },
+  {
+    "q": "¿Qué es la 'gasificación' de residuos?",
+    "o": [
+      "Un proceso termoquímico donde la biomasa o los residuos se convierten en gas de síntesis (syngas) mediante la oxidación parcial a altas temperaturas",
+      "La evaporación del agua contenida en los lodos residuales mediante luz solar",
+      "La compresión de gases de efecto invernadero en cilindros metálicos de alta presión",
+      "La transformación de plásticos en líquidos inflamables mediante solventes"
+    ],
+    "c": 0,
+    "e": "El syngas resultante (mezcla de monóxido de carbono e hidrógeno) puede utilizarse para generar energía o fabricar productos químicos."
+  },
+  {
+    "q": "¿Qué diferencia a los plásticos biodegradables de los bioplásticos de origen fósil?",
+    "o": [
+      "Los biodegradables pueden ser descompuestos por microorganismos en el ambiente, mientras que los de origen fósil se fabrican con petroquímicos aunque tengan aditivos biodegradables (o viceversa)",
+      "Los bioplásticos de origen fósil se descomponen en el agua del mar en pocos minutos",
+      "Los plásticos biodegradables provienen exclusivamente del petróleo refinado",
+      "No hay ninguna diferencia técnica; son términos comerciales intercambiables"
+    ],
+    "c": 0,
+    "e": "El término 'bioplástico' se refiere al origen de la materia prima (bio-basado), mientras que 'biodegradable' se refiere al fin de su vida útil."
+  },
+  {
+    "q": "¿Qué persigue el 'reciclaje químico' de plásticos?",
+    "o": [
+      "Despolimerizar o descomponer los polímeros plásticos en sus monómeros o sustancias químicas originales para fabricar nuevos plásticos de calidad virgen",
+      "Lavar los envases plásticos con detergentes industriales antes de triturarlos",
+      "Mezclar plásticos de diferentes tipos para fundirlos en adoquines de construcción",
+      "Disolver los plásticos en agua para regar los campos agrícolas"
+    ],
+    "c": 0,
+    "e": "A diferencia del reciclaje mecánico tradicional, el químico permite procesar plásticos complejos o degradados sin perder sus propiedades originales."
+  },
+  {
+    "q": "¿Qué aplicaciones ambientales o industriales tiene la pirólisis de neumáticos fuera de uso (NFU)?",
+    "o": [
+      "Recuperar acero, gas de síntesis, aceite pirolítico y negro de humo reutilizable, evitando su acumulación en vertederos",
+      "Fabricar alfombras impermeables para uso doméstico sin ningún tratamiento previo",
+      "Triturar los neumáticos para arrojarlos directamente al fondo de los océanos como arrecifes",
+      "Quemar los neumáticos al aire libre para generar energía eléctrica barata"
+    ],
+    "c": 0,
+    "e": "Permite dar valor a un residuo altamente contaminante y de difícil degradación natural mediante economía circular."
+  },
+  {
+    "q": "¿Qué establece el concepto de 'límites planetarios' (planetary boundaries) de Johan Rockström y colaboradores?",
+    "o": [
+      "Un marco científico que define los umbrales biofísicos críticos del sistema Tierra que la humanidad no debe rebasar para evitar cambios ambientales irreversibles",
+      "Las fronteras políticas internacionales que separan a los países desarrollados de los en vías de desarrollo",
+      "La cantidad máxima de petróleo que queda por extraer en los yacimientos subterráneos",
+      "El límite de velocidad permitido para la circulación de vehículos eléctricos en las ciudades"
+    ],
+    "c": 0,
+    "e": "Identifica nueve procesos del sistema terrestre (como cambio climático, integridad de la biosfera y uso de agua dulce) fundamentales para mantener el estado seguro del Holoceno."
+  },
+  
