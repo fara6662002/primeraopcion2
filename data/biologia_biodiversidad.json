@@ -6502,4 +6502,1588 @@
     "c": 0,
     "e": "Identifica nueve procesos del sistema terrestre (como cambio climático, integridad de la biosfera y uso de agua dulce) fundamentales para mantener el estado seguro del Holoceno."
   },
+ {
+    "q": "¿Qué indica el límite planetario de la 'integridad de la biosfera'?",
+    "o": [
+      "El umbral de pérdida de biodiversidad (tanto en diversidad genética como funcional) por debajo del cual el sistema Tierra pierde su resiliencia",
+      "La cantidad total de animales que pueden vivir en cautiverio sin estresarse",
+      "El porcentaje de superficie terrestre que debe cubrirse obligatoriamente con cultivos agrícolas",
+      "La velocidad a la que se extinguen las especies marinas en comparación con las terrestres"
+    ],
+    "c": 0,
+    "e": "Es considerado uno de los dos 'núcleos fundamentales' junto con el cambio climático, ya que regula el funcionamiento de todo el sistema planetario."
+  },
+  {
+    "q": "¿Qué evalúa el límite planetario de los 'flujos biogeoquímicos' (nitrógeno y fósforo)?",
+    "o": [
+      "La alteración humana masiva de los ciclos globales de nitrógeno y fósforo debido a fertilizantes sintéticos, que provoca eutrofización y zonas muertas",
+      "La cantidad de piedras preciosas que se extraen de las minas subterráneas cada año",
+      "El desprendimiento de rocas provocado por la lluvia ácida en las altas montañas",
+      "La acumulación de metales pesados en la atmósfera de las ciudades industriales"
+    ],
+    "c": 0,
+    "e": "Las actividades humanas ya han superado ampliamente este límite planetario, alterando de forma crítica los ecosistemas acuáticos y terrestres."
+  },
+  {
+    "q": "¿Qué mide el límite planetario del 'cambio en el uso del suelo'?",
+    "o": [
+      "La conversión de bosques, humedales y pastizales naturales en tierras agrícolas o urbanas, afectando la regulación del clima y la biodiversidad",
+      "La erosión natural de los acantilados costeros debido a las olas del mar",
+      "La profundidad a la que se hunden los cimientos de los rascacielos en las grandes metrópolis",
+      "El aumento del precio de los terrenos urbanizables en las capitales del mundo"
+    ],
+    "c": 0,
+    "e": "La pérdida masiva de bosques tropicales y templados reduce la capacidad del planeta para absorber carbono y mantener servicios ecosistémicos."
+  },
+  {
+    "q": "¿Qué evalúa el límite planetario del 'uso global de agua dulce'?",
+    "o": [
+      "La alteración humana de los recursos hídricos superficiales y subterráneos debido al riego agrícola, la industria y el consumo",
+      "El volumen total de lluvia que cae en los océanos durante la temporada de huracanes",
+      "La cantidad de agua potable que se desperdicia en las fugas de las tuberías municipales",
+      "La velocidad a la que se derretirían los glaciares si la temperatura subiera dos grados"
+    ],
+    "c": 0,
+    "e": "El consumo excesivo y la alteración de los caudales de los ríos amenazan la estabilidad de los ecosistemas acuáticos y el suministro humano."
+  },
+  {
+    "q": "¿A qué se refiere el límite planetario de la 'acidificación de los océanos'?",
+    "o": [
+      "Al descenso gradual del pH del agua marina provocado por la absorción de grandes cantidades de dióxido de carbono atmosférico",
+      "Al vertido directo de ácidos industriales desde las fábricas costeras hacia las bahías",
+      "A la contaminación de los mares por derrames masivos de petróleo crudo",
+      "A la salinización de los estuarios debido a la escasez de lluvias"
+    ],
+    "c": 0,
+    "e": "Este proceso químico dificulta la calcificación de organismos marinos esenciales como corales, moluscos y plancton."
+  },
+  {
+    "q": "¿Qué mide el límite planetario de la 'carga de aerosoles atmosféricos'?",
+    "o": [
+      "La concentración de partículas en suspensión en la atmósfera (hollín, polvo, sulfatos) que afectan los patrones climáticos y la salud humana",
+      "El volumen de desodorantes en spray utilizados globalmente por la población",
+      "La cantidad de nubes artificiales creadas mediante aviones militares",
+      "El grosor de la capa de ozono en la estratosfera polar"
+    ],
+    "c": 0,
+    "e": "Los aerosoles influyen fuertemente en el balance radiativo de la Tierra, la formación de nubes y los monzones estacionales."
+  },
+  {
+    "q": "¿Qué engloba el límite planetario de la 'introducción de nuevas entidades' (contaminación química)?",
+    "o": [
+      "El impacto global de la liberación al medio ambiente de sustancias sintéticas novedosas, plásticos, pesticidas, metales pesados y organismos modificados",
+      "La llegada de especies animales extranjeras a través del transporte marítimo",
+      "El descubrimiento de nuevas galaxias y cuerpos celestes mediante telescopios espaciales",
+      "La construcción de nuevas ciudades inteligentes en zonas desérticas"
+    ],
+    "c": 0,
+    "e": "Representa una de las fronteras donde la humanidad ha introducido decenas de miles de compuestos químicos cuyos efectos a largo plazo son desconocidos."
+  },
+  {
+    "q": "¿Qué caracteriza a la 'transición demográfica' en las poblaciones humanas?",
+    "o": [
+      "El paso histórico desde altas tasas de natalidad y mortalidad hacia tasas bajas de natalidad y mortalidad a medida que un país se desarrolla socioeconómicamente",
+      "La migración masiva de habitantes desde las zonas rurales hacia las grandes ciudades industriales",
+      "El envejecimiento prematuro de la población debido a epidemias globales",
+      "El crecimiento exponencial e infinito de la población mundial sin control"
+    ],
+    "c": 0,
+    "e": "Este modelo explica cómo la estabilización poblacional suele seguir al desarrollo económico, la educación y la mejora en salud pública."
+  },
+  {
+    "q": "¿Qué analiza la teoría de la 'capacidad de carga' aplicada a las poblaciones humanas?",
+    "o": [
+      "El número máximo de individuos que un entorno determinado puede sostener indefinidamente sin degradar los recursos naturales disponibles",
+      "La cantidad máxima de equipaje que puede transportar un vehículo comercial de carga",
+      "El peso límite que soportan los puentes y estructuras metálicas modernas",
+      "El volumen máximo de agua que puede almacenar una presa hidroeléctrica"
+    ],
+    "c": 0,
+    "e": "Mientras que los animales están estrictamente limitados por su entorno, los seres humanos han ampliado su capacidad de carga mediante la tecnología, aunque con un alto costo ambiental."
+  },
+  {
+    "q": "¿Qué promueve el concepto de 'decrecimiento' (degrowth) en la economía y la ecología?",
+    "o": [
+      "Una reducción democrática y planificada del consumo y la producción en los países ricos para liberar espacio ecológico y garantizar el bienestar humano dentro de los límites planetarios",
+      "Una crisis financiera obligatoria que provoque el colapso absoluto del comercio internacional",
+      "La prohibición de utilizar cualquier tipo de tecnología digital o maquinaria moderna",
+      "El estancamiento permanente de la ciencia y la educación en todo el mundo"
+    ],
+    "c": 0,
+    "e": "Critica el dogma del crecimiento económico infinito en un planeta con recursos finitos, priorizando la equidad social y la sostenibilidad."
+  },
+  {
+    "q": "¿Qué es la 'justicia ambiental'?",
+    "o": [
+      "El principio que asegura que ningún grupo de población (incluyendo minorías o comunidades de bajos ingresos) soporte una porción desproporcionada de las consecuencias ambientales negativas",
+      "La aplicación de multas severas únicamente a los grandes magnates de la industria petrolera",
+      "El derecho de los animales a tener representación legal en los tribunales internacionales",
+      "La obligación de plantar árboles en todas las calles de las ciudades capitales"
+    ],
+    "c": 0,
+    "e": "Busca corregir las desigualdades sistémicas donde los sectores más vulnerables sufren más la contaminación y el cambio climático."
+  },
+  {
+    "q": "¿Qué establece el principio de precaución en la gestión ambiental?",
+    "o": [
+      "Que ante la falta de certeza científica absoluta sobre los riesgos de una actividad, se deben tomar medidas preventivas si existe amenaza de daño grave o irreversible",
+      "Que no se puede realizar ninguna actividad industrial hasta que sea 100% segura y comprobada",
+      "Que los gobiernos deben prohibir inmediatamente todas las tecnologías que utilicen electricidad",
+      "Que las empresas no tienen ninguna responsabilidad sobre los accidentes imprevistos"
+    ],
+    "c": 0,
+    "e": "Inverte la carga de la prueba, exigiendo demostrar que una sustancia o tecnología es segura antes de su introducción masiva."
+  },
+  {
+    "q": "¿Qué es el 'greenwashing' (ecoblanqueo)?",
+    "o": [
+      "Una práctica de marketing engañoso mediante la cual una empresa presenta sus productos o políticas como ecológicos o sostenibles cuando en realidad no lo son",
+      "El proceso industrial para blanquear papel reciclado sin utilizar cloro",
+      "La limpieza profunda de parques públicos patrocinada por marcas de refrescos",
+      "La pintura verde utilizada para señalar las ciclovías en las grandes ciudades"
+    ],
+    "c": 0,
+    "e": "Busca capitalizar la creciente conciencia ecológica de los consumidores sin realizar cambios estructurales reales hacia la sostenibilidad."
+  },
+  {
+    "q": "¿Qué evalúan los criterios 'ASG' (Ambientales, Sociales y de Gobernanza) en el ámbito financiero?",
+    "o": [
+      "El desempeño de una empresa u organización en materia de sostenibilidad ecológica, impacto social y calidad de su gestión corporativa",
+      "Los impuestos que pagan las corporaciones multinacionales a los gobiernos locales",
+      "La cantidad de empleos directos e indirectos generados por la industria pesada",
+      "El valor de las acciones bursátiles en las bolsas de valores de Nueva York y Tokio"
+    ],
+    "c": 0,
+    "e": "Permiten a los inversores éticos identificar empresas que gestionan adecuadamente los riesgos a largo plazo relacionados con el planeta y la sociedad."
+  },
+  {
+    "q": "¿Qué son los 'Objetivos de Desarrollo Sostenible' (ODS) de la ONU?",
+    "o": [
+      "Un llamado universal adoptado por las Naciones Unidas que consta de 17 metas interconectadas para erradicar la pobreza, proteger el planeta y garantizar la prosperidad para 2030",
+      "Un conjunto de leyes estrictas de obligatorio cumplimiento para confiscar empresas contaminantes",
+      "Una lista de especies animales que deben ser clonadas en laboratorios científicos",
+      "Un plan económico exclusivo para los países desarrollados de Europa y América del Norte"
+    ],
+    "c": 0,
+    "e": "Reemplazaron a los Objetivos de Desarrollo del Milenio (ODM), integrando la sostenibilidad ambiental como eje central del desarrollo global."
+  },
+  {
+    "q": "¿Qué establece el 'Acuerdo de París' sobre el cambio climático?",
+    "o": [
+      "Mantener el aumento de la temperatura media mundial muy por debajo de 2 °C con respecto a los niveles preindustriales, y proseguir los esfuerzos para limitarlo a 1,5 °C",
+      "Prohibir totalmente el uso de motores de combustión interna en todo el mundo a partir del año 2025",
+      "Obligar a los países en desarrollo a pagar multas por sus emisiones históricas",
+      "Crear un impuesto global único a las transacciones financieras internacionales"
+    ],
+    "c": 0,
+    "e": "Es el tratado internacional jurídicamente vinculante sobre el cambio climático adoptado en la COP21 de París en 2015."
+  },
+  {
+    "q": "¿Qué diferencia existe entre 'mitigación' y 'adaptación' ante el cambio climático?",
+    "o": [
+      "La mitigación busca reducir o prevenir las emisiones de gases de efecto invernadero para frenar el calentamiento, mientras que la adaptación busca ajustar las acciones y sistemas para lidiar con los impactos inevitables",
+      "La mitigación se realiza en los países ricos y la adaptación exclusivamente en los países pobres",
+      "La mitigación es una medida tecnológica y la adaptación es un proceso puramente político",
+      "No existe diferencia; son dos formas distintas de denominar el mismo proceso"
+    ],
+    "c": 0,
+    "e": "Ambas estrategias son complementarias y necesarias: la mitigación evita lo unmanageable (lo imposible de manejar), y la adaptación maneja lo unavoidable (lo inevitable)."
+  },
+  {
+    "q": "¿Qué es la 'pobreza energética'?",
+    "o": [
+      "La incapacidad de un hogar o comunidad para acceder a servicios energéticos modernos, limpios y asequibles que garanticen un nivel de vida adecuado",
+      "La falta de gasolina en las estaciones de servicio durante las crisis internacionales",
+      "El agotamiento de las baterías en los teléfonos móviles inteligentes",
+      "El corte masivo de electricidad provocado por tormentas solares"
+    ],
+    "c": 0,
+    "e": "Afecta a cientos de millones de personas en el mundo, impidiendo calefacción, refrigeración, iluminación y educación adecuada."
+  },
+  {
+    "q": "¿Qué es la 'transición justa' en el marco de la acción climática?",
+    "o": [
+      "Un conjunto de políticas y medidas para asegurar que los trabajadores y comunidades dependientes de combustibles fósiles no queden desamparados al transitar hacia economías verdes",
+      "Un juicio internacional contra las empresas petroleras por crímenes ecológicos",
+      "La distribución gratuita de paneles solares a todos los habitantes del planeta",
+      "El reparto equitativo de los impuestos recaudados por las multas ambientales"
+    ],
+    "c": 0,
+    "e": "Busca que la descarbonización económica no genere nuevas desigualdades ni deje atrás a los sectores vulnerables."
+  },
+  {
+    "q": "¿Qué son las 'soluciones basadas en la naturaleza' (SbN)?",
+    "o": [
+      "Acciones para proteger, gestionar de forma sostenible y restaurar ecosistemas naturales o modificados que abordizan los desafíos sociales de manera eficaz y adaptativa",
+      "La construcción de grandes presas de hormigón para contener las inundaciones fluviales",
+      "La instalación de purificadores mecánicos de aire en las plazas públicas",
+      "El uso exclusivo de fertilizantes orgánicos en los cultivos intensivos de maíz"
+    ],
+    "c": 0,
+    "e": "Incluyen la restauración de manglares para protección costera, humedales para depuración de aguas o reforestación urbana contra islas de calor."
+  },
+  {
+    "q": "¿Qué es el fenómeno de las 'islas de calor urbanas'?",
+    "o": [
+      "El hecho de que las áreas urbanas experimentan temperaturas significativamente más altas que las zonas rurales circundantes debido a la actividad humana, asfalto y escasez de vegetación",
+      "La formación de volcanes activos en el subsuelo de las grandes ciudades",
+      "El aumento de la temperatura del mar en las costas donde se ubican los puertos industriales",
+      "Una ola de calor estacional que afecta únicamente a los países tropicales"
+    ],
+    "c": 0,
+    "e": "Incrementa el consumo energético por aire acondicionado y el estrés térmico en la población, mitigándose con techos verdes y arbolado urbano."
+  },
+  {
+    "q": "¿Qué objetivo persigue el concepto de 'ciudades de 15 minutos'?",
+    "o": [
+      "Un modelo de urbanismo donde los residentes pueden acceder a sus necesidades cotidianas (trabajo, compras, salud, educación, ocio) a un trayecto de 15 minutos a pie o en bicicleta",
+      "Obligar a los ciudadanos a abandonar sus hogares cada cuarto de hora para hacer ejercicio",
+      "Limitar el tiempo máximo que los vehículos particulares pueden circular por el centro histórico",
+      "Construir rascacielos que puedan ser evacuados en exactamente quince minutos"
+    ],
+    "c": 0,
+    "e": "Busca reducir la dependencia del automóvil privado, disminuir emisiones y mejorar la calidad de vida vecinal."
+  },
+  {
+    "q": "¿Qué es la 'movilidad activa' en la planificación urbana sostenible?",
+    "o": [
+      "Los desplazamientos humanos basados en la fuerza física propia, principalmente caminar y andar en bicicleta",
+      "El uso masivo de automóviles eléctricos de última generación en las autopistas",
+      "El transporte público subterráneo impulsado por energía eléctrica renovable",
+      "La conducción de motocicletas híbridas en los carriles confinados"
+    ],
+    "c": 0,
+    "e": "Es un pilar fundamental para descarbonizar el transporte urbano, mejorar la salud pública y reducir la congestión vial."
+  },
+  {
+    "q": "¿Qué son las 'Zonas de Bajas Emisiones' (ZBE) en las ciudades?",
+    "o": [
+      "Áreas urbanas delimitadas donde se restringirá el acceso a los vehículos más contaminantes según sus etiquetas ambientales para mejorar la calidad del aire",
+      "Parques naturales protegidos donde está prohibido encender fuego o arrojar basura",
+      "Barrios residenciales donde las casas funcionan 100% con paneles solares",
+      "Polígonos industriales libres de impuestos para empresas ecológicas"
+    ],
+    "c": 0,
+    "e": "Son herramientas normativas eficaces en Europa y otras metrópolis para reducir los niveles críticos de óxidos de nitrógeno y partículas finas."
+  },
+  {
+    "q": "¿Qué es el 'criterio de la cuna a la cuna' (Cradle to Cradle - C2C)?",
+    "o": [
+      "Un marco de diseño inspirado en la naturaleza donde todos los materiales de un producto se consideran nutrientes seguros que fluyen continuamente en ciclos biológicos o técnicos",
+      "La obligación de fabricar cunas para bebés utilizando únicamente madera reciclada",
+      "Un sistema de transporte público circular que conecta los hospitales con los hogares",
+      "El ciclo de vida lineal clásico que termina en los vertederos municipales"
+    ],
+    "c": 0,
+    "e": "A diferencia del reciclaje tradicional (que a menudo degrada el material), C2C busca mantener la calidad y el valor de los materiales indefinidamente."
+  },
+  {
+    "q": "¿Qué mide el indicador de la 'Huella Social' corporativa?",
+    "o": [
+      "El impacto de las actividades de una organización sobre las personas, incluyendo condiciones laborales, derechos humanos, comunidad local y equidad",
+      "El número de seguidores que tiene una empresa en sus redes sociales oficiales",
+      "La cantidad de dinero que una corporación dona a fundaciones de beneficencia pública",
+      "El porcentaje de empleados que utilizan transporte público para ir a trabajar"
+    ],
+    "c": 0,
+    "e": "Complementa a la huella ecológica y de carbono, evaluando la responsabilidad social corporativa de forma integral."
+  },
+  {
+    "q": "¿Qué es la 'filantropía basada en la confianza' (trust-based philanthropy)?",
+    "o": [
+      "Un enfoque de donación que busca redistribuir el poder y simplificar los procesos burocráticos, otorgando fondos flexibles a las organizaciones comunitarias sin tantas exigencias de control",
+      "La donación anonimizada de dinero a través de criptomonedas en internet",
+      "Un contrato legal donde el gobierno vigila en qué gasta cada dólar una ONG",
+      "La inversión bursátil en empresas de alta confianza en la bolsa de valores"
+    ],
+    "c": 0,
+    "e": "Busca empoderar a los actores locales que están en la primera línea de la conservación y el desarrollo social."
+  },
+  {
+    "q": "¿Qué son los 'pasaportes de productos' en la nueva economía circular europea?",
+    "o": [
+      "Registros digitales que proporcionan información detallada sobre la composición, origen, reparabilidad y reciclabilidad de un producto a lo largo de su ciclo de vida",
+      "Documentos impresos en papel reciclado que se entregan al comprador al adquirir un coche",
+      "Certificados de aduana necesarios para exportar mercancías entre continentes",
+      "Licencias de conducir especiales para operadores de maquinaria pesada"
+    ],
+    "c": 0,
+    "e": "Facilitan el trabajo de recicladores, consumidores y autoridades para asegurar una trazabilidad transparente de los materiales."
+  },
+  {
+    "q": "¿Qué es la 'biomímesis' (o biomimética)?",
+    "o": [
+      "La ciencia que estudia a la naturaleza y sus modelos, sistemas y procesos para imitar sus diseños y resolver problemas humanos complejos",
+      "La clonación artificial de animales en peligro de extinción en laboratorios",
+      "El cultivo masivo de plantas medicinales en invernaderos farmacéuticos",
+      "La alteración genética de bacterias para producir combustibles sintéticos"
+    ],
+    "c": 0,
+    "e": "Ejemplos clásicos incluyen el diseño de trenes de alta velocidad inspirados en el pico del martín pescador o velcro inspirado en semillas."
+  },
+  {
+    "q": "¿Qué define a la 'bioeconomía'?",
+    "o": [
+      "Un modelo económico que utiliza recursos biológicos renovables de la tierra y el mar para producir alimentos, materiales, energía y productos industriales",
+      "El comercio internacional exclusivo de animales vivos y plantas exóticas",
+      "Una rama de la medicina centrada en la fabricación de órganos artificiales",
+      "El estudio de los mercados financieros utilizando algoritmos basados en colonias de hormigas"
+    ],
+    "c": 0,
+    "e": "Busca reducir la dependencia de los combustibles fósiles mediante la valorización sostenible de la biomasa."
+  },
+  {
+    "q": "¿Qué son las 'ciudades esponja' (sponge cities)?",
+    "o": [
+      "Un concepto de planificación urbana diseñado para absorber, almacenar, filtrar y reutilizar el agua de lluvia de manera natural mediante soluciones basadas en la naturaleza",
+      "Metrópolis construidas sobre arrecifes de coral artificiales en el océano",
+      "Ciudades ubicadas en zonas desérticas que recogen la humedad ambiental con mallas",
+      "Urbanizaciones flotantes fabricadas con materiales plásticos reciclados"
+    ],
+    "c": 0,
+    "e": "Mitigan las inundaciones urbanas y la escasez hídrica mediante pavimentos permeables, techos verdes y humedales urbanos."
+  },
+  {
+    "q": "¿Qué caracteriza a la 'energía marina térmica' (OTEC)?",
+    "o": [
+      "Una tecnología que aprovecha la diferencia de temperatura entre el agua superficial cálida del mar y el agua profunda fría para generar electricidad",
+      "El calor acumulado en las fumarolas submarinas de las dorsales oceánicas",
+      "La energía liberada cuando las corrientes marinas chocan contra las plataformas petroleras",
+      "La radiación solar reflejada por la superficie de los océanos tropicales"
+    ],
+    "c": 0,
+    "e": "Ofrece una fuente potencial de energía renovable continua en regiones oceánicas tropicales con grandes desniveles térmicos."
+  },
+  {
+    "q": "¿Qué son los 'ecobarrios' o eco-distritos?",
+    "o": [
+      "Desarrollos urbanos planificados bajo estrictos criterios de sostenibilidad ambiental, eficiencia energética, movilidad peatonal y gestión de residuos",
+      "Colonias populares construidas con materiales improvisados en las periferias",
+      "Urbanizaciones de lujo rodeadas de muros de seguridad y campos de golf",
+      "Barrios industriales donde se concentra el reciclaje de chatarra electrónica"
+    ],
+    "c": 0,
+    "e": "Funcionan como laboratorios urbanos para demostrar la viabilidad práctica de estilos de vida ecológicos a escala comunitaria."
+  },
+  {
+    "q": "¿Qué evalúa la 'contaminación por nutrientes' en los ecosistemas acuáticos?",
+    "o": [
+      "El enriquecimiento excesivo de agua con compuestos de nitrógeno y fósforo, provocando proliferación masiva de algas, anoxia y muerte de peces (eutrofización)",
+      "La escasez de vitaminas y minerales en la dieta de los peces de río",
+      "El exceso de materia orgánica limpia aportada por las hojas de los árboles caídos",
+      "La contaminación radiactiva procedente de las centrales nucleares costeras"
+    ],
+    "c": 0,
+    "e": "Proviene principalmente de la escorrentía agrícola fertilizada y de aguas residuales urbanas sin tratar adecuadamente."
+  },
+  {
+    "q": "¿Qué define al 'turismo sostenible' según la Organización Mundial del Turismo?",
+    "o": [
+      "Aquel que tiene plenamente en cuenta las repercusiones actuales y futuras económicas, sociales y ambientales para satisfacer las necesidades de los visitantes y de las regiones",
+      "Viajar únicamente en bicicleta o a pie sin utilizar ningún medio de transporte motorizado",
+      "Alojarse exclusivamente en tiendas de campaña dentro de los bosques protegidos",
+      "Pagar un impuesto extra al comprar billetes de avión para calmar la conciencia"
+    ],
+    "c": 0,
+    "e": "Busca equilibrar la conservación del patrimonio natural y cultural con el desarrollo económico de las comunidades locales receptoras."
+  },
+  {
+    "q": "¿Qué es la 'huella de biodiversidad' corporativa?",
+    "o": [
+      "Una métrica emergente que cuantifica el impacto negativo o positivo de las actividades de una empresa sobre la diversidad biológica y los ecosistemas",
+      "El número de especies animales que habitan en los terrenos de una fábrica",
+      "La cantidad de papel reciclado que utiliza una oficina corporativa al año",
+      "El porcentaje de inversión destinado a proteger zoológicos privados"
+    ],
+    "c": 0,
+    "e": "Ayuda a las empresas a medir, reportar y reducir su dependencia e impacto directo sobre la pérdida de la naturaleza."
+  },
+  {
+    "q": "¿Qué papel juegan los 'bancos de hábitat' en la compensación ambiental?",
+    "o": [
+      "Mecanismos donde se generan créditos de biodiversidad mediante la restauración anticipada de ecosistemas, los cuales pueden ser comprados por desarrolladores para compensar impactos inevitables",
+      "Instituciones financieras que otorgan préstamos baratos para comprar parcelas en el campo",
+      "Zonas de cuarentena donde se cuidan animales heridos antes de devolverlos al bosque",
+      "Bancos de semillas congeladas ubicados en el círculo polar ártico"
+    ],
+    "c": 0,
+    "e": "Garantizan que la compensación ecológica sea efectiva y medible, exigiendo ganancias netas de biodiversidad."
+  },
+  {
+    "q": "¿Qué es la 'arquitectura bioclimática'?",
+    "o": [
+      "El diseño de edificios e instalaciones que aprovechan las condiciones climáticas locales (sol, vegetación, lluvia, vientos) para disminuir los impactos ambientales y lograr confort térmico",
+      "Construir rascacielos completamente cubiertos de plantas trepadoras exóticas",
+      "Utilizar materiales plásticos biodegradables en la estructura de las viviendas",
+      "Diseñar casas rodantes que puedan cambiar de clima según la estación del año"
+    ],
+    "c": 0,
+    "e": "Reduce drásticamente la necesidad de sistemas mecánicos de calefacción o aire acondicionado, optimizando la eficiencia energética."
+  },
+  {
+    "q": "¿Qué son los 'techos verdes' o cubiertas vegetales?",
+    "o": [
+      "Sistemas de techado en edificaciones cubiertos parcial o totalmente de vegetación, que proporcionan aislamiento térmico, retienen agua de lluvia y reducen el efecto isla de calor",
+      "Tejados pintados de color verde brillante para reflejar la luz solar",
+      "Estructuras de lona utilizadas para cultivar hortalizas en los patios traseros",
+      "Paneles solares de última generación con estética camuflada de hojas"
+    ],
+    "c": 0,
+    "e": "Aportan múltiples beneficios ecológicos y estéticos en entornos urbanos densamente construidos."
+  },
+  {
+    "q": "¿Qué evalúa la 'resiliencia urbana'?",
+    "o": [
+      "La capacidad de una ciudad y sus sistemas para resistir, absorber, recuperarse y adaptarse rápidamente a los efectos de peligros y crisis de origen natural o humano",
+      "La velocidad con la que se reconstruyen los edificios tras una guerra civil",
+      "La resistencia de los materiales de construcción frente a los terremotos fuertes",
+      "La capacidad de los ciudadanos para sobrevivir sin agua durante una semana"
+    ],
+    "c": 0,
+    "e": "Ante el cambio climático y eventos extremos, la resiliencia se ha convertido en una prioridad clave de la planificación metropolitana."
+  },
+  {
+    "q": "¿Qué es la 'contaminación difusa' (o no puntual)?",
+    "o": [
+      "Aquella proveniente de fuentes amplias y dispersas (como escorrentía agrícola con fertilizantes o lavado de calles urbanas), difícil de rastrear a un solo punto de emisión",
+      "El escape de gases tóxicos proveniente de la chimenea de una sola fábrica industrial",
+      "Un derrame accidental de petróleo desde un buque tanquero en alta mar",
+      "El ruido ensordecedor emitido por un aeropuerto internacional"
+    ],
+    "c": 0,
+    "e": "Representa uno de los mayores desafíos para el control de la calidad del agua en cuencas hidrográficas extensas."
+  },
+  {
+    "q": "¿Qué es la 'deforestación evitada' en los proyectos climáticos?",
+    "o": [
+      "Iniciativas financieras que incentivan económicamente a las comunidades o países para que conserven sus bosques en pie en lugar de talarlos para agricultura o ganadería",
+      "La prohibición legal de utilizar madera en la construcción de muebles en todo el mundo",
+      "La plantación artificial de árboles en zonas donde antes no existían bosques",
+      "El reciclaje obligatorio de los muebles viejos para evitar talar nuevos árboles"
+    ],
+    "c": 0,
+    "e": "Es la base de los mecanismos REDD+ (Reducción de Emisiones por Deforestación y Degradación forestal) en las negociaciones climáticas de la ONU."
+  },
+  {
+    "q": "¿Qué son los 'suelos hidromórficos'?",
+    "o": [
+      "Suelos que experimentan saturación de agua durante periodos prolongados o permanentes, desarrollando características de reducción química y colores grisáceos o verdosos",
+      "Terrenos áridos que se agrietan profundamente durante la temporada de sequía",
+      "Suelos volcánicos muy fértiles utilizados para el cultivo intensivo de café",
+      "Capas de arena fina acumuladas en el fondo de los ríos de corriente rápida"
+    ],
+    "c": 0,
+    "e": "Son característicos de humedales, pantanos y zonas ribereñas, cumpliendo un papel vital en la depuración de aguas y retención de carbono."
+  },
+  {
+    "q": "¿Qué es la 'diversidad funcional' en una comunidad ecológica?",
+    "o": [
+      "La variedad de roles, funciones y papeles que desempeñan las diferentes especies dentro de un ecosistema (ej. polinizadores, descomponedores, depredadores)",
+      "La cantidad de herramientas tecnológicas que utilizan los ecologistas en sus investigaciones de campo",
+      "La capacidad de los animales para cambiar de hábitat según las estaciones del año",
+      "El número de crías que una hembra puede tener durante su ciclo reproductivo"
+    ],
+    "c": 0,
+    "e": "Una alta diversidad funcional asegura que el ecosistema sea más resistente y mantenga sus procesos incluso si desaparece alguna especie concreta."
+  },
+  {
+    "q": "¿Qué es la 'biopiratería'?",
+    "o": [
+      "La apropiación y comercialización ilegal de recursos biológicos y conocimientos tradicionales de pueblos indígenas sin su consentimiento ni compensación justa",
+      "El robo de animales exóticos en los zoológicos nacionales para su venta ilegal",
+      "La pesca furtiva de ballenas en alta mar violando los tratados internacionales",
+      "La tala ilegal de maderas preciosas en las reservas de la biosfera"
+    ],
+    "c": 0,
+    "e": "Vulnera los derechos de las comunidades locales y el Convenio sobre la Diversidad Biológica respecto al reparto de beneficios."
+  },
+  {
+    "q": "¿Qué persigue el 'Protocolo de Nagoya' sobre diversidad biológica?",
+    "o": [
+      "Garantizar la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos y los conocimientos tradicionales asociados",
+      "Establecer cuotas estrictas de captura para la pesca industrial en el océano Pacífico",
+      "Reducir las emisiones de gases fluorados en la industria de la refrigeración",
+      "Prohibir el comercio internacional de marfil y cuernos de Rinoceronte"
+    ],
+    "c": 0,
+    "e": "Es un acuerdo complementario al Convenio sobre la Diversidad Biológica enfocado en combatir la biopiratería."
+  },
+  {
+    "q": "¿Qué diferencia existe entre un 'parque nacional' y una 'reserva de la biosfera' según la UICN?",
+    "o": [
+      "Los parques nacionales priorizan la protección estricta y la recreación con menor intervención humana, mientras que las reservas de la biosfera integran la conservación con el desarrollo sostenible y la población local en diferentes zonas",
+      "Las reservas de la biosfera son artificiales y los parques nacionales son completamente intocables",
+      "No existe ninguna diferencia administrativa ni conceptual en el derecho internacional",
+      "Los parques nacionales se ubican en los océanos y las reservas de la biosfera en los desiertos"
+    ],
+    "c": 0,
+    "e": "Las reservas de la biosfera de la UNESCO constan de zonas núcleo, zonas tampón y zonas de transición para armonizar la conservación con las actividades humanas."
+  },
+  {
+    "q": "¿Qué mide el indicador de 'progreso genuino' (GPI - Genuine Progress Indicator) frente al PIB?",
+    "o": [
+      "Suma los beneficios económicos de la actividad pero resta los costos ambientales, la desigualdad social, el crimen y el agotamiento de recursos",
+      "Calcula exclusivamente el volumen de billetes impresos por los bancos centrales cada año",
+      "Mide la velocidad a la que crece la población urbana en comparación con la rural",
+      "Estima la cantidad de horas libres que tienen los trabajadores en los países desarrollados"
+    ],
+    "c": 0,
+    "e": "Busca superar las limitaciones del Producto Interno Bruto (PIB), el cual contabiliza como crecimiento cualquier desastre o destrucción que mueva dinero."
+  },
+  {
+    "q": "¿Qué indica el límite planetario de la 'integridad de la biosfera'?",
+    "o": [
+      "El umbral de pérdida de biodiversidad (tanto en diversidad genética como funcional) por debajo del cual el sistema Tierra pierde su resiliencia",
+      "La cantidad total de animales que pueden vivir en cautiverio sin estresarse",
+      "El porcentaje de superficie terrestre que debe cubrirse obligatoriamente con cultivos agrícolas",
+      "La velocidad a la que se extinguen las especies marinas en comparación con las terrestres"
+    ],
+    "c": 0,
+    "e": "Es considerado uno de los dos 'núcleos fundamentales' junto con el cambio climático, ya que regula el funcionamiento de todo el sistema planetario."
+  },
+  {
+    "q": "¿Qué evalúa el límite planetario de los 'flujos biogeoquímicos' (nitrógeno y fósforo)?",
+    "o": [
+      "La alteración humana masiva de los ciclos globales de nitrógeno y fósforo debido a fertilizantes sintéticos, que provoca eutrofización y zonas muertas",
+      "La cantidad de piedras preciosas que se extraen de las minas subterráneas cada año",
+      "El desprendimiento de rocas provocado por la lluvia ácida en las altas montañas",
+      "La acumulación de metales pesados en la atmósfera de las ciudades industriales"
+    ],
+    "c": 0,
+    "e": "Las actividades humanas ya han superado ampliamente este límite planetario, alterando de forma crítica los ecosistemas acuáticos y terrestres."
+  },
+  {
+    "q": "¿Qué mide el límite planetario del 'cambio en el uso del suelo'?",
+    "o": [
+      "La conversión de bosques, humedales y pastizales naturales en tierras agrícolas o urbanas, afectando la regulación del clima y la biodiversidad",
+      "La erosión natural de los acantilados costeros debido a las olas del mar",
+      "La profundidad a la que se hunden los cimientos de los rascacielos en las grandes metrópolis",
+      "El aumento del precio de los terrenos urbanizables en las capitales del mundo"
+    ],
+    "c": 0,
+    "e": "La pérdida masiva de bosques tropicales y templados reduce la capacidad del planeta para absorber carbono y mantener servicios ecosistémicos."
+  },
+  {
+    "q": "¿Qué evalúa el límite planetario del 'uso global de agua dulce'?",
+    "o": [
+      "La alteración humana de los recursos hídricos superficiales y subterráneos debido al riego agrícola, la industria y el consumo",
+      "El volumen total de lluvia que cae en los océanos durante la temporada de huracanes",
+      "La cantidad de agua potable que se desperdicia en las fugas de las tuberías municipales",
+      "La velocidad a la que se derretirían los glaciares si la temperatura subiera dos grados"
+    ],
+    "c": 0,
+    "e": "El consumo excesivo y la alteración de los caudales de los ríos amenazan la estabilidad de los ecosistemas acuáticos y el suministro humano."
+  },
+  {
+    "q": "¿A qué se refiere el límite planetario de la 'acidificación de los océanos'?",
+    "o": [
+      "Al descenso gradual del pH del agua marina provocado por la absorción de grandes cantidades de dióxido de carbono atmosférico",
+      "Al vertido directo de ácidos industriales desde las fábricas costeras hacia las bahías",
+      "A la contaminación de los mares por derrames masivos de petróleo crudo",
+      "A la salinización de los estuarios debido a la escasez de lluvias"
+    ],
+    "c": 0,
+    "e": "Este proceso químico dificulta la calcificación de organismos marinos esenciales como corales, moluscos y plancton."
+  },
+  {
+    "q": "¿Qué mide el límite planetario de la 'carga de aerosoles atmosféricos'?",
+    "o": [
+      "La concentración de partículas en suspensión en la atmósfera (hollín, polvo, sulfatos) que afectan los patrones climáticos y la salud humana",
+      "El volumen de desodorantes en spray utilizados globalmente por la población",
+      "La cantidad de nubes artificiales creadas mediante aviones militares",
+      "El grosor de la capa de ozono en la estratosfera polar"
+    ],
+    "c": 0,
+    "e": "Los aerosoles influyen fuertemente en el balance radiativo de la Tierra, la formación de nubes y los monzones estacionales."
+  },
+  {
+    "q": "¿Qué engloba el límite planetario de la 'introducción de nuevas entidades' (contaminación química)?",
+    "o": [
+      "El impacto global de la liberación al medio ambiente de sustancias sintéticas novedosas, plásticos, pesticidas, metales pesados y organismos modificados",
+      "La llegada de especies animales extranjeras a través del transporte marítimo",
+      "El descubrimiento de nuevas galaxias y cuerpos celestes mediante telescopios espaciales",
+      "La construcción de nuevas ciudades inteligentes en zonas desérticas"
+    ],
+    "c": 0,
+    "e": "Representa una de las fronteras donde la humanidad ha introducido decenas de miles de compuestos químicos cuyos efectos a largo plazo son desconocidos."
+  },
+  {
+    "q": "¿Qué caracteriza a la 'transición demográfica' en las poblaciones humanas?",
+    "o": [
+      "El paso histórico desde altas tasas de natalidad y mortalidad hacia tasas bajas de natalidad y mortalidad a medida que un país se desarrolla socioeconómicamente",
+      "La migración masiva de habitantes desde las zonas rurales hacia las grandes ciudades industriales",
+      "El envejecimiento prematuro de la población debido a epidemias globales",
+      "El crecimiento exponencial e infinito de la población mundial sin control"
+    ],
+    "c": 0,
+    "e": "Este modelo explica cómo la estabilización poblacional suele seguir al desarrollo económico, la educación y la mejora en salud pública."
+  },
+  {
+    "q": "¿Qué analiza la teoría de la 'capacidad de carga' aplicada a las poblaciones humanas?",
+    "o": [
+      "El número máximo de individuos que un entorno determinado puede sostener indefinidamente sin degradar los recursos naturales disponibles",
+      "La cantidad máxima de equipaje que puede transportar un vehículo comercial de carga",
+      "El peso límite que soportan los puentes y estructuras metálicas modernas",
+      "El volumen máximo de agua que puede almacenar una presa hidroeléctrica"
+    ],
+    "c": 0,
+    "e": "Mientras que los animales están estrictamente limitados por su entorno, los seres humanos han ampliado su capacidad de carga mediante la tecnología, aunque con un alto costo ambiental."
+  },
+  {
+    "q": "¿Qué promueve el concepto de 'decrecimiento' (degrowth) en la economía y la ecología?",
+    "o": [
+      "Una reducción democrática y planificada del consumo y la producción en los países ricos para liberar espacio ecológico y garantizar el bienestar humano dentro de los límites planetarios",
+      "Una crisis financiera obligatoria que provoque el colapso absoluto del comercio internacional",
+      "La prohibición de utilizar cualquier tipo de tecnología digital o maquinaria moderna",
+      "El estancamiento permanente de la ciencia y la educación en todo el mundo"
+    ],
+    "c": 0,
+    "e": "Critica el dogma del crecimiento económico infinito en un planeta con recursos finitos, priorizando la equidad social y la sostenibilidad."
+  },
+  {
+    "q": "¿Qué es la 'justicia ambiental'?",
+    "o": [
+      "El principio que asegura que ningún grupo de población (incluyendo minorías o comunidades de bajos ingresos) soporte una porción desproporcionada de las consecuencias ambientales negativas",
+      "La aplicación de multas severas únicamente a los grandes magnates de la industria petrolera",
+      "El derecho de los animales a tener representación legal en los tribunales internacionales",
+      "La obligación de plantar árboles en todas las calles de las ciudades capitales"
+    ],
+    "c": 0,
+    "e": "Busca corregir las desigualdades sistémicas donde los sectores más vulnerables sufren más la contaminación y el cambio climático."
+  },
+  {
+    "q": "¿Qué establece el principio de precaución en la gestión ambiental?",
+    "o": [
+      "Que ante la falta de certeza científica absoluta sobre los riesgos de una actividad, se deben tomar medidas preventivas si existe amenaza de daño grave o irreversible",
+      "Que no se puede realizar ninguna actividad industrial hasta que sea 100% segura y comprobada",
+      "Que los gobiernos deben prohibir inmediatamente todas las tecnologías que utilicen electricidad",
+      "Que las empresas no tienen ninguna responsabilidad sobre los accidentes imprevistos"
+    ],
+    "c": 0,
+    "e": "Inverte la carga de la prueba, exigiendo demostrar que una sustancia o tecnología es segura antes de su introducción masiva."
+  },
+  {
+    "q": "¿Qué es el 'greenwashing' (ecoblanqueo)?",
+    "o": [
+      "Una práctica de marketing engañoso mediante la cual una empresa presenta sus productos o políticas como ecológicos o sostenibles cuando en realidad no lo son",
+      "El proceso industrial para blanquear papel reciclado sin utilizar cloro",
+      "La limpieza profunda de parques públicos patrocinada por marcas de refrescos",
+      "La pintura verde utilizada para señalar las ciclovías en las grandes ciudades"
+    ],
+    "c": 0,
+    "e": "Busca capitalizar la creciente conciencia ecológica de los consumidores sin realizar cambios estructurales reales hacia la sostenibilidad."
+  },
+  {
+    "q": "¿Qué evalúan los criterios 'ASG' (Ambientales, Sociales y de Gobernanza) en el ámbito financiero?",
+    "o": [
+      "El desempeño de una empresa u organización en materia de sostenibilidad ecológica, impacto social y calidad de su gestión corporativa",
+      "Los impuestos que pagan las corporaciones multinacionales a los gobiernos locales",
+      "La cantidad de empleos directos e indirectos generados por la industria pesada",
+      "El valor de las acciones bursátiles en las bolsas de valores de Nueva York y Tokio"
+    ],
+    "c": 0,
+    "e": "Permiten a los inversores éticos identificar empresas que gestionan adecuadamente los riesgos a largo plazo relacionados con el planeta y la sociedad."
+  },
+  {
+    "q": "¿Qué son los 'Objetivos de Desarrollo Sostenible' (ODS) de la ONU?",
+    "o": [
+      "Un llamado universal adoptado por las Naciones Unidas que consta de 17 metas interconectadas para erradicar la pobreza, proteger el planeta y garantizar la prosperidad para 2030",
+      "Un conjunto de leyes estrictas de obligatorio cumplimiento para confiscar empresas contaminantes",
+      "Una lista de especies animales que deben ser clonadas en laboratorios científicos",
+      "Un plan económico exclusivo para los países desarrollados de Europa y América del Norte"
+    ],
+    "c": 0,
+    "e": "Reemplazaron a los Objetivos de Desarrollo del Milenio (ODM), integrando la sostenibilidad ambiental como eje central del desarrollo global."
+  },
+  {
+    "q": "¿Qué establece el 'Acuerdo de París' sobre el cambio climático?",
+    "o": [
+      "Mantener el aumento de la temperatura media mundial muy por debajo de 2 °C con respecto a los niveles preindustriales, y proseguir los esfuerzos para limitarlo a 1,5 °C",
+      "Prohibir totalmente el uso de motores de combustión interna en todo el mundo a partir del año 2025",
+      "Obligar a los países en desarrollo a pagar multas por sus emisiones históricas",
+      "Crear un impuesto global único a las transacciones financieras internacionales"
+    ],
+    "c": 0,
+    "e": "Es el tratado internacional jurídicamente vinculante sobre el cambio climático adoptado en la COP21 de París en 2015."
+  },
+  {
+    "q": "¿Qué diferencia existe entre 'mitigación' y 'adaptación' ante el cambio climático?",
+    "o": [
+      "La mitigación busca reducir o prevenir las emisiones de gases de efecto invernadero para frenar el calentamiento, mientras que la adaptación busca ajustar las acciones y sistemas para lidiar con los impactos inevitables",
+      "La mitigación se realiza en los países ricos y la adaptación exclusivamente en los países pobres",
+      "La mitigación es una medida tecnológica y la adaptación es un proceso puramente político",
+      "No existe diferencia; son dos formas distintas de denominar el mismo proceso"
+    ],
+    "c": 0,
+    "e": "Ambas estrategias son complementarias y necesarias: la mitigación evita lo unmanageable (lo imposible de manejar), y la adaptación maneja lo unavoidable (lo inevitable)."
+  },
+  {
+    "q": "¿Qué es la 'pobreza energética'?",
+    "o": [
+      "La incapacidad de un hogar o comunidad para acceder a servicios energéticos modernos, limpios y asequibles que garanticen un nivel de vida adecuado",
+      "La falta de gasolina en las estaciones de servicio durante las crisis internacionales",
+      "El agotamiento de las baterías en los teléfonos móviles inteligentes",
+      "El corte masivo de electricidad provocado por tormentas solares"
+    ],
+    "c": 0,
+    "e": "Afecta a cientos de millones de personas en el mundo, impidiendo calefacción, refrigeración, iluminación y educación adecuada."
+  },
+  {
+    "q": "¿Qué es la 'transición justa' en el marco de la acción climática?",
+    "o": [
+      "Un conjunto de políticas y medidas para asegurar que los trabajadores y comunidades dependientes de combustibles fósiles no queden desamparados al transitar hacia economías verdes",
+      "Un juicio internacional contra las empresas petroleras por crímenes ecológicos",
+      "La distribución gratuita de paneles solares a todos los habitantes del planeta",
+      "El reparto equitativo de los impuestos recaudados por las multas ambientales"
+    ],
+    "c": 0,
+    "e": "Busca que la descarbonización económica no genere nuevas desigualdades ni deje atrás a los sectores vulnerables."
+  },
+  {
+    "q": "¿Qué son las 'soluciones basadas en la naturaleza' (SbN)?",
+    "o": [
+      "Acciones para proteger, gestionar de forma sostenible y restaurar ecosistemas naturales o modificados que abordizan los desafíos sociales de manera eficaz y adaptativa",
+      "La construcción de grandes presas de hormigón para contener las inundaciones fluviales",
+      "La instalación de purificadores mecánicos de aire en las plazas públicas",
+      "El uso exclusivo de fertilizantes orgánicos en los cultivos intensivos de maíz"
+    ],
+    "c": 0,
+    "e": "Incluyen la restauración de manglares para protección costera, humedales para depuración de aguas o reforestación urbana contra islas de calor."
+  },
+  {
+    "q": "¿Qué es el fenómeno de las 'islas de calor urbanas'?",
+    "o": [
+      "El hecho de que las áreas urbanas experimentan temperaturas significativamente más altas que las zonas rurales circundantes debido a la actividad humana, asfalto y escasez de vegetación",
+      "La formación de volcanes activos en el subsuelo de las grandes ciudades",
+      "El aumento de la temperatura del mar en las costas donde se ubican los puertos industriales",
+      "Una ola de calor estacional que afecta únicamente a los países tropicales"
+    ],
+    "c": 0,
+    "e": "Incrementa el consumo energético por aire acondicionado y el estrés térmico en la población, mitigándose con techos verdes y arbolado urbano."
+  },
+  {
+    "q": "¿Qué objetivo persigue el concepto de 'ciudades de 15 minutos'?",
+    "o": [
+      "Un modelo de urbanismo donde los residentes pueden acceder a sus necesidades cotidianas (trabajo, compras, salud, educación, ocio) a un trayecto de 15 minutos a pie o en bicicleta",
+      "Obligar a los ciudadanos a abandonar sus hogares cada cuarto de hora para hacer ejercicio",
+      "Limitar el tiempo máximo que los vehículos particulares pueden circular por el centro histórico",
+      "Construir rascacielos que puedan ser evacuados en exactamente quince minutos"
+    ],
+    "c": 0,
+    "e": "Busca reducir la dependencia del automóvil privado, disminuir emisiones y mejorar la calidad de vida vecinal."
+  },
+  {
+    "q": "¿Qué es la 'movilidad activa' en la planificación urbana sostenible?",
+    "o": [
+      "Los desplazamientos humanos basados en la fuerza física propia, principalmente caminar y andar en bicicleta",
+      "El uso masivo de automóviles eléctricos de última generación en las autopistas",
+      "El transporte público subterráneo impulsado por energía eléctrica renovable",
+      "La conducción de motocicletas híbridas en los carriles confinados"
+    ],
+    "c": 0,
+    "e": "Es un pilar fundamental para descarbonizar el transporte urbano, mejorar la salud pública y reducir la congestión vial."
+  },
+  {
+    "q": "¿Qué son las 'Zonas de Bajas Emisiones' (ZBE) en las ciudades?",
+    "o": [
+      "Áreas urbanas delimitadas donde se restringirá el acceso a los vehículos más contaminantes según sus etiquetas ambientales para mejorar la calidad del aire",
+      "Parques naturales protegidos donde está prohibido encender fuego o arrojar basura",
+      "Barrios residenciales donde las casas funcionan 100% con paneles solares",
+      "Polígonos industriales libres de impuestos para empresas ecológicas"
+    ],
+    "c": 0,
+    "e": "Son herramientas normativas eficaces en Europa y otras metrópolis para reducir los niveles críticos de óxidos de nitrógeno y partículas finas."
+  },
+  {
+    "q": "¿Qué es el 'criterio de la cuna a la cuna' (Cradle to Cradle - C2C)?",
+    "o": [
+      "Un marco de diseño inspirado en la naturaleza donde todos los materiales de un producto se consideran nutrientes seguros que fluyen continuamente en ciclos biológicos o técnicos",
+      "La obligación de fabricar cunas para bebés utilizando únicamente madera reciclada",
+      "Un sistema de transporte público circular que conecta los hospitales con los hogares",
+      "El ciclo de vida lineal clásico que termina en los vertederos municipales"
+    ],
+    "c": 0,
+    "e": "A diferencia del reciclaje tradicional (que a menudo degrada el material), C2C busca mantener la calidad y el valor de los materiales indefinidamente."
+  },
+  {
+    "q": "¿Qué mide el indicador de la 'Huella Social' corporativa?",
+    "o": [
+      "El impacto de las actividades de una organización sobre las personas, incluyendo condiciones laborales, derechos humanos, comunidad local y equidad",
+      "El número de seguidores que tiene una empresa en sus redes sociales oficiales",
+      "La cantidad de dinero que una corporación dona a fundaciones de beneficencia pública",
+      "El porcentaje de empleados que utilizan transporte público para ir a trabajar"
+    ],
+    "c": 0,
+    "e": "Complementa a la huella ecológica y de carbono, evaluando la responsabilidad social corporativa de forma integral."
+  },
+  {
+    "q": "¿Qué es la 'filantropía basada en la confianza' (trust-based philanthropy)?",
+    "o": [
+      "Un enfoque de donación que busca redistribuir el poder y simplificar los procesos burocráticos, otorgando fondos flexibles a las organizaciones comunitarias sin tantas exigencias de control",
+      "La donación anonimizada de dinero a través de criptomonedas en internet",
+      "Un contrato legal donde el gobierno vigila en qué gasta cada dólar una ONG",
+      "La inversión bursátil en empresas de alta confianza en la bolsa de valores"
+    ],
+    "c": 0,
+    "e": "Busca empoderar a los actores locales que están en la primera línea de la conservación y el desarrollo social."
+  },
+  {
+    "q": "¿Qué son los 'pasaportes de productos' en la nueva economía circular europea?",
+    "o": [
+      "Registros digitales que proporcionan información detallada sobre la composición, origen, reparabilidad y reciclabilidad de un producto a lo largo de su ciclo de vida",
+      "Documentos impresos en papel reciclado que se entregan al comprador al adquirir un coche",
+      "Certificados de aduana necesarios para exportar mercancías entre continentes",
+      "Licencias de conducir especiales para operadores de maquinaria pesada"
+    ],
+    "c": 0,
+    "e": "Facilitan el trabajo de recicladores, consumidores y autoridades para asegurar una trazabilidad transparente de los materiales."
+  },
+  {
+    "q": "¿Qué es la 'biomímesis' (o biomimética)?",
+    "o": [
+      "La ciencia que estudia a la naturaleza y sus modelos, sistemas y procesos para imitar sus diseños y resolver problemas humanos complejos",
+      "La clonación artificial de animales en peligro de extinción en laboratorios",
+      "El cultivo masivo de plantas medicinales en invernaderos farmacéuticos",
+      "La alteración genética de bacterias para producir combustibles sintéticos"
+    ],
+    "c": 0,
+    "e": "Ejemplos clásicos incluyen el diseño de trenes de alta velocidad inspirados en el pico del martín pescador o velcro inspirado en semillas."
+  },
+  {
+    "q": "¿Qué define a la 'bioeconomía'?",
+    "o": [
+      "Un modelo económico que utiliza recursos biológicos renovables de la tierra y el mar para producir alimentos, materiales, energía y productos industriales",
+      "El comercio internacional exclusivo de animales vivos y plantas exóticas",
+      "Una rama de la medicina centrada en la fabricación de órganos artificiales",
+      "El estudio de los mercados financieros utilizando algoritmos basados en colonias de hormigas"
+    ],
+    "c": 0,
+    "e": "Busca reducir la dependencia de los combustibles fósiles mediante la valorización sostenible de la biomasa."
+  },
+  {
+    "q": "¿Qué son las 'ciudades esponja' (sponge cities)?",
+    "o": [
+      "Un concepto de planificación urbana diseñado para absorber, almacenar, filtrar y reutilizar el agua de lluvia de manera natural mediante soluciones basadas en la naturaleza",
+      "Metrópolis construidas sobre arrecifes de coral artificiales en el océano",
+      "Ciudades ubicadas en zonas desérticas que recogen la humedad ambiental con mallas",
+      "Urbanizaciones flotantes fabricadas con materiales plásticos reciclados"
+    ],
+    "c": 0,
+    "e": "Mitigan las inundaciones urbanas y la escasez hídrica mediante pavimentos permeables, techos verdes y humedales urbanos."
+  },
+  {
+    "q": "¿Qué caracteriza a la 'energía marina térmica' (OTEC)?",
+    "o": [
+      "Una tecnología que aprovecha la diferencia de temperatura entre el agua superficial cálida del mar y el agua profunda fría para generar electricidad",
+      "El calor acumulado en las fumarolas submarinas de las dorsales oceánicas",
+      "La energía liberada cuando las corrientes marinas chocan contra las plataformas petroleras",
+      "La radiación solar reflejada por la superficie de los océanos tropicales"
+    ],
+    "c": 0,
+    "e": "Ofrece una fuente potencial de energía renovable continua en regiones oceánicas tropicales con grandes desniveles térmicos."
+  },
+  {
+    "q": "¿Qué son los 'ecobarrios' o eco-distritos?",
+    "o": [
+      "Desarrollos urbanos planificados bajo estrictos criterios de sostenibilidad ambiental, eficiencia energética, movilidad peatonal y gestión de residuos",
+      "Colonias populares construidas con materiales improvisados en las periferias",
+      "Urbanizaciones de lujo rodeadas de muros de seguridad y campos de golf",
+      "Barrios industriales donde se concentra el reciclaje de chatarra electrónica"
+    ],
+    "c": 0,
+    "e": "Funcionan como laboratorios urbanos para demostrar la viabilidad práctica de estilos de vida ecológicos a escala comunitaria."
+  },
+  {
+    "q": "¿Qué evalúa la 'contaminación por nutrientes' en los ecosistemas acuáticos?",
+    "o": [
+      "El enriquecimiento excesivo de agua con compuestos de nitrógeno y fósforo, provocando proliferación masiva de algas, anoxia y muerte de peces (eutrofización)",
+      "La escasez de vitaminas y minerales en la dieta de los peces de río",
+      "El exceso de materia orgánica limpia aportada por las hojas de los árboles caídos",
+      "La contaminación radiactiva procedente de las centrales nucleares costeras"
+    ],
+    "c": 0,
+    "e": "Proviene principalmente de la escorrentía agrícola fertilizada y de aguas residuales urbanas sin tratar adecuadamente."
+  },
+  {
+    "q": "¿Qué define al 'turismo sostenible' según la Organización Mundial del Turismo?",
+    "o": [
+      "Aquel que tiene plenamente en cuenta las repercusiones actuales y futuras económicas, sociales y ambientales para satisfacer las necesidades de los visitantes y de las regiones",
+      "Viajar únicamente en bicicleta o a pie sin utilizar ningún medio de transporte motorizado",
+      "Alojarse exclusivamente en tiendas de campaña dentro de los bosques protegidos",
+      "Pagar un impuesto extra al comprar billetes de avión para calmar la conciencia"
+    ],
+    "c": 0,
+    "e": "Busca equilibrar la conservación del patrimonio natural y cultural con el desarrollo económico de las comunidades locales receptoras."
+  },
+  {
+    "q": "¿Qué es la 'huella de biodiversidad' corporativa?",
+    "o": [
+      "Una métrica emergente que cuantifica el impacto negativo o positivo de las actividades de una empresa sobre la diversidad biológica y los ecosistemas",
+      "El número de especies animales que habitan en los terrenos de una fábrica",
+      "La cantidad de papel reciclado que utiliza una oficina corporativa al año",
+      "El porcentaje de inversión destinado a proteger zoológicos privados"
+    ],
+    "c": 0,
+    "e": "Ayuda a las empresas a medir, reportar y reducir su dependencia e impacto directo sobre la pérdida de la naturaleza."
+  },
+  {
+    "q": "¿Qué papel juegan los 'bancos de hábitat' en la compensación ambiental?",
+    "o": [
+      "Mecanismos donde se generan créditos de biodiversidad mediante la restauración anticipada de ecosistemas, los cuales pueden ser comprados por desarrolladores para compensar impactos inevitables",
+      "Instituciones financieras que otorgan préstamos baratos para comprar parcelas en el campo",
+      "Zonas de cuarentena donde se cuidan animales heridos antes de devolverlos al bosque",
+      "Bancos de semillas congeladas ubicados en el círculo polar ártico"
+    ],
+    "c": 0,
+    "e": "Garantizan que la compensación ecológica sea efectiva y medible, exigiendo ganancias netas de biodiversidad."
+  },
+  {
+    "q": "¿Qué es la 'arquitectura bioclimática'?",
+    "o": [
+      "El diseño de edificios e instalaciones que aprovechan las condiciones climáticas locales (sol, vegetación, lluvia, vientos) para disminuir los impactos ambientales y lograr confort térmico",
+      "Construir rascacielos completamente cubiertos de plantas trepadoras exóticas",
+      "Utilizar materiales plásticos biodegradables en la estructura de las viviendas",
+      "Diseñar casas rodantes que puedan cambiar de clima según la estación del año"
+    ],
+    "c": 0,
+    "e": "Reduce drásticamente la necesidad de sistemas mecánicos de calefacción o aire acondicionado, optimizando la eficiencia energética."
+  },
+  {
+    "q": "¿Qué son los 'techos verdes' o cubiertas vegetales?",
+    "o": [
+      "Sistemas de techado en edificaciones cubiertos parcial o totalmente de vegetación, que proporcionan aislamiento térmico, retienen agua de lluvia y reducen el efecto isla de calor",
+      "Tejados pintados de color verde brillante para reflejar la luz solar",
+      "Estructuras de lona utilizadas para cultivar hortalizas en los patios traseros",
+      "Paneles solares de última generación con estética camuflada de hojas"
+    ],
+    "c": 0,
+    "e": "Aportan múltiples beneficios ecológicos y estéticos en entornos urbanos densamente construidos."
+  },
+  {
+    "q": "¿Qué evalúa la 'resiliencia urbana'?",
+    "o": [
+      "La capacidad de una ciudad y sus sistemas para resistir, absorber, recuperarse y adaptarse rápidamente a los efectos de peligros y crisis de origen natural o humano",
+      "La velocidad con la que se reconstruyen los edificios tras una guerra civil",
+      "La resistencia de los materiales de construcción frente a los terremotos fuertes",
+      "La capacidad de los ciudadanos para sobrevivir sin agua durante una semana"
+    ],
+    "c": 0,
+    "e": "Ante el cambio climático y eventos extremos, la resiliencia se ha convertido en una prioridad clave de la planificación metropolitana."
+  },
+  {
+    "q": "¿Qué es la 'contaminación difusa' (o no puntual)?",
+    "o": [
+      "Aquella proveniente de fuentes amplias y dispersas (como escorrentía agrícola con fertilizantes o lavado de calles urbanas), difícil de rastrear a un solo punto de emisión",
+      "El escape de gases tóxicos proveniente de la chimenea de una sola fábrica industrial",
+      "Un derrame accidental de petróleo desde un buque tanquero en alta mar",
+      "El ruido ensordecedor emitido por un aeropuerto internacional"
+    ],
+    "c": 0,
+    "e": "Representa uno de los mayores desafíos para el control de la calidad del agua en cuencas hidrográficas extensas."
+  },
+  {
+    "q": "¿Qué es la 'deforestación evitada' en los proyectos climáticos?",
+    "o": [
+      "Iniciativas financieras que incentivan económicamente a las comunidades o países para que conserven sus bosques en pie en lugar de talarlos para agricultura o ganadería",
+      "La prohibición legal de utilizar madera en la construcción de muebles en todo el mundo",
+      "La plantación artificial de árboles en zonas donde antes no existían bosques",
+      "El reciclaje obligatorio de los muebles viejos para evitar talar nuevos árboles"
+    ],
+    "c": 0,
+    "e": "Es la base de los mecanismos REDD+ (Reducción de Emisiones por Deforestación y Degradación forestal) en las negociaciones climáticas de la ONU."
+  },
+  {
+    "q": "¿Qué son los 'suelos hidromórficos'?",
+    "o": [
+      "Suelos que experimentan saturación de agua durante periodos prolongados o permanentes, desarrollando características de reducción química y colores grisáceos o verdosos",
+      "Terrenos áridos que se agrietan profundamente durante la temporada de sequía",
+      "Suelos volcánicos muy fértiles utilizados para el cultivo intensivo de café",
+      "Capas de arena fina acumuladas en el fondo de los ríos de corriente rápida"
+    ],
+    "c": 0,
+    "e": "Son característicos de humedales, pantanos y zonas ribereñas, cumpliendo un papel vital en la depuración de aguas y retención de carbono."
+  },
+  {
+    "q": "¿Qué es la 'diversidad funcional' en una comunidad ecológica?",
+    "o": [
+      "La variedad de roles, funciones y papeles que desempeñan las diferentes especies dentro de un ecosistema (ej. polinizadores, descomponedores, depredadores)",
+      "La cantidad de herramientas tecnológicas que utilizan los ecologistas en sus investigaciones de campo",
+      "La capacidad de los animales para cambiar de hábitat según las estaciones del año",
+      "El número de crías que una hembra puede tener durante su ciclo reproductivo"
+    ],
+    "c": 0,
+    "e": "Una alta diversidad funcional asegura que el ecosistema sea más resistente y mantenga sus procesos incluso si desaparece alguna especie concreta."
+  },
+  {
+    "q": "¿Qué es la 'biopiratería'?",
+    "o": [
+      "La apropiación y comercialización ilegal de recursos biológicos y conocimientos tradicionales de pueblos indígenas sin su consentimiento ni compensación justa",
+      "El robo de animales exóticos en los zoológicos nacionales para su venta ilegal",
+      "La pesca furtiva de ballenas en alta mar violando los tratados internacionales",
+      "La tala ilegal de maderas preciosas en las reservas de la biosfera"
+    ],
+    "c": 0,
+    "e": "Vulnera los derechos de las comunidades locales y el Convenio sobre la Diversidad Biológica respecto al reparto de beneficios."
+  },
+  {
+    "q": "¿Qué persigue el 'Protocolo de Nagoya' sobre diversidad biológica?",
+    "o": [
+      "Garantizar la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos y los conocimientos tradicionales asociados",
+      "Establecer cuotas estrictas de captura para la pesca industrial en el océano Pacífico",
+      "Reducir las emisiones de gases fluorados en la industria de la refrigeración",
+      "Prohibir el comercio internacional de marfil y cuernos de Rinoceronte"
+    ],
+    "c": 0,
+    "e": "Es un acuerdo complementario al Convenio sobre la Diversidad Biológica enfocado en combatir la biopiratería."
+  },
+  {
+    "q": "¿Qué diferencia existe entre un 'parque nacional' y una 'reserva de la biosfera' según la UICN?",
+    "o": [
+      "Los parques nacionales priorizan la protección estricta y la recreación con menor intervención humana, mientras que las reservas de la biosfera integran la conservación con el desarrollo sostenible y la población local en diferentes zonas",
+      "Las reservas de la biosfera son artificiales y los parques nacionales son completamente intocables",
+      "No existe ninguna diferencia administrativa ni conceptual en el derecho internacional",
+      "Los parques nacionales se ubican en los océanos y las reservas de la biosfera en los desiertos"
+    ],
+    "c": 0,
+    "e": "Las reservas de la biosfera de la UNESCO constan de zonas núcleo, zonas tampón y zonas de transición para armonizar la conservación con las actividades humanas."
+  },
+  {
+    "q": "¿Qué mide el indicador de 'progreso genuino' (GPI - Genuine Progress Indicator) frente al PIB?",
+    "o": [
+      "Suma los beneficios económicos de la actividad pero resta los costos ambientales, la desigualdad social, el crimen y el agotamiento de recursos",
+      "Calcula exclusivamente el volumen de billetes impresos por los bancos centrales cada año",
+      "Mide la velocidad a la que crece la población urbana en comparación con la rural",
+      "Estima la cantidad de horas libres que tienen los trabajadores en los países desarrollados"
+    ],
+    "c": 0,
+    "e": "Busca superar las limitaciones del Producto Interno Bruto (PIB), el cual contabiliza como crecimiento cualquier desastre o destrucción que mueva dinero."
+  },
+  {
+    "q": "¿Qué indica el límite planetario de la 'integridad de la biosfera'?",
+    "o": [
+      "El umbral de pérdida de biodiversidad (tanto en diversidad genética como funcional) por debajo del cual el sistema Tierra pierde su resiliencia",
+      "La cantidad total de animales que pueden vivir en cautiverio sin estresarse",
+      "El porcentaje de superficie terrestre que debe cubrirse obligatoriamente con cultivos agrícolas",
+      "La velocidad a la que se extinguen las especies marinas en comparación con las terrestres"
+    ],
+    "c": 0,
+    "e": "Es considerado uno de los dos 'núcleos fundamentales' junto con el cambio climático, ya que regula el funcionamiento de todo el sistema planetario."
+  },
+  {
+    "q": "¿Qué evalúa el límite planetario de los 'flujos biogeoquímicos' (nitrógeno y fósforo)?",
+    "o": [
+      "La alteración humana masiva de los ciclos globales de nitrógeno y fósforo debido a fertilizantes sintéticos, que provoca eutrofización y zonas muertas",
+      "La cantidad de piedras preciosas que se extraen de las minas subterráneas cada año",
+      "El desprendimiento de rocas provocado por la lluvia ácida en las altas montañas",
+      "La acumulación de metales pesados en la atmósfera de las ciudades industriales"
+    ],
+    "c": 0,
+    "e": "Las actividades humanas ya han superado ampliamente este límite planetario, alterando de forma crítica los ecosistemas acuáticos y terrestres."
+  },
+  {
+    "q": "¿Qué mide el límite planetario del 'cambio en el uso del suelo'?",
+    "o": [
+      "La conversión de bosques, humedales y pastizales naturales en tierras agrícolas o urbanas, afectando la regulación del clima y la biodiversidad",
+      "La erosión natural de los acantilados costeros debido a las olas del mar",
+      "La profundidad a la que se hunden los cimientos de los rascacielos en las grandes metrópolis",
+      "El aumento del precio de los terrenos urbanizables en las capitales del mundo"
+    ],
+    "c": 0,
+    "e": "La pérdida masiva de bosques tropicales y templados reduce la capacidad del planeta para absorber carbono y mantener servicios ecosistémicos."
+  },
+  {
+    "q": "¿Qué evalúa el límite planetario del 'uso global de agua dulce'?",
+    "o": [
+      "La alteración humana de los recursos hídricos superficiales y subterráneos debido al riego agrícola, la industria y el consumo",
+      "El volumen total de lluvia que cae en los océanos durante la temporada de huracanes",
+      "La cantidad de agua potable que se desperdicia en las fugas de las tuberías municipales",
+      "La velocidad a la que se derretirían los glaciares si la temperatura subiera dos grados"
+    ],
+    "c": 0,
+    "e": "El consumo excesivo y la alteración de los caudales de los ríos amenazan la estabilidad de los ecosistemas acuáticos y el suministro humano."
+  },
+  {
+    "q": "¿A qué se refiere el límite planetario de la 'acidificación de los océanos'?",
+    "o": [
+      "Al descenso gradual del pH del agua marina provocado por la absorción de grandes cantidades de dióxido de carbono atmosférico",
+      "Al vertido directo de ácidos industriales desde las fábricas costeras hacia las bahías",
+      "A la contaminación de los mares por derrames masivos de petróleo crudo",
+      "A la salinización de los estuarios debido a la escasez de lluvias"
+    ],
+    "c": 0,
+    "e": "Este proceso químico dificulta la calcificación de organismos marinos esenciales como corales, moluscos y plancton."
+  },
+  {
+    "q": "¿Qué mide el límite planetario de la 'carga de aerosoles atmosféricos'?",
+    "o": [
+      "La concentración de partículas en suspensión en la atmósfera (hollín, polvo, sulfatos) que afectan los patrones climáticos y la salud humana",
+      "El volumen de desodorantes en spray utilizados globalmente por la población",
+      "La cantidad de nubes artificiales creadas mediante aviones militares",
+      "El grosor de la capa de ozono en la estratosfera polar"
+    ],
+    "c": 0,
+    "e": "Los aerosoles influyen fuertemente en el balance radiativo de la Tierra, la formación de nubes y los monzones estacionales."
+  },
+  {
+    "q": "¿Qué engloba el límite planetario de la 'introducción de nuevas entidades' (contaminación química)?",
+    "o": [
+      "El impacto global de la liberación al medio ambiente de sustancias sintéticas novedosas, plásticos, pesticidas, metales pesados y organismos modificados",
+      "La llegada de especies animales extranjeras a través del transporte marítimo",
+      "El descubrimiento de nuevas galaxias y cuerpos celestes mediante telescopios espaciales",
+      "La construcción de nuevas ciudades inteligentes en zonas desérticas"
+    ],
+    "c": 0,
+    "e": "Representa una de las fronteras donde la humanidad ha introducido decenas de miles de compuestos químicos cuyos efectos a largo plazo son desconocidos."
+  },
+  {
+    "q": "¿Qué caracteriza a la 'transición demográfica' en las poblaciones humanas?",
+    "o": [
+      "El paso histórico desde altas tasas de natalidad y mortalidad hacia tasas bajas de natalidad y mortalidad a medida que un país se desarrolla socioeconómicamente",
+      "La migración masiva de habitantes desde las zonas rurales hacia las grandes ciudades industriales",
+      "El envejecimiento prematuro de la población debido a epidemias globales",
+      "El crecimiento exponencial e infinito de la población mundial sin control"
+    ],
+    "c": 0,
+    "e": "Este modelo explica cómo la estabilización poblacional suele seguir al desarrollo económico, la educación y la mejora en salud pública."
+  },
+  {
+    "q": "¿Qué analiza la teoría de la 'capacidad de carga' aplicada a las poblaciones humanas?",
+    "o": [
+      "El número máximo de individuos que un entorno determinado puede sostener indefinidamente sin degradar los recursos naturales disponibles",
+      "La cantidad máxima de equipaje que puede transportar un vehículo comercial de carga",
+      "El peso límite que soportan los puentes y estructuras metálicas modernas",
+      "El volumen máximo de agua que puede almacenar una presa hidroeléctrica"
+    ],
+    "c": 0,
+    "e": "Mientras que los animales están estrictamente limitados por su entorno, los seres humanos han ampliado su capacidad de carga mediante la tecnología, aunque con un alto costo ambiental."
+  },
+  {
+    "q": "¿Qué promueve el concepto de 'decrecimiento' (degrowth) en la economía y la ecología?",
+    "o": [
+      "Una reducción democrática y planificada del consumo y la producción en los países ricos para liberar espacio ecológico y garantizar el bienestar humano dentro de los límites planetarios",
+      "Una crisis financiera obligatoria que provoque el colapso absoluto del comercio internacional",
+      "La prohibición de utilizar cualquier tipo de tecnología digital o maquinaria moderna",
+      "El estancamiento permanente de la ciencia y la educación en todo el mundo"
+    ],
+    "c": 0,
+    "e": "Critica el dogma del crecimiento económico infinito en un planeta con recursos finitos, priorizando la equidad social y la sostenibilidad."
+  },
+  {
+    "q": "¿Qué es la 'justicia ambiental'?",
+    "o": [
+      "El principio que asegura que ningún grupo de población (incluyendo minorías o comunidades de bajos ingresos) soporte una porción desproporcionada de las consecuencias ambientales negativas",
+      "La aplicación de multas severas únicamente a los grandes magnates de la industria petrolera",
+      "El derecho de los animales a tener representación legal en los tribunales internacionales",
+      "La obligación de plantar árboles en todas las calles de las ciudades capitales"
+    ],
+    "c": 0,
+    "e": "Busca corregir las desigualdades sistémicas donde los sectores más vulnerables sufren más la contaminación y el cambio climático."
+  },
+  {
+    "q": "¿Qué establece el principio de precaución en la gestión ambiental?",
+    "o": [
+      "Que ante la falta de certeza científica absoluta sobre los riesgos de una actividad, se deben tomar medidas preventivas si existe amenaza de daño grave o irreversible",
+      "Que no se puede realizar ninguna actividad industrial hasta que sea 100% segura y comprobada",
+      "Que los gobiernos deben prohibir inmediatamente todas las tecnologías que utilicen electricidad",
+      "Que las empresas no tienen ninguna responsabilidad sobre los accidentes imprevistos"
+    ],
+    "c": 0,
+    "e": "Inverte la carga de la prueba, exigiendo demostrar que una sustancia o tecnología es segura antes de su introducción masiva."
+  },
+  {
+    "q": "¿Qué es el 'greenwashing' (ecoblanqueo)?",
+    "o": [
+      "Una práctica de marketing engañoso mediante la cual una empresa presenta sus productos o políticas como ecológicos o sostenibles cuando en realidad no lo son",
+      "El proceso industrial para blanquear papel reciclado sin utilizar cloro",
+      "La limpieza profunda de parques públicos patrocinada por marcas de refrescos",
+      "La pintura verde utilizada para señalar las ciclovías en las grandes ciudades"
+    ],
+    "c": 0,
+    "e": "Busca capitalizar la creciente conciencia ecológica de los consumidores sin realizar cambios estructurales reales hacia la sostenibilidad."
+  },
+  {
+    "q": "¿Qué evalúan los criterios 'ASG' (Ambientales, Sociales y de Gobernanza) en el ámbito financiero?",
+    "o": [
+      "El desempeño de una empresa u organización en materia de sostenibilidad ecológica, impacto social y calidad de su gestión corporativa",
+      "Los impuestos que pagan las corporaciones multinacionales a los gobiernos locales",
+      "La cantidad de empleos directos e indirectos generados por la industria pesada",
+      "El valor de las acciones bursátiles en las bolsas de valores de Nueva York y Tokio"
+    ],
+    "c": 0,
+    "e": "Permiten a los inversores éticos identificar empresas que gestionan adecuadamente los riesgos a largo plazo relacionados con el planeta y la sociedad."
+  },
+  {
+    "q": "¿Qué son los 'Objetivos de Desarrollo Sostenible' (ODS) de la ONU?",
+    "o": [
+      "Un llamado universal adoptado por las Naciones Unidas que consta de 17 metas interconectadas para erradicar la pobreza, proteger el planeta y garantizar la prosperidad para 2030",
+      "Un conjunto de leyes estrictas de obligatorio cumplimiento para confiscar empresas contaminantes",
+      "Una lista de especies animales que deben ser clonadas en laboratorios científicos",
+      "Un plan económico exclusivo para los países desarrollados de Europa y América del Norte"
+    ],
+    "c": 0,
+    "e": "Reemplazaron a los Objetivos de Desarrollo del Milenio (ODM), integrando la sostenibilidad ambiental como eje central del desarrollo global."
+  },
+  {
+    "q": "¿Qué establece el 'Acuerdo de París' sobre el cambio climático?",
+    "o": [
+      "Mantener el aumento de la temperatura media mundial muy por debajo de 2 °C con respecto a los niveles preindustriales, y proseguir los esfuerzos para limitarlo a 1,5 °C",
+      "Prohibir totalmente el uso de motores de combustión interna en todo el mundo a partir del año 2025",
+      "Obligar a los países en desarrollo a pagar multas por sus emisiones históricas",
+      "Crear un impuesto global único a las transacciones financieras internacionales"
+    ],
+    "c": 0,
+    "e": "Es el tratado internacional jurídicamente vinculante sobre el cambio climático adoptado en la COP21 de París en 2015."
+  },
+  {
+    "q": "¿Qué diferencia existe entre 'mitigación' y 'adaptación' ante el cambio climático?",
+    "o": [
+      "La mitigación busca reducir o prevenir las emisiones de gases de efecto invernadero para frenar el calentamiento, mientras que la adaptación busca ajustar las acciones y sistemas para lidiar con los impactos inevitables",
+      "La mitigación se realiza en los países ricos y la adaptación exclusivamente en los países pobres",
+      "La mitigación es una medida tecnológica y la adaptación es un proceso puramente político",
+      "No existe diferencia; son dos formas distintas de denominar el mismo proceso"
+    ],
+    "c": 0,
+    "e": "Ambas estrategias son complementarias y necesarias: la mitigación evita lo unmanageable (lo imposible de manejar), y la adaptación maneja lo unavoidable (lo inevitable)."
+  },
+  {
+    "q": "¿Qué es la 'pobreza energética'?",
+    "o": [
+      "La incapacidad de un hogar o comunidad para acceder a servicios energéticos modernos, limpios y asequibles que garanticen un nivel de vida adecuado",
+      "La falta de gasolina en las estaciones de servicio durante las crisis internacionales",
+      "El agotamiento de las baterías en los teléfonos móviles inteligentes",
+      "El corte masivo de electricidad provocado por tormentas solares"
+    ],
+    "c": 0,
+    "e": "Afecta a cientos de millones de personas en el mundo, impidiendo calefacción, refrigeración, iluminación y educación adecuada."
+  },
+  {
+    "q": "¿Qué es la 'transición justa' en el marco de la acción climática?",
+    "o": [
+      "Un conjunto de políticas y medidas para asegurar que los trabajadores y comunidades dependientes de combustibles fósiles no queden desamparados al transitar hacia economías verdes",
+      "Un juicio internacional contra las empresas petroleras por crímenes ecológicos",
+      "La distribución gratuita de paneles solares a todos los habitantes del planeta",
+      "El reparto equitativo de los impuestos recaudados por las multas ambientales"
+    ],
+    "c": 0,
+    "e": "Busca que la descarbonización económica no genere nuevas desigualdades ni deje atrás a los sectores vulnerables."
+  },
+  {
+    "q": "¿Qué son las 'soluciones basadas en la naturaleza' (SbN)?",
+    "o": [
+      "Acciones para proteger, gestionar de forma sostenible y restaurar ecosistemas naturales o modificados que abordizan los desafíos sociales de manera eficaz y adaptativa",
+      "La construcción de grandes presas de hormigón para contener las inundaciones fluviales",
+      "La instalación de purificadores mecánicos de aire en las plazas públicas",
+      "El uso exclusivo de fertilizantes orgánicos en los cultivos intensivos de maíz"
+    ],
+    "c": 0,
+    "e": "Incluyen la restauración de manglares para protección costera, humedales para depuración de aguas o reforestación urbana contra islas de calor."
+  },
+  {
+    "q": "¿Qué es el fenómeno de las 'islas de calor urbanas'?",
+    "o": [
+      "El hecho de que las áreas urbanas experimentan temperaturas significativamente más altas que las zonas rurales circundantes debido a la actividad humana, asfalto y escasez de vegetación",
+      "La formación de volcanes activos en el subsuelo de las grandes ciudades",
+      "El aumento de la temperatura del mar en las costas donde se ubican los puertos industriales",
+      "Una ola de calor estacional que afecta únicamente a los países tropicales"
+    ],
+    "c": 0,
+    "e": "Incrementa el consumo energético por aire acondicionado y el estrés térmico en la población, mitigándose con techos verdes y arbolado urbano."
+  },
+  {
+    "q": "¿Qué objetivo persigue el concepto de 'ciudades de 15 minutos'?",
+    "o": [
+      "Un modelo de urbanismo donde los residentes pueden acceder a sus necesidades cotidianas (trabajo, compras, salud, educación, ocio) a un trayecto de 15 minutos a pie o en bicicleta",
+      "Obligar a los ciudadanos a abandonar sus hogares cada cuarto de hora para hacer ejercicio",
+      "Limitar el tiempo máximo que los vehículos particulares pueden circular por el centro histórico",
+      "Construir rascacielos que puedan ser evacuados en exactamente quince minutos"
+    ],
+    "c": 0,
+    "e": "Busca reducir la dependencia del automóvil privado, disminuir emisiones y mejorar la calidad de vida vecinal."
+  },
+  {
+    "q": "¿Qué es la 'movilidad activa' en la planificación urbana sostenible?",
+    "o": [
+      "Los desplazamientos humanos basados en la fuerza física propia, principalmente caminar y andar en bicicleta",
+      "El uso masivo de automóviles eléctricos de última generación en las autopistas",
+      "El transporte público subterráneo impulsado por energía eléctrica renovable",
+      "La conducción de motocicletas híbridas en los carriles confinados"
+    ],
+    "c": 0,
+    "e": "Es un pilar fundamental para descarbonizar el transporte urbano, mejorar la salud pública y reducir la congestión vial."
+  },
+  {
+    "q": "¿Qué son las 'Zonas de Bajas Emisiones' (ZBE) en las ciudades?",
+    "o": [
+      "Áreas urbanas delimitadas donde se restringirá el acceso a los vehículos más contaminantes según sus etiquetas ambientales para mejorar la calidad del aire",
+      "Parques naturales protegidos donde está prohibido encender fuego o arrojar basura",
+      "Barrios residenciales donde las casas funcionan 100% con paneles solares",
+      "Polígonos industriales libres de impuestos para empresas ecológicas"
+    ],
+    "c": 0,
+    "e": "Son herramientas normativas eficaces en Europa y otras metrópolis para reducir los niveles críticos de óxidos de nitrógeno y partículas finas."
+  },
+  {
+    "q": "¿Qué es el 'criterio de la cuna a la cuna' (Cradle to Cradle - C2C)?",
+    "o": [
+      "Un marco de diseño inspirado en la naturaleza donde todos los materiales de un producto se consideran nutrientes seguros que fluyen continuamente en ciclos biológicos o técnicos",
+      "La obligación de fabricar cunas para bebés utilizando únicamente madera reciclada",
+      "Un sistema de transporte público circular que conecta los hospitales con los hogares",
+      "El ciclo de vida lineal clásico que termina en los vertederos municipales"
+    ],
+    "c": 0,
+    "e": "A diferencia del reciclaje tradicional (que a menudo degrada el material), C2C busca mantener la calidad y el valor de los materiales indefinidamente."
+  },
+  {
+    "q": "¿Qué mide el indicador de la 'Huella Social' corporativa?",
+    "o": [
+      "El impacto de las actividades de una organización sobre las personas, incluyendo condiciones laborales, derechos humanos, comunidad local y equidad",
+      "El número de seguidores que tiene una empresa en sus redes sociales oficiales",
+      "La cantidad de dinero que una corporación dona a fundaciones de beneficencia pública",
+      "El porcentaje de empleados que utilizan transporte público para ir a trabajar"
+    ],
+    "c": 0,
+    "e": "Complementa a la huella ecológica y de carbono, evaluando la responsabilidad social corporativa de forma integral."
+  },
+  {
+    "q": "¿Qué es la 'filantropía basada en la confianza' (trust-based philanthropy)?",
+    "o": [
+      "Un enfoque de donación que busca redistribuir el poder y simplificar los procesos burocráticos, otorgando fondos flexibles a las organizaciones comunitarias sin tantas exigencias de control",
+      "La donación anonimizada de dinero a través de criptomonedas en internet",
+      "Un contrato legal donde el gobierno vigila en qué gasta cada dólar una ONG",
+      "La inversión bursátil en empresas de alta confianza en la bolsa de valores"
+    ],
+    "c": 0,
+    "e": "Busca empoderar a los actores locales que están en la primera línea de la conservación y el desarrollo social."
+  },
+  {
+    "q": "¿Qué son los 'pasaportes de productos' en la nueva economía circular europea?",
+    "o": [
+      "Registros digitales que proporcionan información detallada sobre la composición, origen, reparabilidad y reciclabilidad de un producto a lo largo de su ciclo de vida",
+      "Documentos impresos en papel reciclado que se entregan al comprador al adquirir un coche",
+      "Certificados de aduana necesarios para exportar mercancías entre continentes",
+      "Licencias de conducir especiales para operadores de maquinaria pesada"
+    ],
+    "c": 0,
+    "e": "Facilitan el trabajo de recicladores, consumidores y autoridades para asegurar una trazabilidad transparente de los materiales."
+  },
+  {
+    "q": "¿Qué es la 'biomímesis' (o biomimética)?",
+    "o": [
+      "La ciencia que estudia a la naturaleza y sus modelos, sistemas y procesos para imitar sus diseños y resolver problemas humanos complejos",
+      "La clonación artificial de animales en peligro de extinción en laboratorios",
+      "El cultivo masivo de plantas medicinales en invernaderos farmacéuticos",
+      "La alteración genética de bacterias para producir combustibles sintéticos"
+    ],
+    "c": 0,
+    "e": "Ejemplos clásicos incluyen el diseño de trenes de alta velocidad inspirados en el pico del martín pescador o velcro inspirado en semillas."
+  },
+  {
+    "q": "¿Qué define a la 'bioeconomía'?",
+    "o": [
+      "Un modelo económico que utiliza recursos biológicos renovables de la tierra y el mar para producir alimentos, materiales, energía y productos industriales",
+      "El comercio internacional exclusivo de animales vivos y plantas exóticas",
+      "Una rama de la medicina centrada en la fabricación de órganos artificiales",
+      "El estudio de los mercados financieros utilizando algoritmos basados en colonias de hormigas"
+    ],
+    "c": 0,
+    "e": "Busca reducir la dependencia de los combustibles fósiles mediante la valorización sostenible de la biomasa."
+  },
+  {
+    "q": "¿Qué son las 'ciudades esponja' (sponge cities)?",
+    "o": [
+      "Un concepto de planificación urbana diseñado para absorber, almacenar, filtrar y reutilizar el agua de lluvia de manera natural mediante soluciones basadas en la naturaleza",
+      "Metrópolis construidas sobre arrecifes de coral artificiales en el océano",
+      "Ciudades ubicadas en zonas desérticas que recogen la humedad ambiental con mallas",
+      "Urbanizaciones flotantes fabricadas con materiales plásticos reciclados"
+    ],
+    "c": 0,
+    "e": "Mitigan las inundaciones urbanas y la escasez hídrica mediante pavimentos permeables, techos verdes y humedales urbanos."
+  },
+  {
+    "q": "¿Qué caracteriza a la 'energía marina térmica' (OTEC)?",
+    "o": [
+      "Una tecnología que aprovecha la diferencia de temperatura entre el agua superficial cálida del mar y el agua profunda fría para generar electricidad",
+      "El calor acumulado en las fumarolas submarinas de las dorsales oceánicas",
+      "La energía liberada cuando las corrientes marinas chocan contra las plataformas petroleras",
+      "La radiación solar reflejada por la superficie de los océanos tropicales"
+    ],
+    "c": 0,
+    "e": "Ofrece una fuente potencial de energía renovable continua en regiones oceánicas tropicales con grandes desniveles térmicos."
+  },
+  {
+    "q": "¿Qué son los 'ecobarrios' o eco-distritos?",
+    "o": [
+      "Desarrollos urbanos planificados bajo estrictos criterios de sostenibilidad ambiental, eficiencia energética, movilidad peatonal y gestión de residuos",
+      "Colonias populares construidas con materiales improvisados en las periferias",
+      "Urbanizaciones de lujo rodeadas de muros de seguridad y campos de golf",
+      "Barrios industriales donde se concentra el reciclaje de chatarra electrónica"
+    ],
+    "c": 0,
+    "e": "Funcionan como laboratorios urbanos para demostrar la viabilidad práctica de estilos de vida ecológicos a escala comunitaria."
+  },
+  {
+    "q": "¿Qué evalúa la 'contaminación por nutrientes' en los ecosistemas acuáticos?",
+    "o": [
+      "El enriquecimiento excesivo de agua con compuestos de nitrógeno y fósforo, provocando proliferación masiva de algas, anoxia y muerte de peces (eutrofización)",
+      "La escasez de vitaminas y minerales en la dieta de los peces de río",
+      "El exceso de materia orgánica limpia aportada por las hojas de los árboles caídos",
+      "La contaminación radiactiva procedente de las centrales nucleares costeras"
+    ],
+    "c": 0,
+    "e": "Proviene principalmente de la escorrentía agrícola fertilizada y de aguas residuales urbanas sin tratar adecuadamente."
+  },
+  {
+    "q": "¿Qué define al 'turismo sostenible' según la Organización Mundial del Turismo?",
+    "o": [
+      "Aquel que tiene plenamente en cuenta las repercusiones actuales y futuras económicas, sociales y ambientales para satisfacer las necesidades de los visitantes y de las regiones",
+      "Viajar únicamente en bicicleta o a pie sin utilizar ningún medio de transporte motorizado",
+      "Alojarse exclusivamente en tiendas de campaña dentro de los bosques protegidos",
+      "Pagar un impuesto extra al comprar billetes de avión para calmar la conciencia"
+    ],
+    "c": 0,
+    "e": "Busca equilibrar la conservación del patrimonio natural y cultural con el desarrollo económico de las comunidades locales receptoras."
+  },
+  {
+    "q": "¿Qué es la 'huella de biodiversidad' corporativa?",
+    "o": [
+      "Una métrica emergente que cuantifica el impacto negativo o positivo de las actividades de una empresa sobre la diversidad biológica y los ecosistemas",
+      "El número de especies animales que habitan en los terrenos de una fábrica",
+      "La cantidad de papel reciclado que utiliza una oficina corporativa al año",
+      "El porcentaje de inversión destinado a proteger zoológicos privados"
+    ],
+    "c": 0,
+    "e": "Ayuda a las empresas a medir, reportar y reducir su dependencia e impacto directo sobre la pérdida de la naturaleza."
+  },
+  {
+    "q": "¿Qué papel juegan los 'bancos de hábitat' en la compensación ambiental?",
+    "o": [
+      "Mecanismos donde se generan créditos de biodiversidad mediante la restauración anticipada de ecosistemas, los cuales pueden ser comprados por desarrolladores para compensar impactos inevitables",
+      "Instituciones financieras que otorgan préstamos baratos para comprar parcelas en el campo",
+      "Zonas de cuarentena donde se cuidan animales heridos antes de devolverlos al bosque",
+      "Bancos de semillas congeladas ubicados en el círculo polar ártico"
+    ],
+    "c": 0,
+    "e": "Garantizan que la compensación ecológica sea efectiva y medible, exigiendo ganancias netas de biodiversidad."
+  },
+  {
+    "q": "¿Qué es la 'arquitectura bioclimática'?",
+    "o": [
+      "El diseño de edificios e instalaciones que aprovechan las condiciones climáticas locales (sol, vegetación, lluvia, vientos) para disminuir los impactos ambientales y lograr confort térmico",
+      "Construir rascacielos completamente cubiertos de plantas trepadoras exóticas",
+      "Utilizar materiales plásticos biodegradables en la estructura de las viviendas",
+      "Diseñar casas rodantes que puedan cambiar de clima según la estación del año"
+    ],
+    "c": 0,
+    "e": "Reduce drásticamente la necesidad de sistemas mecánicos de calefacción o aire acondicionado, optimizando la eficiencia energética."
+  },
+  {
+    "q": "¿Qué son los 'techos verdes' o cubiertas vegetales?",
+    "o": [
+      "Sistemas de techado en edificaciones cubiertos parcial o totalmente de vegetación, que proporcionan aislamiento térmico, retienen agua de lluvia y reducen el efecto isla de calor",
+      "Tejados pintados de color verde brillante para reflejar la luz solar",
+      "Estructuras de lona utilizadas para cultivar hortalizas en los patios traseros",
+      "Paneles solares de última generación con estética camuflada de hojas"
+    ],
+    "c": 0,
+    "e": "Aportan múltiples beneficios ecológicos y estéticos en entornos urbanos densamente construidos."
+  },
+  {
+    "q": "¿Qué evalúa la 'resiliencia urbana'?",
+    "o": [
+      "La capacidad de una ciudad y sus sistemas para resistir, absorber, recuperarse y adaptarse rápidamente a los efectos de peligros y crisis de origen natural o humano",
+      "La velocidad con la que se reconstruyen los edificios tras una guerra civil",
+      "La resistencia de los materiales de construcción frente a los terremotos fuertes",
+      "La capacidad de los ciudadanos para sobrevivir sin agua durante una semana"
+    ],
+    "c": 0,
+    "e": "Ante el cambio climático y eventos extremos, la resiliencia se ha convertido en una prioridad clave de la planificación metropolitana."
+  },
+  {
+    "q": "¿Qué es la 'contaminación difusa' (o no puntual)?",
+    "o": [
+      "Aquella proveniente de fuentes amplias y dispersas (como escorrentía agrícola con fertilizantes o lavado de calles urbanas), difícil de rastrear a un solo punto de emisión",
+      "El escape de gases tóxicos proveniente de la chimenea de una sola fábrica industrial",
+      "Un derrame accidental de petróleo desde un buque tanquero en alta mar",
+      "El ruido ensordecedor emitido por un aeropuerto internacional"
+    ],
+    "c": 0,
+    "e": "Representa uno de los mayores desafíos para el control de la calidad del agua en cuencas hidrográficas extensas."
+  },
+  {
+    "q": "¿Qué es la 'deforestación evitada' en los proyectos climáticos?",
+    "o": [
+      "Iniciativas financieras que incentivan económicamente a las comunidades o países para que conserven sus bosques en pie en lugar de talarlos para agricultura o ganadería",
+      "La prohibición legal de utilizar madera en la construcción de muebles en todo el mundo",
+      "La plantación artificial de árboles en zonas donde antes no existían bosques",
+      "El reciclaje obligatorio de los muebles viejos para evitar talar nuevos árboles"
+    ],
+    "c": 0,
+    "e": "Es la base de los mecanismos REDD+ (Reducción de Emisiones por Deforestación y Degradación forestal) en las negociaciones climáticas de la ONU."
+  },
+  {
+    "q": "¿Qué son los 'suelos hidromórficos'?",
+    "o": [
+      "Suelos que experimentan saturación de agua durante periodos prolongados o permanentes, desarrollando características de reducción química y colores grisáceos o verdosos",
+      "Terrenos áridos que se agrietan profundamente durante la temporada de sequía",
+      "Suelos volcánicos muy fértiles utilizados para el cultivo intensivo de café",
+      "Capas de arena fina acumuladas en el fondo de los ríos de corriente rápida"
+    ],
+    "c": 0,
+    "e": "Son característicos de humedales, pantanos y zonas ribereñas, cumpliendo un papel vital en la depuración de aguas y retención de carbono."
+  },
+  {
+    "q": "¿Qué es la 'diversidad funcional' en una comunidad ecológica?",
+    "o": [
+      "La variedad de roles, funciones y papeles que desempeñan las diferentes especies dentro de un ecosistema (ej. polinizadores, descomponedores, depredadores)",
+      "La cantidad de herramientas tecnológicas que utilizan los ecologistas en sus investigaciones de campo",
+      "La capacidad de los animales para cambiar de hábitat según las estaciones del año",
+      "El número de crías que una hembra puede tener durante su ciclo reproductivo"
+    ],
+    "c": 0,
+    "e": "Una alta diversidad funcional asegura que el ecosistema sea más resistente y mantenga sus procesos incluso si desaparece alguna especie concreta."
+  },
+  {
+    "q": "¿Qué es la 'biopiratería'?",
+    "o": [
+      "La apropiación y comercialización ilegal de recursos biológicos y conocimientos tradicionales de pueblos indígenas sin su consentimiento ni compensación justa",
+      "El robo de animales exóticos en los zoológicos nacionales para su venta ilegal",
+      "La pesca furtiva de ballenas en alta mar violando los tratados internacionales",
+      "La tala ilegal de maderas preciosas en las reservas de la biosfera"
+    ],
+    "c": 0,
+    "e": "Vulnera los derechos de las comunidades locales y el Convenio sobre la Diversidad Biológica respecto al reparto de beneficios."
+  },
+  {
+    "q": "¿Qué persigue el 'Protocolo de Nagoya' sobre diversidad biológica?",
+    "o": [
+      "Garantizar la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos y los conocimientos tradicionales asociados",
+      "Establecer cuotas estrictas de captura para la pesca industrial en el océano Pacífico",
+      "Reducir las emisiones de gases fluorados en la industria de la refrigeración",
+      "Prohibir el comercio internacional de marfil y cuernos de Rinoceronte"
+    ],
+    "c": 0,
+    "e": "Es un acuerdo complementario al Convenio sobre la Diversidad Biológica enfocado en combatir la biopiratería."
+  },
+  {
+    "q": "¿Qué diferencia existe entre un 'parque nacional' y una 'reserva de la biosfera' según la UICN?",
+    "o": [
+      "Los parques nacionales priorizan la protección estricta y la recreación con menor intervención humana, mientras que las reservas de la biosfera integran la conservación con el desarrollo sostenible y la población local en diferentes zonas",
+      "Las reservas de la biosfera son artificiales y los parques nacionales son completamente intocables",
+      "No existe ninguna diferencia administrativa ni conceptual en el derecho internacional",
+      "Los parques nacionales se ubican en los océanos y las reservas de la biosfera en los desiertos"
+    ],
+    "c": 0,
+    "e": "Las reservas de la biosfera de la UNESCO constan de zonas núcleo, zonas tampón y zonas de transición para armonizar la conservación con las actividades humanas."
+  },
+  {
+    "q": "¿Qué mide el indicador de 'progreso genuino' (GPI - Genuine Progress Indicator) frente al PIB?",
+    "o": [
+      "Suma los beneficios económicos de la actividad pero resta los costos ambientales, la desigualdad social, el crimen y el agotamiento de recursos",
+      "Calcula exclusivamente el volumen de billetes impresos por los bancos centrales cada año",
+      "Mide la velocidad a la que crece la población urbana en comparación con la rural",
+      "Estima la cantidad de horas libres que tienen los trabajadores en los países desarrollados"
+    ],
+    "c": 0,
+    "e": "Busca superar las limitaciones del Producto Interno Bruto (PIB), el cual contabiliza como crecimiento cualquier desastre o destrucción que mueva dinero."
+  },
   
